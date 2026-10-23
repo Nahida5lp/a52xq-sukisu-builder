@@ -1208,141 +1208,397 @@ make[4]: *** Deleting file 'drivers/base/power/qos.o'
 make[4]: *** [../scripts/Makefile.build:338: drivers/base/power/runtime.o] Error 1
 make[4]: *** Deleting file 'drivers/base/power/runtime.o'
   CC      drivers/base/power/wakeirq.o
-pace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/nuvoton,npcm7xx-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/maxim,max9485.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mt2712-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun50i-h6-r-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3188-cru-common.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/vf610-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/bcm-nsp.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3288-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun4i-a10-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/stih410-clks.h: No such file or directory.
-  CC      fs/fuse/file.o
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun9i-a80-usb.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,videocc-kona.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/imx6sx-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,dispcc-kona.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/tegra210-car.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/imx6qdl-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/tegra194-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun8i-a23-a33-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/s3c2412.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/ste-ab8500.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/am3.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/microchip,pic32-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/hi3620-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun9i-a80-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,cpucc-kona.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-msm8974.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/s5pv210.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun8i-v3s-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,cpu-osm.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos5410.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/bcm2835-aux.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7793-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a77965-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-sdm660.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7791-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/tegra30-car.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gpu-sdm660.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7779-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gpucc-bengal.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3036-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,audio-ext-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7790-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/boston-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/stratix10-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-ipq806x.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/imx6sl-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,videocc-lito.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/marvell,mmp2.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-lagoon.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a77990-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/actions,s900-cmu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,aop-qmp.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/marvell,pxa168.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun7i-a20-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/jz4780-cgu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7792-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/samsung,s2mps11.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos-audss-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/ath79-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos3250.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/dra7.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gpucc-kona.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a77995-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/hi3519-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,lcc-msm8960.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/imx6ul-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/meson8b-clkc.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7790-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-msm8998.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,dispcc-lito.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun8i-a83t-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/efm32-cmu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,dispcc-bengal.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/gxbb-aoclkc.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7795-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/tegra114-car.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-msm8660.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3228-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7740-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/zx296718-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/bcm2835.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/tegra124-car.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rv1108-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/hi6220-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/renesas-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/am4.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/hi3516cv300-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,npucc-lito.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/oxsemi,ox810se.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,camcc-lagoon.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mt8173-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/omap5.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,videocc-sdm845.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/at91.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/cortina,gemini-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun8i-h3-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/samsung,s3c64xx-clock.h: No such file or directory.
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/sound/cirrus’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/uapi’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/pcmcia’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/ras’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/generated’: No such file or directory
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sprd,sc9860-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sh73a0-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/alphascale,asm9260.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mpc512x-clock.h: No such file or directory.
-  CC      fs/f2fs/extent_cache.o
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/stm32fx-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/marvell,pxa910.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7791-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun8i-r40-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gpucc-lito.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/hip04-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun8i-r-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,dispcc-lagoon.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3128-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/bcm-ns2.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos5433.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a77970-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/pistachio-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun9i-a80-de.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7743-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/imx6sll-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun4i-a10-pll2.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7745-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/bcm281xx.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,rpmcc.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/s3c2443.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-msm8994.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/imx5-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7792-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/stih418-clks.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/stm32mp1-clks.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/lsi,axm5516-clks.h: No such file or directory.
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'drivers/base/power/.tmp_wakeirq.o': No such file
+mv: cannot stat 'drivers/base/power/.tmp_wakeirq.o': No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/base/power/wakeirq.o] Error 1
+make[4]: *** Deleting file 'drivers/base/power/wakeirq.o'
+  CC      drivers/base/power/main.o
+  CC      sound/core/init.o
+  CC      kernel/softirq.o
+  AR      fs/f2fs/built-in.a
+  CC      fs/incfs/vfs.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/core/.tmp_init.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/core/init.o] Error 1
+make[3]: *** Deleting file 'sound/core/init.o'
+  CC      sound/core/memory.o
+mv: cannot stat 'drivers/base/power/.main.o.tmp': No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/base/power/main.o] Error 1
+  CC      drivers/base/power/wakeup.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/core/.tmp_memory.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/core/memory.o] Error 1
+make[3]: *** Deleting file 'sound/core/memory.o'
+  CC      sound/core/control.o
+  CC      kernel/resource.o
+  AR      fs/incfs/built-in.a
+  CC      fs/jbd2/transaction.o
+  CC      kernel/sysctl.o
+  CC      drivers/base/power/wakeup_stats.o
+fixdep: error opening file: sound/core/.control.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/core/control.o] Error 2
+make[3]: *** Deleting file 'sound/core/control.o'
+  CC      sound/core/misc.o
+  CC      drivers/base/power/domain.o
+  CC      fs/jbd2/commit.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/core/.tmp_misc.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/core/misc.o] Error 1
+make[3]: *** Deleting file 'sound/core/misc.o'
+  CC      sound/core/device.o
+  CC      sound/core/info.o
+  CC      drivers/base/power/domain_governor.o
+  CC      kernel/sysctl_binary.o
+  CC      drivers/base/power/clock_ops.o
+  CC      fs/jbd2/recovery.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/core/.tmp_info.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/core/info.o] Error 1
+make[3]: *** Deleting file 'sound/core/info.o'
+  CC      sound/core/ctljack.o
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/base/power] Error 2
+  CC      drivers/base/regmap/regmap.o
+  CC      kernel/capability.o
+  CC      sound/core/jack.o
+  CC      fs/jbd2/checkpoint.o
+  CC      sound/core/hwdep.o
+  CC      fs/jbd2/revoke.o
+  CC      kernel/ptrace.o
+  CC      fs/jbd2/journal.o
+  CC      sound/core/timer.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/base/regmap/.tmp_regmap.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/base/regmap/regmap.o] Error 1
+make[4]: *** Deleting file 'drivers/base/regmap/regmap.o'
+  CC      drivers/base/regmap/regcache.o
+  CC      kernel/user.o
+  CC      kernel/signal.o
+  CC      drivers/base/regmap/regcache-rbtree.o
+  CC      sound/core/pcm.o
+  CC      drivers/base/regmap/regcache-flat.o
+  AR      fs/jbd2/built-in.a
+  CC      fs/kernfs/inode.o
+  CC      drivers/base/regmap/regmap-i2c.o
+  CC      fs/kernfs/dir.o
+  CC      sound/core/pcm_native.o
+  CC      drivers/base/regmap/regmap-spi.o
+  CC      fs/kernfs/file.o
+  CC      drivers/base/regmap/regmap-spmi.o
+  CC      drivers/base/regmap/regmap-mmio.o
+  CC      kernel/sys.o
+  CC      fs/kernfs/symlink.o
+  CC      drivers/base/regmap/regmap-irq.o
+  AR      fs/kernfs/built-in.a
+  CC      fs/nls/nls_base.o
+  CC      fs/nls/nls_cp437.o
+  CC      sound/core/pcm_lib.o
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/base/regmap] Error 2
+  CC      drivers/base/soc.o
+  CC      fs/nls/nls_iso8859-1.o
+  CC      fs/nls/nls_utf8.o
+  AR      fs/nls/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/base/.tmp_soc.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/base/soc.o] Error 1
+make[3]: *** Deleting file 'drivers/base/soc.o'
+  CC      drivers/base/pinctrl.o
+  CC      fs/notify/fsnotify.o
+  CC      kernel/umh.o
+  CC      drivers/base/platform-msi.o
+  CC      sound/core/pcm_misc.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/notify/.tmp_fsnotify.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/notify/fsnotify.o] Error 1
+make[3]: *** Deleting file 'fs/notify/fsnotify.o'
+  CC      fs/notify/notification.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/base/.tmp_platform-msi.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/base/platform-msi.o] Error 1
+make[3]: *** Deleting file 'drivers/base/platform-msi.o'
+  CC      drivers/base/arch_topology.o
+  CC      kernel/workqueue.o
+  CC      sound/core/pcm_memory.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/base] Error 2
+  CC      drivers/battery/charger/sm5714_charger/sm5714_charger.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/notify/.tmp_notification.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/notify/notification.o] Error 1
+make[3]: *** Deleting file 'fs/notify/notification.o'
+  CC      fs/notify/group.o
+  CC      fs/notify/mark.o
+  CC      sound/core/memalloc.o
+  CC      drivers/battery/charger/sm5714_charger/sm5714_charger_oper.o
+fixdep: error opening file: fs/notify/.mark.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/notify/mark.o] Error 2
+make[3]: *** Deleting file 'fs/notify/mark.o'
+  CC      fs/notify/fdinfo.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'drivers/battery/charger/sm5714_charger/.tmp_sm5714_charger_oper.o': No such file
+mv: cannot stat 'drivers/battery/charger/sm5714_charger/.tmp_sm5714_charger_oper.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: drivers/battery/charger/sm5714_charger/sm5714_charger_oper.o] Error 1
+make[3]: *** Deleting file 'drivers/battery/charger/sm5714_charger/sm5714_charger_oper.o'
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/battery/charger/sm5714_charger] Error 2
+  CC      drivers/battery/common/sec_direct_charger.o
+  CC      fs/notify/dnotify/dnotify.o
+  CC      sound/core/pcm_timer.o
+  AR      fs/notify/dnotify/built-in.a
+  CC      fs/notify/inotify/inotify_fsnotify.o
+  CC      sound/core/pcm_drm_eld.o
+  CC      fs/notify/inotify/inotify_user.o
+  CC      drivers/battery/common/sec_battery.o
+  CC      kernel/pid.o
+  CC      sound/core/pcm_iec958.o
+fixdep: error opening file: fs/notify/inotify/.inotify_user.o.d: No such file or directory
+make[4]: *** [../scripts/Makefile.build:339: fs/notify/inotify/inotify_user.o] Error 2
+make[4]: *** Deleting file 'fs/notify/inotify/inotify_user.o'
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: fs/notify/inotify] Error 2
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/notify] Error 2
+  CC      fs/ntfs/aops.o
+  CC      sound/core/rawmidi.o
+  CC      kernel/task_work.o
+fixdep: error opening file: fs/ntfs/.aops.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/ntfs/aops.o] Error 2
+make[3]: *** Deleting file 'fs/ntfs/aops.o'
+  CC      fs/ntfs/attrib.o
+  CC      kernel/extable.o
+  CC      fs/ntfs/collate.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'drivers/battery/common/.tmp_sec_battery.o': No such file
+mv: cannot stat 'drivers/battery/common/.tmp_sec_battery.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/battery/common/sec_battery.o] Error 1
+make[3]: *** Deleting file 'drivers/battery/common/sec_battery.o'
+  CC      drivers/battery/common/sec_battery_vote.o
+  CC      kernel/params.o
+  CC      fs/ntfs/compress.o
+  CC      sound/core/compress_offload.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/battery/common/.tmp_sec_battery_vote.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/battery/common/sec_battery_vote.o] Error 1
+make[3]: *** Deleting file 'drivers/battery/common/sec_battery_vote.o'
+  CC      drivers/battery/common/sec_battery_thermal.o
+  CC      kernel/kthread.o
+  CC      fs/ntfs/debug.o
+  CC      drivers/battery/common/sec_battery_dt.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: sound/core] Error 2
+  CC      fs/ntfs/dir.o
+  CC      sound/soc/soc-core.o
+  CC      drivers/battery/common/sec_battery_ttf.o
+  CC      fs/ntfs/file.o
+  CC      kernel/sys_ni.o
+  CC      kernel/nsproxy.o
+  CC      drivers/battery/common/sb_full_soc.o
+  CC      fs/ntfs/index.o
+  CC      kernel/notifier.o
+  CC      fs/ntfs/inode.o
+  CC      drivers/battery/common/sec_core_sysfs.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'sound/soc/.tmp_soc-core.o': No such file
+mv: cannot stat 'sound/soc/.tmp_soc-core.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/soc/soc-core.o] Error 1
+make[3]: *** Deleting file 'sound/soc/soc-core.o'
+  CC      sound/soc/soc-dapm.o
+  CC      drivers/battery/common/sec_battery_sysfs.o
+  CC      fs/ntfs/mft.o
+  CC      kernel/ksysfs.o
+  CC      drivers/battery/common/sec_device_sysfs.o
+  CC      fs/ntfs/mst.o
+  CC      kernel/cred.o
+  CC      fs/ntfs/namei.o
+  CC      drivers/battery/common/sec_event_sysfs.o
+  CC      fs/ntfs/runlist.o
+  CC      drivers/battery/common/sec_adc.o
+  CC      kernel/reboot.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/soc/.tmp_soc-dapm.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/soc/soc-dapm.o] Error 1
+make[3]: *** Deleting file 'sound/soc/soc-dapm.o'
+  CC      sound/soc/soc-jack.o
+  CC      drivers/battery/common/sec_step_charging.o
+  CC      fs/ntfs/super.o
+  CC      kernel/async.o
+  CC      sound/soc/soc-utils.o
+  CC      drivers/battery/common/sec_cisd.o
+  CC      kernel/range.o
+  CC      fs/ntfs/sysctl.o
+  CC      kernel/smpboot.o
+  CC      fs/ntfs/unistr.o
+  CC      sound/soc/soc-pcm.o
+  CC      kernel/ucount.o
+  CC      fs/ntfs/upcase.o
+  CC      kernel/kmod.o
+  CC      drivers/battery/common/sec_pd.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/battery/common] Error 2
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/ntfs] Error 2
+  CC      drivers/battery/fuelgauge/sm5714_fuelgauge/sm5714_fuelgauge.o
+  CC      fs/overlayfs/super.o
+  CC      kernel/groups.o
+  CC      fs/overlayfs/namei.o
+  CC      sound/soc/soc-io.o
+fixdep: error opening file: drivers/battery/fuelgauge/sm5714_fuelgauge/.sm5714_fuelgauge.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: drivers/battery/fuelgauge/sm5714_fuelgauge/sm5714_fuelgauge.o] Error 2
+make[3]: *** Deleting file 'drivers/battery/fuelgauge/sm5714_fuelgauge/sm5714_fuelgauge.o'
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/battery/fuelgauge/sm5714_fuelgauge] Error 2
+  CC      drivers/block/brd.o
+  CC      fs/overlayfs/util.o
+  CC      kernel/freezer.o
+  CC      sound/soc/soc-devres.o
+  CC      fs/overlayfs/inode.o
+  CC      drivers/block/loop.o
+  CC      fs/overlayfs/file.o
+  CC      kernel/profile.o
+  CC      sound/soc/soc-ops.o
+  CC      fs/overlayfs/dir.o
+  CC      kernel/stacktrace.o
+  CC      sound/soc/soc-compress.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/block/.tmp_loop.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: drivers/block/loop.o] Error 1
+make[3]: *** Deleting file 'drivers/block/loop.o'
+  CC      drivers/block/zram/zcomp.o
+  CC      fs/overlayfs/readdir.o
+  CC      drivers/block/zram/zram_drv.o
+  CC      kernel/futex.o
+fixdep: error opening file: sound/soc/.soc-compress.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: sound/soc/soc-compress.o] Error 2
+make[3]: *** Deleting file 'sound/soc/soc-compress.o'
+  CC      sound/soc/codecs/hdmi-codec.o
+  CC      fs/overlayfs/copy_up.o
+fixdep: error opening file: sound/soc/codecs/.hdmi-codec.o.d: No such file or directory
+make[4]: *** [../scripts/Makefile.build:339: sound/soc/codecs/hdmi-codec.o] Error 2
+make[4]: *** Deleting file 'sound/soc/codecs/hdmi-codec.o'
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: sound/soc/codecs] Error 2
+  CC      fs/overlayfs/export.o
+  CC      sound/soc/samsung/sec_audio_sysfs.o
+  AR      fs/overlayfs/built-in.a
+  CC      fs/proc/task_mmu.o
+fixdep: error opening file: drivers/block/zram/.zram_drv.o.d: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/block/zram/zram_drv.o] Error 2
+make[4]: *** Deleting file 'drivers/block/zram/zram_drv.o'
+  CC      drivers/block/zram/zram_dedup.o
+  AR      sound/soc/samsung/built-in.a
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: sound/soc] Error 2
+  CC      sound/usb/card.o
+  CC      kernel/smp.o
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/block/zram] Error 2
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/block] Error 2
+  CC      drivers/bluetooth/bluetooth-power.o
+  CC      fs/proc/inode.o
+  CC      drivers/bluetooth/btfm_slim.o
+  CC      sound/usb/clock.o
+  CC      fs/proc/root.o
+  CC      kernel/uid16.o
+  CC      sound/usb/endpoint.o
+  CC      drivers/bluetooth/btfm_slim_codec.o
+  CC      fs/proc/base.o
+  CC      kernel/module.o
+  CC      drivers/bluetooth/btfm_slim_slave.o
+  CC      sound/usb/format.o
+  AR      drivers/bluetooth/built-in.a
+  CC      drivers/bus/mhi/core/mhi_init.o
+  CC      sound/usb/helper.o
+  CC      fs/proc/generic.o
+  CC      sound/usb/mixer.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/bus/mhi/core/.tmp_mhi_init.ver: No such file or directory
+make[5]: *** [../scripts/Makefile.build:338: drivers/bus/mhi/core/mhi_init.o] Error 1
+make[5]: *** Deleting file 'drivers/bus/mhi/core/mhi_init.o'
+  CC      drivers/bus/mhi/core/mhi_main.o
+  CC      fs/proc/array.o
+  CC      kernel/module_signing.o
+  CC      kernel/kallsyms.o
+  CC      sound/usb/mixer_quirks.o
+  CC      fs/proc/fd.o
+  CC      fs/proc/proc_tty.o
+  CC      fs/proc/cmdline.o
+  CC      kernel/compat.o
+  CC      sound/usb/mixer_scarlett.o
+  CC      drivers/bus/mhi/core/mhi_pm.o
+  CC      fs/proc/consoles.o
+  CC      fs/proc/cpuinfo.o
+  CC      sound/usb/mixer_us16x08.o
+  CC      fs/proc/devices.o
+  CC      sound/usb/pcm.o
+  CC      kernel/utsname.o
+  CC      fs/proc/interrupts.o
+  CC      drivers/bus/mhi/core/mhi_boot.o
+  CC      fs/proc/loadavg.o
+  GZIP    kernel/config_data.gz
+  CC      kernel/stop_machine.o
+  CC      fs/proc/meminfo.o
+  CC      sound/usb/power.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'drivers/bus/mhi/core/.tmp_mhi_boot.o': No such file
+  CC      kernel/audit.o
+mv: cannot stat 'drivers/bus/mhi/core/.tmp_mhi_boot.o': No such file or directory
+make[5]: *** [../scripts/Makefile.build:338: drivers/bus/mhi/core/mhi_boot.o] Error 1
+make[5]: *** Deleting file 'drivers/bus/mhi/core/mhi_boot.o'
+  CC      drivers/bus/mhi/core/mhi_dtr.o
+  CC      fs/proc/stat.o
+  CC      sound/usb/proc.o
+fixdep: error opening file: drivers/bus/mhi/core/.mhi_dtr.o.d: No such file or directory
+make[5]: *** [../scripts/Makefile.build:339: drivers/bus/mhi/core/mhi_dtr.o] Error 2
+make[5]: *** Deleting file 'drivers/bus/mhi/core/mhi_dtr.o'
+make[5]: Target '__build' not remade because of errors.
+make[4]: *** [../scripts/Makefile.build:642: drivers/bus/mhi/core] Error 2
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/bus/mhi] Error 2
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/bus] Error 2
+  CC      fs/proc/uptime.o
+  CC      drivers/char/mem.o
+  CC      sound/usb/quirks.o
+  CC      fs/proc/util.o
+  CC      fs/proc/version.o
+  CC      drivers/char/random.o
+  CC      fs/proc/softirqs.o
+  CC      sound/usb/stream.o
+  CC      fs/proc/namespaces.o
+  CC      kernel/auditfilter.o
+  CC      fs/proc/self.o
+  CC      sound/usb/validate.o
+  CC      fs/proc/thread_self.o
+  CC      sound/usb/midi.o
+  CC      fs/proc/fslog.o
+  CC      drivers/char/ttyprintk.o
+  CC      kernel/auditsc.o
+  CC      drivers/char/misc.o
+  CC      fs/proc/proc_sysctl.o
+  CC      sound/usb/usb_audio_qmi_svc.o
+  CC      drivers/char/diag/diagchar_core.o
+  CC      kernel/audit_watch.o
+  AR      sound/usb/built-in.a
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: sound] Error 2
+  CC      fs/proc/proc_net.o
+  CC      fs/pstore/inode.o
+  CC      kernel/audit_fsnotify.o
+  CC      fs/pstore/platform.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/proc/.tmp_proc_net.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/proc/proc_net.o] Error 1
+make[3]: *** Deleting file 'fs/proc/proc_net.o'
+  CC      fs/proc/kmsg.o
+  CC      kernel/audit_tree.o
+  CC      fs/pstore/pmsg.o
+  CC      fs/proc/page.o
+  CC      drivers/char/diag/diagchar_hdlc.o
+  CC      fs/pstore/ss_platform_log.o
+  CC      drivers/char/diag/diagfwd.o
+fixdep: error opening file: fs/proc/.page.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/proc/page.o] Error 2
+make[3]: *** Deleting file 'fs/proc/page.o'
+  CC      fs/proc/proc_avc.o
+  CC      fs/pstore/ram.o
+  CC      kernel/kprobes.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/proc] Error 2
+  CC      drivers/char/hw_random/core.o
+  CC      fs/pstore/ram_core.o
+  CC      drivers/char/diag/diagfwd_peripheral.o
+  CC      drivers/char/hw_random/msm_rng.o
+  AR      fs/pstore/built-in.a
+  CC      fs/quota/dquot.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/.tmp_kprobes.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/kprobes.o] Error 1
+make[2]: *** Deleting file 'kernel/kprobes.o'
+  CC      kernel/seccomp.o
+rnel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/lsi,axm5516-clks.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos5260-clk.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7794-cpg-mssr.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,lcc-ipq806x.h: No such file or directory.
@@ -2195,3 +2451,412 @@ make[2]: *** [../scripts/Makefile.build:642: fs/fuse] Error 2
   CC      fs/incfs/main.o
   AR      fs/f2fs/built-in.a
   CC      fs/incfs/vfs.o
+  CC      sound/core/sound.o
+  CC      kernel/exit.o
+  CC      drivers/base/power/main.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'sound/core/.tmp_sound.o': No such file
+mv: cannot stat 'sound/core/.tmp_sound.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/core/sound.o] Error 1
+make[3]: *** Deleting file 'sound/core/sound.o'
+  CC      sound/core/init.o
+  AR      fs/incfs/built-in.a
+  CC      fs/jbd2/transaction.o
+  CC      sound/core/memory.o
+  CC      sound/core/control.o
+  CC      drivers/base/power/wakeup.o
+  CC      kernel/softirq.o
+  CC      fs/jbd2/commit.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/base/power/.tmp_wakeup.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/base/power/wakeup.o] Error 1
+make[4]: *** Deleting file 'drivers/base/power/wakeup.o'
+  CC      drivers/base/power/wakeup_stats.o
+  CC      sound/core/misc.o
+  CC      drivers/base/power/domain.o
+  CC      kernel/resource.o
+  CC      fs/jbd2/recovery.o
+  CC      sound/core/device.o
+  CC      sound/core/info.o
+  CC      kernel/sysctl.o
+  CC      fs/jbd2/checkpoint.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/base/power/.tmp_domain.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/base/power/domain.o] Error 1
+make[4]: *** Deleting file 'drivers/base/power/domain.o'
+  CC      drivers/base/power/domain_governor.o
+  CC      drivers/base/power/clock_ops.o
+  CC      fs/jbd2/revoke.o
+  CC      sound/core/ctljack.o
+  CC      sound/core/jack.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/base/power/.tmp_clock_ops.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:339: drivers/base/power/clock_ops.o] Error 1
+make[4]: *** Deleting file 'drivers/base/power/clock_ops.o'
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/base/power] Error 2
+  CC      drivers/base/regmap/regmap.o
+  CC      fs/jbd2/journal.o
+  CC      sound/core/hwdep.o
+  CC      kernel/sysctl_binary.o
+  CC      sound/core/timer.o
+  CC      kernel/capability.o
+  CC      drivers/base/regmap/regcache.o
+  CC      kernel/ptrace.o
+  AR      fs/jbd2/built-in.a
+  CC      fs/kernfs/mount.o
+  CC      drivers/base/regmap/regcache-rbtree.o
+  CC      sound/core/pcm.o
+  CC      fs/kernfs/inode.o
+  CC      drivers/base/regmap/regcache-flat.o
+  CC      kernel/user.o
+  CC      drivers/base/regmap/regmap-i2c.o
+  CC      sound/core/pcm_native.o
+  CC      fs/kernfs/dir.o
+  CC      kernel/signal.o
+  CC      drivers/base/regmap/regmap-spi.o
+  CC      fs/kernfs/file.o
+  CC      drivers/base/regmap/regmap-spmi.o
+  CC      drivers/base/regmap/regmap-mmio.o
+  CC      fs/kernfs/symlink.o
+  CC      drivers/base/regmap/regmap-irq.o
+  AR      fs/kernfs/built-in.a
+  CC      fs/nls/nls_base.o
+  CC      sound/core/pcm_lib.o
+  CC      fs/nls/nls_cp437.o
+  CC      kernel/sys.o
+  AR      drivers/base/regmap/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: drivers/base/regmap/regmap.o: No such file or directory
+make[4]: *** [../scripts/Makefile.build:501: drivers/base/regmap/built-in.a] Error 1
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/base/regmap] Error 2
+  CC      drivers/base/module.o
+  CC      fs/nls/nls_iso8859-1.o
+  CC      drivers/base/soc.o
+  CC      fs/nls/nls_utf8.o
+  AR      fs/nls/built-in.a
+  CC      fs/notify/fsnotify.o
+  CC      drivers/base/pinctrl.o
+  CC      drivers/base/platform-msi.o
+  CC      sound/core/pcm_misc.o
+  CC      fs/notify/notification.o
+  CC      drivers/base/arch_topology.o
+  CC      sound/core/pcm_memory.o
+  CC      kernel/umh.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/base] Error 2
+  CC      drivers/battery/charger/sm5714_charger/sm5714_charger.o
+  CC      fs/notify/group.o
+  CC      sound/core/memalloc.o
+  CC      fs/notify/mark.o
+  CC      drivers/battery/charger/sm5714_charger/sm5714_charger_oper.o
+  CC      kernel/workqueue.o
+  CC      sound/core/pcm_timer.o
+  CC      fs/notify/fdinfo.o
+  CC      sound/core/pcm_drm_eld.o
+  AR      drivers/battery/charger/sm5714_charger/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: drivers/battery/charger/sm5714_charger/sm5714_charger_oper.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: drivers/battery/charger/sm5714_charger/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/battery/charger/sm5714_charger] Error 2
+  CC      drivers/battery/common/sec_direct_charger.o
+  CC      fs/notify/dnotify/dnotify.o
+  CC      sound/core/pcm_iec958.o
+  AR      fs/notify/dnotify/built-in.a
+  CC      fs/notify/inotify/inotify_fsnotify.o
+  CC      drivers/battery/common/sec_battery.o
+  CC      fs/notify/inotify/inotify_user.o
+  CC      sound/core/rawmidi.o
+  AR      fs/notify/inotify/built-in.a
+  AR      fs/notify/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: fs/notify/fsnotify.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: fs/notify/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/notify] Error 2
+  CC      fs/ntfs/aops.o
+  CC      kernel/pid.o
+  CC      sound/core/compress_offload.o
+  CC      fs/ntfs/attrib.o
+  CC      kernel/task_work.o
+  CC      drivers/battery/common/sec_battery_vote.o
+  CC      fs/ntfs/collate.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: sound/core] Error 2
+  CC      fs/ntfs/compress.o
+  CC      kernel/extable.o
+  CC      drivers/battery/common/sec_battery_thermal.o
+  CC      sound/soc/soc-core.o
+  CC      kernel/params.o
+mv: cannot stat 'drivers/battery/common/.sec_battery_thermal.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/battery/common/sec_battery_thermal.o] Error 1
+make[3]: *** Deleting file 'drivers/battery/common/sec_battery_thermal.o'
+  CC      drivers/battery/common/sec_battery_dt.o
+  CC      fs/ntfs/debug.o
+  CC      fs/ntfs/dir.o
+  CC      kernel/kthread.o
+fixdep: error opening file: drivers/battery/common/.sec_battery_dt.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/battery/common/sec_battery_dt.o] Error 2
+make[3]: *** Deleting file 'drivers/battery/common/sec_battery_dt.o'
+  CC      drivers/battery/common/sec_battery_ttf.o
+  CC      fs/ntfs/file.o
+  CC      drivers/battery/common/sb_full_soc.o
+  CC      fs/ntfs/index.o
+  CC      kernel/sys_ni.o
+  CC      fs/ntfs/inode.o
+  CC      kernel/nsproxy.o
+  CC      sound/soc/soc-dapm.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/battery/common/.tmp_sb_full_soc.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/battery/common/sb_full_soc.o] Error 1
+make[3]: *** Deleting file 'drivers/battery/common/sb_full_soc.o'
+  CC      drivers/battery/common/sec_core_sysfs.o
+  CC      drivers/battery/common/sec_battery_sysfs.o
+  CC      kernel/notifier.o
+  CC      fs/ntfs/mft.o
+  CC      drivers/battery/common/sec_device_sysfs.o
+  CC      fs/ntfs/mst.o
+  CC      kernel/ksysfs.o
+  CC      fs/ntfs/namei.o
+  CC      drivers/battery/common/sec_event_sysfs.o
+  CC      sound/soc/soc-jack.o
+  CC      kernel/cred.o
+  CC      fs/ntfs/runlist.o
+  CC      drivers/battery/common/sec_adc.o
+  CC      fs/ntfs/super.o
+  CC      drivers/battery/common/sec_step_charging.o
+  CC      kernel/reboot.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/soc/.tmp_soc-jack.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/soc/soc-jack.o] Error 1
+make[3]: *** Deleting file 'sound/soc/soc-jack.o'
+  CC      sound/soc/soc-utils.o
+  CC      drivers/battery/common/sec_cisd.o
+  CC      fs/ntfs/sysctl.o
+  CC      fs/ntfs/unistr.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/soc/.tmp_soc-utils.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/soc/soc-utils.o] Error 1
+make[3]: *** Deleting file 'sound/soc/soc-utils.o'
+  CC      sound/soc/soc-pcm.o
+  CC      kernel/async.o
+  CC      fs/ntfs/upcase.o
+  CC      kernel/range.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'drivers/battery/common/.tmp_sec_cisd.o': No such file
+mv: cannot stat 'drivers/battery/common/.tmp_sec_cisd.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/battery/common/sec_cisd.o] Error 1
+make[3]: *** Deleting file 'drivers/battery/common/sec_cisd.o'
+  CC      drivers/battery/common/sec_pd.o
+  CC      kernel/smpboot.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/battery/common] Error 2
+  CC      drivers/battery/fuelgauge/sm5714_fuelgauge/sm5714_fuelgauge.o
+  AR      fs/ntfs/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: fs/ntfs/aops.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: fs/ntfs/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/ntfs] Error 2
+  CC      fs/overlayfs/super.o
+  CC      kernel/ucount.o
+  CC      kernel/kmod.o
+  CC      fs/overlayfs/namei.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/soc/.tmp_soc-pcm.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/soc/soc-pcm.o] Error 1
+make[3]: *** Deleting file 'sound/soc/soc-pcm.o'
+  CC      sound/soc/soc-io.o
+  AR      drivers/battery/fuelgauge/sm5714_fuelgauge/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: drivers/battery/fuelgauge/sm5714_fuelgauge/sm5714_fuelgauge.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: drivers/battery/fuelgauge/sm5714_fuelgauge/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/battery/fuelgauge/sm5714_fuelgauge] Error 2
+  CC      drivers/block/brd.o
+  CC      kernel/groups.o
+  CC      fs/overlayfs/util.o
+  CC      drivers/block/loop.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/soc/.tmp_soc-io.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/soc/soc-io.o] Error 1
+make[3]: *** Deleting file 'sound/soc/soc-io.o'
+  CC      sound/soc/soc-devres.o
+  CC      fs/overlayfs/inode.o
+  CC      kernel/freezer.o
+  CC      fs/overlayfs/file.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/soc/.tmp_soc-devres.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/soc/soc-devres.o] Error 1
+make[3]: *** Deleting file 'sound/soc/soc-devres.o'
+  CC      sound/soc/soc-ops.o
+  CC      fs/overlayfs/dir.o
+  CC      kernel/profile.o
+  CC      drivers/block/zram/zcomp.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file sound/soc/.tmp_soc-ops.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: sound/soc/soc-ops.o] Error 1
+make[3]: *** Deleting file 'sound/soc/soc-ops.o'
+  CC      sound/soc/soc-compress.o
+  CC      fs/overlayfs/readdir.o
+fixdep: error opening file: drivers/block/zram/.zcomp.o.d: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/block/zram/zcomp.o] Error 2
+make[4]: *** Deleting file 'drivers/block/zram/zcomp.o'
+  CC      drivers/block/zram/zram_drv.o
+  CC      kernel/stacktrace.o
+  CC      sound/soc/codecs/hdmi-codec.o
+  CC      fs/overlayfs/copy_up.o
+  CC      kernel/futex.o
+  AR      sound/soc/codecs/built-in.a
+  CC      sound/soc/samsung/sec_audio_sysfs.o
+  CC      fs/overlayfs/export.o
+mv: cannot stat 'sound/soc/samsung/.sec_audio_sysfs.o.tmp': No such file or directory
+make[4]: *** [../scripts/Makefile.build:339: sound/soc/samsung/sec_audio_sysfs.o] Error 1
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: sound/soc/samsung] Error 2
+  AR      fs/overlayfs/built-in.a
+  CC      drivers/block/zram/zram_dedup.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: sound/soc] Error 2
+  CC      fs/proc/task_mmu.o
+  CC      sound/usb/card.o
+mv: cannot stat 'drivers/block/zram/.zram_dedup.o.tmp': No such file or directory
+make[4]: *** [../scripts/Makefile.build:339: drivers/block/zram/zram_dedup.o] Error 1
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/block/zram] Error 2
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/block] Error 2
+  CC      drivers/bluetooth/bluetooth-power.o
+  CC      kernel/smp.o
+  CC      sound/usb/clock.o
+  CC      drivers/bluetooth/btfm_slim.o
+  CC      fs/proc/inode.o
+  CC      sound/usb/endpoint.o
+  CC      drivers/bluetooth/btfm_slim_codec.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'kernel/.tmp_smp.o': No such file
+mv: cannot stat 'kernel/.tmp_smp.o': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/smp.o] Error 1
+make[2]: *** Deleting file 'kernel/smp.o'
+  CC      kernel/uid16.o
+  CC      fs/proc/root.o
+  CC      drivers/bluetooth/btfm_slim_slave.o
+  CC      sound/usb/format.o
+  CC      fs/proc/base.o
+  AR      drivers/bluetooth/built-in.a
+  CC      drivers/bus/qcom-ebi2.o
+  CC      kernel/module.o
+  CC      sound/usb/helper.o
+  CC      drivers/bus/mhi/core/mhi_init.o
+  CC      sound/usb/mixer.o
+  CC      fs/proc/generic.o
+  CC      fs/proc/array.o
+  CC      drivers/bus/mhi/core/mhi_main.o
+  CC      sound/usb/mixer_quirks.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'kernel/.tmp_module.o': No such file
+mv: cannot stat 'kernel/.tmp_module.o': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/module.o] Error 1
+make[2]: *** Deleting file 'kernel/module.o'
+  CC      kernel/module_signing.o
+  CC      kernel/kallsyms.o
+  CC      fs/proc/fd.o
+  CC      fs/proc/proc_tty.o
+  CC      sound/usb/mixer_scarlett.o
+mv: cannot stat 'drivers/bus/mhi/core/.mhi_main.o.tmp': No such file or directory
+make[5]: *** [../scripts/Makefile.build:338: drivers/bus/mhi/core/mhi_main.o] Error 1
+  CC      drivers/bus/mhi/core/mhi_pm.o
+mv: cannot stat 'fs/proc/.proc_tty.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/proc/proc_tty.o] Error 1
+  CC      fs/proc/cmdline.o
+  CC      sound/usb/mixer_us16x08.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/.tmp_kallsyms.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/kallsyms.o] Error 1
+make[2]: *** Deleting file 'kernel/kallsyms.o'
+  CC      kernel/compat.o
+  CC      fs/proc/consoles.o
+  CC      fs/proc/cpuinfo.o
+  CC      sound/usb/pcm.o
+  CC      fs/proc/devices.o
+  CC      drivers/bus/mhi/core/mhi_boot.o
+  CC      fs/proc/interrupts.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/.tmp_compat.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/compat.o] Error 1
+make[2]: *** Deleting file 'kernel/compat.o'
+  CC      kernel/utsname.o
+  CC      fs/proc/loadavg.o
+  GZIP    kernel/config_data.gz
+  CC      kernel/kheaders.o
+  CC      sound/usb/power.o
+  CC      kernel/stop_machine.o
+mv: cannot stat 'fs/proc/.loadavg.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/proc/loadavg.o] Error 1
+make[3]: *** Deleting file 'fs/proc/loadavg.o'
+  CC      fs/proc/meminfo.o
+  CC      sound/usb/proc.o
+  CC      drivers/bus/mhi/core/mhi_dtr.o
+fixdep: error opening file: fs/proc/.meminfo.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/proc/meminfo.o] Error 2
+make[3]: *** Deleting file 'fs/proc/meminfo.o'
+  CC      fs/proc/stat.o
+  CC      sound/usb/quirks.o
+  CC      kernel/audit.o
+  CC      fs/proc/uptime.o
+make[5]: Target '__build' not remade because of errors.
+make[4]: *** [../scripts/Makefile.build:642: drivers/bus/mhi/core] Error 2
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/bus/mhi] Error 2
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/bus] Error 2
+  CC      drivers/char/mem.o
+  CC      fs/proc/util.o
+  CC      sound/usb/stream.o
+  CC      fs/proc/version.o
+  CC      fs/proc/softirqs.o
+mv: cannot stat 'drivers/char/.mem.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/char/mem.o] Error 1
+make[3]: *** Deleting file 'drivers/char/mem.o'
+  CC      drivers/char/random.o
+  CC      fs/proc/namespaces.o
+  CC      sound/usb/validate.o
+  CC      sound/usb/midi.o
+fixdep: error opening file: fs/proc/.namespaces.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/proc/namespaces.o] Error 2
+make[3]: *** Deleting file 'fs/proc/namespaces.o'
+  CC      fs/proc/self.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/.tmp_audit.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/audit.o] Error 1
+make[2]: *** Deleting file 'kernel/audit.o'
+  CC      kernel/auditfilter.o
+fixdep: error opening file: fs/proc/.self.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/proc/self.o] Error 2
+make[3]: *** Deleting file 'fs/proc/self.o'
+  CC      fs/proc/thread_self.o
+fixdep: error opening file: drivers/char/.random.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/char/random.o] Error 2
+  CC      drivers/char/ttyprintk.o
+  CC      fs/proc/fslog.o
+  CC      drivers/char/misc.o
+  CC      sound/usb/usb_audio_qmi_v01.o
+  CC      sound/usb/usb_audio_qmi_svc.o
+fixdep: error opening file: fs/proc/.fslog.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/proc/fslog.o] Error 2
+make[3]: *** Deleting file 'fs/proc/fslog.o'
+  CC      fs/proc/proc_sysctl.o
+  CC      kernel/auditsc.o
+  CC      drivers/char/diag/diagchar_core.o
+  AR      sound/usb/built-in.a
+  CC      sound/last.o
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: sound] Error 2
+  MK_FW   firmware/tsp_zinitix/zt7650_a52xq.bin.gen.S
+  MK_FW   firmware/tsp_stm/fts5cu56a_a52xq.bin.gen.S
+  AS      firmware/tsp_zinitix/zt7650_a52xq.bin.gen.o
+  AS      firmware/tsp_stm/fts5cu56a_a52xq.bin.gen.o
+fixdep: error opening file: fs/proc/.proc_sysctl.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/proc/proc_sysctl.o] Error 2
+  CC      fs/proc/proc_net.o
+  AR      firmware/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'kernel/.tmp_auditsc.o': No such file
+mv: cannot stat 'kernel/.tmp_auditsc.o': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/auditsc.o] Error 1
+make[2]: *** Deleting file 'kernel/auditsc.o'
+  CC      kernel/audit_watch.o
+  CC      kernel/audit_fsnotify.o
+  CC      fs/proc/kmsg.o
+  CC      drivers/char/diag/diagchar_hdlc.o
+  CC      fs/proc/page.o
+  CC      kernel/audit_tree.o
+  CC      drivers/char/diag/diagfwd.o
+  CC      fs/proc/proc_avc.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/proc] Error 2
+  CC      kernel/kprobes.o
+  CC      fs/pstore/ram.o
+  CC      drivers/char/diag/diagfwd_peripheral.o
+  CC      fs/pstore/ram_core.o
+  CC      drivers/char/diag/diagfwd_socket.o
+  CC      kernel/seccomp.o
