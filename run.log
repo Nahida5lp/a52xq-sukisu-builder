@@ -145,3 +145,5 @@ make[5]: secgetspf: No such file or directory
   CC      fs/read_write.o
   CC      kernel/sched/psi.o
   CC      fs/stat.o
+  AR      kernel/sched/built-in.a
+  CC      fs/exec.o
