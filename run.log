@@ -193,74 +193,418 @@ In file included from ../scripts/sign-file.c:29:
   CC      arch/arm64/mm/context.o
   CC      arch/arm64/crypto/aes-cipher-glue.o
   CC      arch/arm64/kernel/sys.o
-~~~~~~~~~~~~~~~~~~~
-../scripts/sign-file.c:144:17: warning: ‘ENGINE_by_id’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
-  144 |                 e = ENGINE_by_id("pkcs11");
-      |                 ^
-/usr/include/openssl/engine.h:336:31: note: declared here
-  336 | OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
-      |                               ^~~~~~~~~~~~
-../scripts/sign-file.c:146:17: warning: ‘ENGINE_init’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
-  146 |                 if (ENGINE_init(e))
-      |                 ^~
-/usr/include/openssl/engine.h:620:27: note: declared here
-  620 | OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
-      |                           ^~~~~~~~~~~
-../scripts/sign-file.c:151:25: warning: ‘ENGINE_ctrl_cmd_string’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
-  151 |                         ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0),
-      |                         ^~~
-/usr/include/openssl/engine.h:479:5: note: declared here
-  479 | int ENGINE_ctrl_cmd_string(ENGINE *e, const char *cmd_name, const char *arg,
-      |     ^~~~~~~~~~~~~~~~~~~~~~
-../scripts/sign-file.c:153:17: warning: ‘ENGINE_load_private_key’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
-  153 |                 private_key = ENGINE_load_private_key(e, private_key_name,
-      |                 ^~~~~~~~~~~
-/usr/include/openssl/engine.h:638:11: note: declared here
-  638 | EVP_PKEY *ENGINE_load_private_key(ENGINE *e, const char *key_id,
-      |           ^~~~~~~~~~~~~~~~~~~~~~~
-  CALL    ../scripts/checksyscalls.sh
-  CHK     include/generated/compile.h
-  CC      init/do_mounts_rd.o
-  CC      arch/arm64/mm/flush.o
-  CC      arch/arm64/kernel/ptrace.o
-  CC      arch/arm64/crypto/aes-glue-ce.o
-  CC      init/do_mounts_initrd.o
-/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file arch/arm64/mm/.tmp_flush.ver: No such file or directory
-make[2]: *** [../scripts/Makefile.build:338: arch/arm64/mm/flush.o] Error 1
-make[2]: *** Deleting file 'arch/arm64/mm/flush.o'
-  CC      arch/arm64/mm/ioremap.o
-/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'arch/arm64/mm/.tmp_ioremap.o': No such file
-mv: cannot stat 'arch/arm64/mm/.tmp_ioremap.o': No such file or directory
-make[2]: *** [../scripts/Makefile.build:338: arch/arm64/mm/ioremap.o] Error 1
-make[2]: *** Deleting file 'arch/arm64/mm/ioremap.o'
-  CC      arch/arm64/mm/mmap.o
-  CC      init/do_mounts_dm.o
-  AS      arch/arm64/crypto/aes-ce.o
-  CC      arch/arm64/crypto/aes-glue-neon.o
-mv: cannot stat 'arch/arm64/mm/.mmap.o.tmp': No such file or directory
-make[2]: *** [../scripts/Makefile.build:338: arch/arm64/mm/mmap.o] Error 1
-  CC      arch/arm64/mm/pgd.o
-  CC      arch/arm64/kernel/setup.o
-  CC      arch/arm64/mm/mmu.o
-  CC      init/noinitramfs.o
-/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file arch/arm64/crypto/.tmp_aes-glue-neon.ver: No such file or directory
-make[2]: *** [../arch/arm64/crypto/Makefile:68: arch/arm64/crypto/aes-glue-neon.o] Error 1
-make[2]: *** Deleting file 'arch/arm64/crypto/aes-glue-neon.o'
-  AS      arch/arm64/crypto/aes-neon.o
-  CC      arch/arm64/crypto/sha256-glue.o
-  CC      init/initramfs.o
-  CC      arch/arm64/kernel/signal.o
-mv: cannot stat 'arch/arm64/crypto/.sha256-glue.o.tmp': No such file or directory
-make[2]: *** [../scripts/Makefile.build:339: arch/arm64/crypto/sha256-glue.o] Error 1
-  AS      arch/arm64/crypto/aes-cipher-core.o
-  CC      arch/arm64/crypto/aes-cipher-glue.o
-  CC      init/calibrate.o
-  CC      init/init_task.o
-/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file arch/arm64/mm/.tmp_mmu.ver: No such file or directory
-make[2]: *** [../scripts/Makefile.build:338: arch/arm64/mm/mmu.o] Error 1
-make[2]: *** Deleting file 'arch/arm64/mm/mmu.o'
-  CC      arch/arm64/mm/context.o
+  AS      arch/arm64/mm/proc.o
+  AR      arch/arm64/crypto/built-in.a
+  CC      init/version.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: arch/arm64/crypto/aes-glue-neon.o: No such file or directory
+make[2]: *** [../scripts/Makefile.build:501: arch/arm64/crypto/built-in.a] Error 1
 make[2]: Target '__build' not remade because of errors.
 make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: arch/arm64/crypto] Error 2
-  AS      arch/arm64/mm/proc.o
-  CC      arch/arm64/kernel/sys.o
+  CC      arch/arm64/mm/pageattr.o
+  CC      arch/arm64/kernel/stacktrace.o
+  AR      init/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: init/init_task.o: No such file or directory
+make[2]: *** [../scripts/Makefile.build:501: init/built-in.a] Error 1
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: init] Error 2
+  CC      certs/system_keyring.o
+  AR      arch/arm64/mm/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: arch/arm64/mm/flush.o: No such file or directory
+make[2]: *** [../scripts/Makefile.build:501: arch/arm64/mm/built-in.a] Error 1
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: arch/arm64/mm] Error 2
+  AS      certs/system_certificates.o
+  CC      arch/arm64/kernel/time.o
+  AR      certs/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: certs/system_keyring.o: No such file or directory
+make[2]: *** [../scripts/Makefile.build:501: certs/built-in.a] Error 1
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: certs] Error 2
+  CC      arch/arm64/kernel/traps.o
+  CC      arch/arm64/kernel/io.o
+  CC      mm/filemap.o
+  CC      kernel/bpf/core.o
+  CC      fs/open.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file arch/arm64/kernel/.tmp_io.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: arch/arm64/kernel/io.o] Error 1
+make[2]: *** Deleting file 'arch/arm64/kernel/io.o'
+  CC      arch/arm64/kernel/vdso.o
+  AS      arch/arm64/kernel/hyp-stub.o
+  CC      arch/arm64/kernel/psci.o
+  CC      arch/arm64/kernel/cpu_ops.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_open.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/open.o] Error 1
+make[2]: *** Deleting file 'fs/open.o'
+  CC      fs/read_write.o
+  CC      arch/arm64/kernel/insn.o
+  CC      kernel/bpf/syscall.o
+fixdep: error opening file: mm/.filemap.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/filemap.o] Error 2
+make[2]: *** Deleting file 'mm/filemap.o'
+  CC      mm/mempool.o
+fixdep: error opening file: arch/arm64/kernel/.insn.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: arch/arm64/kernel/insn.o] Error 2
+  CC      arch/arm64/kernel/return_address.o
+fixdep: error opening file: mm/.mempool.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/mempool.o] Error 2
+  CC      mm/oom_kill.o
+  CC      arch/arm64/kernel/cpuinfo.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_read_write.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/read_write.o] Error 1
+make[2]: *** Deleting file 'fs/read_write.o'
+  CC      fs/file_table.o
+  CC      arch/arm64/kernel/cpu_errata.o
+  CC      arch/arm64/kernel/cpufeature.o
+  CC      mm/fadvise.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_file_table.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/file_table.o] Error 1
+make[2]: *** Deleting file 'fs/file_table.o'
+  CC      fs/super.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/bpf/.tmp_syscall.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/bpf/syscall.o] Error 1
+make[3]: *** Deleting file 'kernel/bpf/syscall.o'
+  CC      kernel/bpf/verifier.o
+  CC      arch/arm64/kernel/alternative.o
+  CC      mm/maccess.o
+  CC      arch/arm64/kernel/cacheinfo.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_super.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/super.o] Error 1
+make[2]: *** Deleting file 'fs/super.o'
+  CC      fs/char_dev.o
+fixdep: error opening file: arch/arm64/kernel/.cacheinfo.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: arch/arm64/kernel/cacheinfo.o] Error 2
+make[2]: *** Deleting file 'arch/arm64/kernel/cacheinfo.o'
+  CC      arch/arm64/kernel/smp.o
+  CC      mm/page_alloc.o
+  CC      arch/arm64/kernel/smp_spin_table.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_char_dev.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/char_dev.o] Error 1
+make[2]: *** Deleting file 'fs/char_dev.o'
+  CC      fs/stat.o
+  CC      arch/arm64/kernel/topology.o
+fixdep: error opening file: arch/arm64/kernel/.topology.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:339: arch/arm64/kernel/topology.o] Error 2
+  AS      arch/arm64/kernel/smccc-call.o
+  CC      arch/arm64/kernel/syscall.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_stat.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/stat.o] Error 1
+make[2]: *** Deleting file 'fs/stat.o'
+  CC      fs/exec.o
+  CC      arch/arm64/kernel/sys32.o
+  CC      arch/arm64/kernel/signal32.o
+  CC      kernel/bpf/inode.o
+  CC      mm/page-writeback.o
+  CC      arch/arm64/kernel/sys_compat.o
+  CC      fs/pipe.o
+  CC      kernel/bpf/helpers.o
+  AS      arch/arm64/kernel/sigreturn32.o
+  AS      arch/arm64/kernel/kuser32.o
+  CC      arch/arm64/kernel/arm64ksyms.o
+  CC      fs/namei.o
+  CC      kernel/bpf/tnum.o
+  CC      arch/arm64/kernel/module.o
+  CC      kernel/bpf/hashtab.o
+  CC      arch/arm64/kernel/module-plts.o
+  CC      arch/arm64/kernel/perf_regs.o
+  CC      mm/readahead.o
+  CC      arch/arm64/kernel/perf_callchain.o
+  CC      kernel/bpf/arraymap.o
+  CC      arch/arm64/kernel/perf_event.o
+  CC      kernel/bpf/percpu_freelist.o
+  CC      arch/arm64/kernel/perf_trace_counters.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file mm/.tmp_readahead.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/readahead.o] Error 1
+make[2]: *** Deleting file 'mm/readahead.o'
+  CC      mm/swap.o
+  CC      kernel/bpf/bpf_lru_list.o
+  CC      fs/fcntl.o
+  CC      kernel/bpf/lpm_trie.o
+  CC      arch/arm64/kernel/perf_trace_user.o
+  CC      arch/arm64/kernel/hw_breakpoint.o
+  CC      mm/truncate.o
+  CC      fs/ioctl.o
+  CC      kernel/bpf/map_in_map.o
+  AS      arch/arm64/kernel/sleep.o
+  CC      arch/arm64/kernel/suspend.o
+  CC      kernel/bpf/local_storage.o
+  CC      arch/arm64/kernel/cpuidle.o
+  CC      mm/vmscan.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_ioctl.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/ioctl.o] Error 1
+make[2]: *** Deleting file 'fs/ioctl.o'
+  CC      fs/readdir.o
+  CC      arch/arm64/kernel/pci.o
+  CC      kernel/bpf/disasm.o
+  CC      kernel/bpf/btf.o
+  CC      arch/arm64/kernel/armv8_deprecated.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'fs/.tmp_readdir.o': No such file
+mv: cannot stat 'fs/.tmp_readdir.o': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/readdir.o] Error 1
+make[2]: *** Deleting file 'fs/readdir.o'
+  CC      fs/select.o
+  CC      arch/arm64/kernel/kaslr.o
+  CC      arch/arm64/kernel/ssbd.o
+  CC      arch/arm64/kernel/probes/kprobes.o
+  CC      kernel/bpf/devmap.o
+fixdep: error opening file: mm/.vmscan.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/vmscan.o] Error 2
+  CC      mm/shmem.o
+  CC      arch/arm64/kernel/probes/decode-insn.o
+  AS      arch/arm64/kernel/probes/kprobes_trampoline.o
+  CC      arch/arm64/kernel/probes/simulate-insn.o
+  CC      kernel/bpf/cpumap.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_select.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/select.o] Error 1
+make[2]: *** Deleting file 'fs/select.o'
+  CC      fs/dcache.o
+  CC      arch/arm64/kernel/probes/uprobes.o
+  AR      arch/arm64/kernel/probes/built-in.a
+  OBJCOPY arch/arm64/kernel/vdso/vdso.so
+  AS      arch/arm64/kernel/vdso/vdso.o
+  CC      kernel/bpf/offload.o
+  AR      arch/arm64/kernel/vdso/built-in.a
+  AS      arch/arm64/kernel/head.o
+  LDS     arch/arm64/kernel/vmlinux.lds
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: arch/arm64/kernel] Error 2
+  CC      security/integrity/iint.o
+  CC      mm/util.o
+  CC      security/integrity/integrity_audit.o
+  CC      fs/inode.o
+  CC      security/integrity/digsig.o
+  CC      security/integrity/digsig_asymmetric.o
+mv: cannot stat 'mm/.util.o.tmp': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/util.o] Error 1
+  CC      mm/mmzone.o
+  AR      security/integrity/built-in.a
+  CC      security/keys/gc.o
+  CC      mm/vmstat.o
+  CC      kernel/bpf/stackmap.o
+  CC      security/keys/key.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_inode.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/inode.o] Error 1
+make[2]: *** Deleting file 'fs/inode.o'
+  CC      fs/attr.o
+  CC      security/keys/keyring.o
+  CC      kernel/bpf/cgroup.o
+  CC      fs/bad_inode.o
+  CC      mm/backing-dev.o
+  CC      fs/file.o
+  CC      security/keys/keyctl.o
+  CC      security/keys/permission.o
+  CC      kernel/bpf/reuseport_array.o
+  CC      fs/filesystems.o
+  CC      mm/mm_init.o
+  CC      security/keys/process_keys.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: kernel/bpf] Error 2
+  CC      kernel/cgroup/cgroup.o
+  CC      mm/mmu_context.o
+  CC      fs/namespace.o
+  CC      security/keys/request_key.o
+  CC      mm/percpu.o
+  CC      security/keys/request_key_auth.o
+  CC      security/keys/user_defined.o
+fixdep: error opening file: mm/.percpu.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/percpu.o] Error 2
+make[2]: *** Deleting file 'mm/percpu.o'
+  CC      mm/slab_common.o
+  CC      fs/seq_file.o
+  CC      security/keys/compat.o
+  CC      security/keys/proc.o
+  CC      fs/xattr.o
+  CC      security/keys/sysctl.o
+  AR      security/keys/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: security/keys/user_defined.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: security/keys/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: security/keys] Error 2
+../security/samsung/defex_lsm/Makefile:29: [DEFEX] INTEGRITY_ENABLE
+../security/samsung/defex_lsm/Makefile:155: [DEFEX] DEBUG_ENABLE
+  CC      security/samsung/defex_lsm/core/defex_common.o
+  CC      kernel/cgroup/rstat.o
+fixdep: error opening file: mm/.slab_common.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/slab_common.o] Error 2
+make[2]: *** Deleting file 'mm/slab_common.o'
+  CC      mm/compaction.o
+  CC      security/samsung/defex_lsm/core/defex_lsm.o
+  CC      kernel/cgroup/freezer.o
+  CC      fs/libfs.o
+  CC      security/samsung/defex_lsm/core/defex_main.o
+  CC      kernel/cgroup/legacy_freezer.o
+  CC      kernel/cgroup/cpuset.o
+  CC      security/samsung/defex_lsm/core/defex_get_mode.o
+  CC      security/samsung/defex_lsm/core/defex_rules_proc.o
+  CC      fs/fs-writeback.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file mm/.tmp_compaction.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/compaction.o] Error 1
+make[2]: *** Deleting file 'mm/compaction.o'
+  CC      mm/vmacache.o
+  CC      security/samsung/defex_lsm/core/defex_tailer.o
+  CC      security/samsung/defex_lsm/catch_engine/defex_catch_list.o
+  CC      mm/interval_tree.o
+  CC      security/samsung/defex_lsm/catch_engine/defex_ht.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/cgroup/.tmp_cpuset.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: kernel/cgroup/cpuset.o] Error 1
+make[3]: *** Deleting file 'kernel/cgroup/cpuset.o'
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: kernel/cgroup] Error 2
+  CC      kernel/dma/mapping.o
+  CC      mm/list_lru.o
+  CC      security/samsung/defex_lsm/defex_rules.o
+  CC      security/samsung/defex_lsm/catch_engine/defex_catch_list_compat.o
+  CC      security/samsung/defex_lsm/feature_privilege_escalation_detection/defex_priv.o
+  CC      security/samsung/defex_lsm/feature_safeplace/defex_safeplace.o
+  CC      kernel/dma/contiguous.o
+  CC      security/samsung/defex_lsm/feature_safeplace/defex_integrity.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'fs/.tmp_fs-writeback.o': No such file
+mv: cannot stat 'fs/.tmp_fs-writeback.o': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/fs-writeback.o] Error 1
+make[2]: *** Deleting file 'fs/fs-writeback.o'
+  CC      fs/pnode.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot find mm/.tmp_list_lru.o: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/list_lru.o] Error 1
+  CC      mm/workingset.o
+fixdep: error opening file: security/samsung/defex_lsm/feature_safeplace/.defex_integrity.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: security/samsung/defex_lsm/feature_safeplace/defex_integrity.o] Error 2
+  CC      security/samsung/defex_lsm/feature_immutable/defex_immutable.o
+  CC      security/samsung/defex_lsm/catch_engine/defex_caches.o
+  CC      kernel/dma/coherent.o
+  CC      fs/splice.o
+  CC      mm/debug.o
+  AS      security/samsung/defex_lsm/cert/defex_cert.o
+  CC      security/samsung/defex_lsm/cert/defex_sign.o
+  CC      security/samsung/defex_lsm/debug/defex_debug.o
+  CC      kernel/dma/removed.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file mm/.tmp_debug.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/debug.o] Error 1
+make[2]: *** Deleting file 'mm/debug.o'
+  CC      mm/gup.o
+mv: cannot stat 'security/samsung/defex_lsm/debug/.defex_debug.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: security/samsung/defex_lsm/debug/defex_debug.o] Error 1
+  CC      security/samsung/defex_lsm/core/defex_sysfs.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: security/samsung/defex_lsm] Error 2
+  CC      security/samsung/dsms/dsms_access_control.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_splice.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/splice.o] Error 1
+make[2]: *** Deleting file 'fs/splice.o'
+  CC      fs/sync.o
+  CC      security/samsung/dsms/dsms_init.o
+  CC      kernel/dma/direct.o
+  CC      security/samsung/dsms/dsms_kernel_api.o
+  CC      security/samsung/dsms/dsms_policy.o
+  CC      security/samsung/dsms/dsms_rate_limit.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file mm/.tmp_gup.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/gup.o] Error 1
+make[2]: *** Deleting file 'mm/gup.o'
+  CC      mm/highmem.o
+  CC      kernel/dma/swiotlb.o
+  CC      security/samsung/dsms/dsms_netlink.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_sync.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/sync.o] Error 1
+make[2]: *** Deleting file 'fs/sync.o'
+  CC      fs/utimes.o
+  CC      mm/memory.o
+  CC      security/samsung/dsms/dsms_preboot_buffer.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'security/samsung/dsms/.tmp_dsms_preboot_buffer.o': No such file
+mv: cannot stat 'security/samsung/dsms/.tmp_dsms_preboot_buffer.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: security/samsung/dsms/dsms_preboot_buffer.o] Error 1
+make[3]: *** Deleting file 'security/samsung/dsms/dsms_preboot_buffer.o'
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: security/samsung/dsms] Error 2
+  CC      security/samsung/five/five_lv.o
+  CC      fs/d_path.o
+mv: cannot stat 'security/samsung/five/.five_lv.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: security/samsung/five/five_lv.o] Error 1
+make[3]: *** Deleting file 'security/samsung/five/five_lv.o'
+  CC      security/samsung/five/five_cert.o
+  AR      kernel/dma/built-in.a
+  CC      kernel/events/core.o
+  CC      security/samsung/five/five_keyring.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_d_path.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/d_path.o] Error 1
+make[2]:  CC      fs/fs_struct.o
+  AS      security/samsung/five/five_cert_builtin.o
+  CC      security/sa  AS      security/samsu  CC      fs/statfs.o
+  CC      security/samsung/five/five_dmverity.o
+  CC      mm/mincore.o
+fixdep: error opening file: fs/.statfs.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/statfs.o] Error 2
+make[2]: *** Deleting file 'fs/statfs.o'
+  CC      fs/fs_pin.o
+  CC      security/samsung/five/five_crypto.o
+  CC      mm/mlock.o
+  CC      fs/nsfs.o
+  CC      fs/buffer.o
+  CC      security/samsung/five/five_audit.o
+  CC      security/samsung/five/five_hooks.o
+  CC      mm/mmap.o
+  CC      kernel/events/ring_buffer.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file security/samsung/five/.tmp_five_hooks.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: security/samsung/five/five_hooks.o] Error 1
+make[3]: *** Deleting file 'security/samsung/five/five_hooks.o'
+  CC      security/samsung/five/task_integrity.o
+  CC      security/samsung/five/five_state.o
+  CC      fs/block_dev.o
+  CC      kernel/events/callchain.o
+  CC      security/samsung/five/s_os/five_main.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file mm/.tmp_mmap.ver: No such file or directory
+  CC      kernel/events/hw_breakpoint.o
+make[2]: *** [../scripts/Makefile.build:338: mm/mmap.o] Error 1
+make[2]: *** Deleting file 'mm/mmap.o'
+  CC      mm/mprotect.o
+  CC      security/samsung/five/s_os/five_appraise.o
+  CC      fs/direct-io.o
+  CC      mm/mremap.o
+  CC      kernel/events/uprobes.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: security/samsung/five] Error 2
+  CC      security/samsung/proca/proca_identity.o
+  CC      security/samsung/proca/proca_fcntl.o
+  CC      mm/msync.o
+  CC      security/samsung/proca/proca_task_descr.o
+  CC      mm/page_vma_mapped.o
+  CC      security/samsung/proca/proca_certificate.asn1.o
+  CC      security/samsung/proca/proca_certificate.o
+  AR      kernel/events/built-in.a
+  CC      fs/mpage.o
+  CC      kernel/irq/irqdesc.o
+  CC      mm/pagewalk.o
+  CC      security/samsung/proca/proca_table.o
+  CC      mm/pgtable-generic.o
+  CC      security/samsung/proca/proca_config.o
+  CC      kernel/irq/handle.o
+  CC      security/samsung/proca/s_os/proca_storage_xattr.o
+  CC      mm/rmap.o
+  CC      fs/proc_namespace.o
+  CC      security/samsung/proca/s_os/proca_lsm.o
+  CC      kernel/irq/manage.o
+  CC      fs/dlog_hook.o
+8: fs/block_dev.o] Error 2
+make[2]: *** Deleting file 'fs/block_dev.o'
+  CC      fs/direct-io.o
+  CC      security/samsung/proca/proca_identity.o
+  CC      kernel/events/hw_breakpoint.o
+  CC      security/samsung/proca/proca_fcntl.o
+  CC      mm/msync.o
+  CC      security/samsung/proca/proca_task_descr.o
+  CC      mm/page_vma_mapped.o
+  CC      security/samsung/proca/proca_certificate.asn1.o
+  CC      kernel/events/uprobes.o
+  CC      security/samsung/proca/proca_certificate.o
+  CC      mm/pagewalk.o
+  CC      security/samsung/proca/proca_table.o
+  CC      mm/pgtable-generic.o
+  CC      fs/mpage.o
+  CC      security/samsung/proca/proca_config.o
+  CC      mm/rmap.o
+  CC      security/samsung/proca/s_os/proca_storage_xattr.o
+  AR      kernel/events/built-in.a
+  CC      kernel/irq/handle.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_mpage.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/mpage.o] Error 1
+make[2]: *** Deleting file 'fs/mpage.o'
+  CC      fs/proc_namespace.o
+  CC      security/samsung/proca/s_os/proca_lsm.o
+  CC      fs/dlog_hook.o
