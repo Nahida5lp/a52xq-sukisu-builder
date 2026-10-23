@@ -2030,7 +2030,10 @@ make[4]: *** Deleting file 'drivers/gpu/drm/drm_irq.o'
   CC      drivers/gpu/drm/drm_fourcc.o
   CC      net/core/stream.o
   CC      drivers/gpu/drm/drm_modes.o
-an't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/stm32h7-clks.h: No such file or directory.
+  CC      net/core/scm.o
+  CC      drivers/gpu/drm/drm_edid.o
+  CC      net/core/gen_stats.o
+indings/clock/stm32h7-clks.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos4.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,camcc-lito.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/bcm-sr.h: No such file or directory.
