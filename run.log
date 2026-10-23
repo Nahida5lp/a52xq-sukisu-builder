@@ -1862,82 +1862,175 @@ make[2]: *** [../scripts/Makefile.build:642: drivers/devfreq] Error 2
   CC      drivers/dma/of-dma.o
   CC      net/bluetooth/hci_event.o
   CC      drivers/dma/qcom/gpi.o
-rectory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/net/ptp’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/rwsem’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/kernel’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/qca’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/bridge’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/no’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/perf’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/nr’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/mq’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/ptp’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/gsi’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/rpmsg’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/adsp’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/rfs’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/speculative’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/msm’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/refcount’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/uio’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/hwspinlock’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/printk’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/nf’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/sps’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/message’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/tcp’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/cavium’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/pgtable’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/display’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/thread’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/stacktrace’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/watchdog’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/base’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/clkdev’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/generic’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/log’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/pdic’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/erofs’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/tracing’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/build’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/sparsemem’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/setend’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/pwrseq’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/nop’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/increase’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/step’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/binary’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/init’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/qcom’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/diagfwd’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/rcu’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/zlib’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/spmi’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/sensors’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/cc’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/switch’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/video’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/memory’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/soc’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/math-emu’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/target’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/scsi’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/drm’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/misc’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/vservices’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/keys’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/media’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/rdma’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/acpi’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/sdp’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/clocksource’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/net’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/asm-generic’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/kvm’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/linux’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/arch’: No such file or directory
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/stm32h7-clks.h: No such file or directory.
+  AR      drivers/dma/qcom/built-in.a
+  AR      drivers/dma/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: drivers/dma/virt-dma.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: drivers/dma/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/dma] Error 2
+  CC      drivers/dma-buf/dma-buf.o
+  CC      net/bluetooth/mgmt.o
+  CC      drivers/dma-buf/dma-fence.o
+  CC      drivers/dma-buf/dma-fence-array.o
+  CC      drivers/dma-buf/reservation.o
+  CC      net/bluetooth/hci_sock.o
+  CC      drivers/dma-buf/seqno-fence.o
+  CC      drivers/dma-buf/sync_file.o
+  CC      net/bluetooth/hci_sysfs.o
+  AR      drivers/dma-buf/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: drivers/dma-buf/dma-buf.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: drivers/dma-buf/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/dma-buf] Error 2
+  CC      drivers/edac/edac_mc.o
+  CC      net/bluetooth/l2cap_core.o
+  CC      drivers/edac/edac_device.o
+  CC      drivers/edac/edac_mc_sysfs.o
+  CC      drivers/edac/edac_module.o
+  CC      drivers/edac/edac_device_sysfs.o
+  CC      net/bluetooth/l2cap_sock.o
+  CC      drivers/edac/wq.o
+  CC      drivers/edac/edac_pci.o
+  CC      drivers/edac/edac_pci_sysfs.o
+  CC      net/bluetooth/smp.o
+  CC      drivers/edac/kryo_arm64_edac.o
+  CC      drivers/edac/qcom_edac.o
+  AR      drivers/edac/built-in.a
+  CC      net/bluetooth/lib.o
+  CC      drivers/extcon/extcon.o
+  CC      net/bluetooth/ecdh_helper.o
+  CC      drivers/extcon/devres.o
+  CC      net/bluetooth/hci_request.o
+  CC      drivers/extcon/extcon-gpio.o
+  AR      drivers/extcon/built-in.a
+  CC      drivers/fingerprint/fingerprint_common_qcom.o
+  CC      drivers/fingerprint/et7xx-spi.o
+  CC      drivers/fingerprint/et7xx-spi_data_transfer.o
+  CC      net/bluetooth/mgmt_util.o
+  CC      drivers/fingerprint/fingerprint_sysfs.o
+  CC      net/bluetooth/sco.o
+  AR      drivers/fingerprint/built-in.a
+  CC      drivers/firmware/psci.o
+  CC      drivers/firmware/qcom_scm.o
+  CC      net/bluetooth/a2mp.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'drivers/firmware/.tmp_qcom_scm.o': No such file
+mv: cannot stat 'drivers/firmware/.tmp_qcom_scm.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/firmware/qcom_scm.o] Error 1
+make[3]: *** Deleting file 'drivers/firmware/qcom_scm.o'
+  CC      drivers/firmware/qcom_scm-64.o
+mv: cannot stat 'drivers/firmware/.qcom_scm-64.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: drivers/firmware/qcom_scm-64.o] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/firmware] Error 2
+  CC      drivers/gpio/devres.o
+  CC      net/bluetooth/amp.o
+  CC      drivers/gpio/gpiolib.o
+  AR      net/bluetooth/built-in.a
+  CC      net/bpf/test_run.o
+  AR      net/bpf/built-in.a
+  CC      net/bridge/br.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpio/.tmp_gpiolib.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/gpio/gpiolib.o] Error 1
+make[3]: *** Deleting file 'drivers/gpio/gpiolib.o'
+  CC      drivers/gpio/gpiolib-legacy.o
+  CC      net/bridge/br_device.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpio/.tmp_gpiolib-legacy.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/gpio/gpiolib-legacy.o] Error 1
+make[3]: *** Deleting file 'drivers/gpio/gpiolib-legacy.o'
+  CC      drivers/gpio/gpiolib-devprop.o
+  CC      drivers/gpio/gpiolib-of.o
+  CC      net/bridge/br_fdb.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpio/.tmp_gpiolib-of.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/gpio/gpiolib-of.o] Error 1
+make[3]: *** Deleting file 'drivers/gpio/gpiolib-of.o'
+  CC      drivers/gpio/gpiolib-sysfs.o
+  CC      drivers/gpio/sec-pinmux.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/gpio] Error 2
+  CC      drivers/gpu/drm/drm_crtc_helper.o
+  CC      net/bridge/br_forward.o
+  CC      drivers/gpu/drm/drm_dp_helper.o
+fixdep: error opening file: drivers/gpu/drm/.drm_dp_helper.o.d: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_dp_helper.o] Error 2
+  CC      drivers/gpu/drm/drm_probe_helper.o
+  CC      net/bridge/br_if.o
+  CC      drivers/gpu/drm/drm_plane_helper.o
+  CC      net/bridge/br_input.o
+  CC      drivers/gpu/drm/drm_dp_mst_topology.o
+  CC      net/bridge/br_ioctl.o
+  CC      drivers/gpu/drm/drm_atomic_helper.o
+  CC      net/bridge/br_stp.o
+  CC      net/bridge/br_stp_bpdu.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'drivers/gpu/drm/.tmp_drm_atomic_helper.o': No such file
+mv: cannot stat 'drivers/gpu/drm/.tmp_drm_atomic_helper.o': No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_atomic_helper.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_atomic_helper.o'
+  CC      drivers/gpu/drm/drm_kms_helper_common.o
+  CC      drivers/gpu/drm/drm_dp_dual_mode_helper.o
+  CC      net/bridge/br_stp_if.o
+fixdep: error opening file: drivers/gpu/drm/.drm_dp_dual_mode_helper.o.d: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_dp_dual_mode_helper.o] Error 2
+  CC      drivers/gpu/drm/drm_simple_kms_helper.o
+  CC      net/bridge/br_stp_timer.o
+  CC      drivers/gpu/drm/drm_modeset_helper.o
+  CC      net/bridge/br_netlink.o
+  CC      drivers/gpu/drm/drm_scdc_helper.o
+  CC      net/bridge/br_netlink_tunnel.o
+  CC      drivers/gpu/drm/drm_gem_framebuffer_helper.o
+  CC      net/bridge/br_arp_nd_proxy.o
+  CC      drivers/gpu/drm/bridge/panel.o
+  CC      net/bridge/br_sysfs_if.o
+  CC      drivers/gpu/drm/drm_auth.o
+  CC      net/bridge/br_sysfs_br.o
+  CC      drivers/gpu/drm/drm_bufs.o
+  CC      net/bridge/br_multicast.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_bufs.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_bufs.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_bufs.o'
+  CC      drivers/gpu/drm/drm_cache.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_cache.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_cache.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_cache.o'
+  CC      drivers/gpu/drm/drm_context.o
+  CC      drivers/gpu/drm/drm_dma.o
+  CC      net/bridge/br_mdb.o
+  CC      drivers/gpu/drm/drm_file.o
+  CC      net/bridge/netfilter/ebtables.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_file.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_file.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_file.o'
+  CC      drivers/gpu/drm/drm_gem.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_gem.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_gem.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_gem.o'
+  CC      drivers/gpu/drm/drm_ioctl.o
+  CC      net/bridge/netfilter/ebtable_broute.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_ioctl.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_ioctl.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_ioctl.o'
+  CC      drivers/gpu/drm/drm_irq.o
+  AR      net/bridge/netfilter/built-in.a
+  AR      net/bridge/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_irq.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_irq.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_irq.o'
+  CC      drivers/gpu/drm/drm_lock.o
+  CC      net/core/sock.o
+  CC      drivers/gpu/drm/drm_memory.o
+  CC      drivers/gpu/drm/drm_drv.o
+  CC      drivers/gpu/drm/drm_scatter.o
+  CC      net/core/request_sock.o
+  CC      drivers/gpu/drm/drm_pci.o
+  CC      net/core/skbuff.o
+  CC      drivers/gpu/drm/drm_sysfs.o
+  CC      drivers/gpu/drm/drm_hashtab.o
+  CC      drivers/gpu/drm/drm_mm.o
+  CC      net/core/datagram.o
+  CC      drivers/gpu/drm/drm_crtc.o
+  CC      drivers/gpu/drm/drm_fourcc.o
+  CC      net/core/stream.o
+  CC      drivers/gpu/drm/drm_modes.o
+an't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/stm32h7-clks.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos4.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,camcc-lito.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/bcm-sr.h: No such file or directory.
@@ -3363,3 +3456,220 @@ make[3]: *** Deleting file 'drivers/dma/of-dma.o'
   CC      drivers/dma/qcom/gpi.o
   AR      techpack/camera/drivers/cam_isp/built-in.a
   CC      techpack/camera/drivers/cam_jpeg/jpeg_hw/jpeg_dma_hw/jpeg_dma_dev.o
+  CC      techpack/camera/drivers/cam_jpeg/jpeg_hw/jpeg_dma_hw/jpeg_dma_core.o
+  AR      drivers/dma/qcom/built-in.a
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/dma] Error 2
+  CC      drivers/dma-buf/dma-buf.o
+  CC      techpack/camera/drivers/cam_jpeg/jpeg_hw/jpeg_dma_hw/jpeg_dma_soc.o
+  AR      techpack/camera/drivers/cam_jpeg/jpeg_hw/jpeg_dma_hw/built-in.a
+  CC      techpack/camera/drivers/cam_jpeg/jpeg_hw/jpeg_enc_hw/jpeg_enc_dev.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/dma-buf/.tmp_dma-buf.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/dma-buf/dma-buf.o] Error 1
+make[3]: *** Deleting file 'drivers/dma-buf/dma-buf.o'
+  CC      drivers/dma-buf/dma-fence.o
+  CC      techpack/camera/drivers/cam_jpeg/jpeg_hw/jpeg_enc_hw/jpeg_enc_core.o
+  CC      techpack/camera/drivers/cam_jpeg/jpeg_hw/jpeg_enc_hw/jpeg_enc_soc.o
+  AR      techpack/camera/drivers/cam_jpeg/jpeg_hw/jpeg_enc_hw/built-in.a
+  CC      techpack/camera/drivers/cam_jpeg/jpeg_hw/cam_jpeg_hw_mgr.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/dma-buf/.tmp_dma-fence.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/dma-buf/dma-fence.o] Error 1
+make[3]: *** Deleting file 'drivers/dma-buf/dma-fence.o'
+  CC      drivers/dma-buf/dma-fence-array.o
+  CC      drivers/dma-buf/reservation.o
+  AR      techpack/camera/drivers/cam_jpeg/jpeg_hw/built-in.a
+  CC      techpack/camera/drivers/cam_jpeg/cam_jpeg_dev.o
+  CC      drivers/dma-buf/seqno-fence.o
+  CC      techpack/camera/drivers/cam_jpeg/cam_jpeg_context.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/dma-buf/.tmp_seqno-fence.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/dma-buf/seqno-fence.o] Error 1
+make[3]: *** Deleting file 'drivers/dma-buf/seqno-fence.o'
+  CC      drivers/dma-buf/sync_file.o
+  AR      techpack/camera/drivers/cam_jpeg/built-in.a
+  CC      techpack/camera/drivers/cam_lrme/lrme_hw_mgr/lrme_hw/cam_lrme_hw_dev.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/dma-buf/.tmp_sync_file.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: drivers/dma-buf/sync_file.o] Error 1
+make[3]: *** Deleting file 'drivers/dma-buf/sync_file.o'
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/dma-buf] Error 2
+  CC      techpack/camera/drivers/cam_lrme/lrme_hw_mgr/lrme_hw/cam_lrme_hw_core.o
+  CC      drivers/edac/edac_mc.o
+fixdep: error opening file: drivers/edac/.edac_mc.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/edac/edac_mc.o] Error 2
+  CC      drivers/edac/edac_device.o
+  CC      techpack/camera/drivers/cam_lrme/lrme_hw_mgr/lrme_hw/cam_lrme_hw_soc.o
+  AR      techpack/camera/drivers/cam_lrme/lrme_hw_mgr/lrme_hw/built-in.a
+  CC      techpack/camera/drivers/cam_lrme/lrme_hw_mgr/cam_lrme_hw_mgr.o
+  CC      drivers/edac/edac_mc_sysfs.o
+  AR      techpack/camera/drivers/cam_lrme/lrme_hw_mgr/built-in.a
+  CC      techpack/camera/drivers/cam_lrme/cam_lrme_dev.o
+  CC      drivers/edac/edac_module.o
+  CC      techpack/camera/drivers/cam_lrme/cam_lrme_context.o
+  AR      techpack/camera/drivers/cam_lrme/built-in.a
+  CC      drivers/edac/edac_device_sysfs.o
+  CC      techpack/camera/drivers/cam_req_mgr/cam_req_mgr_core.o
+  CC      drivers/edac/wq.o
+  CC      techpack/camera/drivers/cam_req_mgr/cam_req_mgr_dev.o
+  CC      drivers/edac/edac_pci.o
+  CC      drivers/edac/edac_pci_sysfs.o
+  CC      techpack/camera/drivers/cam_req_mgr/cam_req_mgr_util.o
+  CC      techpack/camera/drivers/cam_req_mgr/cam_req_mgr_workq.o
+  CC      drivers/edac/kryo_arm64_edac.o
+  CC      techpack/camera/drivers/cam_req_mgr/cam_mem_mgr.o
+  CC      drivers/edac/qcom_edac.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/edac] Error 2
+  CC      drivers/extcon/extcon.o
+  CC      techpack/camera/drivers/cam_req_mgr/cam_req_mgr_timer.o
+  CC      techpack/camera/drivers/cam_req_mgr/cam_req_mgr_debug.o
+  AR      techpack/camera/drivers/cam_req_mgr/built-in.a
+  CC      techpack/camera/drivers/cam_sensor_module/cam_actuator/cam_actuator_dev.o
+  CC      drivers/extcon/devres.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_actuator/cam_actuator_core.o
+  CC      drivers/extcon/extcon-gpio.o
+  AR      drivers/extcon/built-in.a
+  CC      drivers/fingerprint/fingerprint_common.o
+  CC      drivers/fingerprint/fingerprint_common_qcom.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_actuator/cam_actuator_soc.o
+  CC      drivers/fingerprint/et7xx-spi.o
+  AR      techpack/camera/drivers/cam_sensor_module/cam_actuator/built-in.a
+  CC      techpack/camera/drivers/cam_sensor_module/cam_cci/cam_cci_dev.o
+  CC      drivers/fingerprint/et7xx-spi_data_transfer.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_cci/cam_cci_core.o
+  CC      drivers/fingerprint/fingerprint_sysfs.o
+  AR      drivers/fingerprint/built-in.a
+  CC      drivers/firmware/psci.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_cci/cam_cci_soc.o
+  CC      drivers/firmware/qcom_scm.o
+  AR      techpack/camera/drivers/cam_sensor_module/cam_cci/built-in.a
+  CC      techpack/camera/drivers/cam_sensor_module/cam_csiphy/cam_csiphy_soc.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_csiphy/cam_csiphy_dev.o
+  CC      drivers/firmware/qcom_scm-64.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_csiphy/cam_csiphy_core.o
+  AR      drivers/firmware/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: drivers/firmware/qcom_scm.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: drivers/firmware/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/firmware] Error 2
+  CC      drivers/gpio/devres.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpio/.tmp_devres.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/gpio/devres.o] Error 1
+make[3]: *** Deleting file 'drivers/gpio/devres.o'
+  CC      drivers/gpio/gpiolib.o
+  AR      techpack/camera/drivers/cam_sensor_module/cam_csiphy/built-in.a
+  CC      techpack/camera/drivers/cam_sensor_module/cam_eeprom/cam_eeprom_dev.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_eeprom/cam_eeprom_core.o
+  CC      drivers/gpio/gpiolib-legacy.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_eeprom/cam_eeprom_soc.o
+  CC      drivers/gpio/gpiolib-devprop.o
+  AR      techpack/camera/drivers/cam_sensor_module/cam_eeprom/built-in.a
+  CC      techpack/camera/drivers/cam_sensor_module/cam_flash/cam_flash_dev.o
+  CC      drivers/gpio/gpiolib-of.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_flash/cam_flash_core.o
+  CC      drivers/gpio/gpiolib-sysfs.o
+  CC      drivers/gpio/sec-pinmux.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/gpio] Error 2
+  CC      techpack/camera/drivers/cam_sensor_module/cam_flash/cam_flash_soc.o
+  CC      drivers/gpu/drm/drm_crtc_helper.o
+  AR      techpack/camera/drivers/cam_sensor_module/cam_flash/built-in.a
+  CC      techpack/camera/drivers/cam_sensor_module/cam_ois/cam_ois_dev.o
+fixdep: error opening file: drivers/gpu/drm/.drm_crtc_helper.o.d: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_crtc_helper.o] Error 2
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_crtc_helper.o'
+  CC      drivers/gpu/drm/drm_dp_helper.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_ois/cam_ois_core.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_ois/cam_ois_soc.o
+  CC      drivers/gpu/drm/drm_probe_helper.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_ois/cam_ois_mcu_stm32g.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_probe_helper.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_probe_helper.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_probe_helper.o'
+  CC      drivers/gpu/drm/drm_plane_helper.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_plane_helper.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_plane_helper.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_plane_helper.o'
+  CC      drivers/gpu/drm/drm_dp_mst_topology.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_ois/cam_ois_thread.o
+  AR      techpack/camera/drivers/cam_sensor_module/cam_ois/built-in.a
+  CC      techpack/camera/drivers/cam_sensor_module/cam_res_mgr/cam_res_mgr.o
+mv: cannot stat 'drivers/gpu/drm/.drm_dp_mst_topology.o.tmp': No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_dp_mst_topology.o] Error 1
+  CC      drivers/gpu/drm/drm_atomic_helper.o
+  AR      techpack/camera/drivers/cam_sensor_module/cam_res_mgr/built-in.a
+  CC      techpack/camera/drivers/cam_sensor_module/cam_sensor/cam_sensor_dev.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_sensor/cam_sensor_core.o
+  CC      drivers/gpu/drm/drm_kms_helper_common.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_sensor/cam_sensor_soc.o
+  CC      drivers/gpu/drm/drm_dp_dual_mode_helper.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_sensor/cam_sensor_mipi.o
+  CC      drivers/gpu/drm/drm_simple_kms_helper.o
+  AR      techpack/camera/drivers/cam_sensor_module/cam_sensor/built-in.a
+  CC      techpack/camera/drivers/cam_sensor_module/cam_sensor_io/cam_sensor_io.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_simple_kms_helper.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_simple_kms_helper.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_simple_kms_helper.o'
+  CC      drivers/gpu/drm/drm_modeset_helper.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_sensor_io/cam_sensor_cci_i2c.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_sensor_io/cam_sensor_qup_i2c.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_modeset_helper.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_modeset_helper.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_modeset_helper.o'
+  CC      drivers/gpu/drm/drm_scdc_helper.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_sensor_io/cam_sensor_spi.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_scdc_helper.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_scdc_helper.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_scdc_helper.o'
+  CC      drivers/gpu/drm/drm_gem_framebuffer_helper.o
+  AR      techpack/camera/drivers/cam_sensor_module/cam_sensor_io/built-in.a
+  CC      techpack/camera/drivers/cam_sensor_module/cam_sensor_utils/cam_sensor_util.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/gpu/drm/.tmp_drm_gem_framebuffer_helper.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_gem_framebuffer_helper.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_gem_framebuffer_helper.o'
+  CC      drivers/gpu/drm/bridge/panel.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'drivers/gpu/drm/bridge/.tmp_panel.o': No such file
+mv: cannot stat 'drivers/gpu/drm/bridge/.tmp_panel.o': No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/bridge/panel.o] Error 1
+make[4]: *** Deleting file 'drivers/gpu/drm/bridge/panel.o'
+  CC      drivers/gpu/drm/drm_auth.o
+  CC      techpack/camera/drivers/cam_sensor_module/cam_sensor_utils/cam_sysfs_init.o
+fixdep: error opening file: drivers/gpu/drm/.drm_auth.o.d: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/gpu/drm/drm_auth.o] Error 2
+make[4]: *** Deleting file 'drivers/gpu/drm/drm_auth.o'
+  CC      drivers/gpu/drm/drm_bufs.o
+  AR      techpack/camera/drivers/cam_sensor_module/cam_sensor_utils/built-in.a
+  AR      techpack/camera/drivers/cam_sensor_module/built-in.a
+  CC      techpack/camera/drivers/cam_smmu/cam_smmu_api.o
+  CC      drivers/gpu/drm/drm_cache.o
+  CC      drivers/gpu/drm/drm_context.o
+  AR      techpack/camera/drivers/cam_smmu/built-in.a
+  CC      techpack/camera/drivers/cam_sync/cam_sync.o
+  CC      drivers/gpu/drm/drm_dma.o
+  CC      techpack/camera/drivers/cam_sync/cam_sync_util.o
+  CC      drivers/gpu/drm/drm_file.o
+  AR      techpack/camera/drivers/cam_sync/built-in.a
+  CC      techpack/camera/drivers/cam_utils/cam_soc_util.o
+  CC      drivers/gpu/drm/drm_gem.o
+  CC      techpack/camera/drivers/cam_utils/cam_io_util.o
+  CC      techpack/camera/drivers/cam_utils/cam_packet_util.o
+  CC      drivers/gpu/drm/drm_ioctl.o
+  CC      techpack/camera/drivers/cam_utils/cam_debug_util.o
+  CC      techpack/camera/drivers/cam_utils/cam_trace.o
+  CC      drivers/gpu/drm/drm_irq.o
+  CC      techpack/camera/drivers/cam_utils/cam_common_util.o
+  CC      techpack/camera/drivers/cam_utils/cam_cx_ipeak.o
+  AR      techpack/camera/drivers/cam_utils/built-in.a
+  AR      techpack/camera/drivers/built-in.a
+  AR      techpack/camera/built-in.a
+  CC      drivers/gpu/drm/drm_lock.o
+  CC      drivers/gpu/drm/drm_memory.o
+  CC      drivers/gpu/drm/drm_drv.o
+  CC      drivers/gpu/drm/drm_scatter.o
+  CC      drivers/gpu/drm/drm_pci.o
+  CC      drivers/gpu/drm/drm_sysfs.o
+  CC      drivers/gpu/drm/drm_hashtab.o
+  CC      drivers/gpu/drm/drm_mm.o
+  CC      drivers/gpu/drm/drm_crtc.o
+  CC      drivers/gpu/drm/drm_fourcc.o
+  CC      drivers/gpu/drm/drm_modes.o
+  CC      drivers/gpu/drm/drm_edid.o
