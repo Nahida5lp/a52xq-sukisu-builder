@@ -1598,61 +1598,197 @@ make[2]: *** [../scripts/Makefile.build:642: fs/proc] Error 2
 make[2]: *** [../scripts/Makefile.build:338: kernel/kprobes.o] Error 1
 make[2]: *** Deleting file 'kernel/kprobes.o'
   CC      kernel/seccomp.o
-rnel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/lsi,axm5516-clks.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos5260-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7794-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,lcc-ipq806x.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r9a06g032-sysctrl.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/s5pv210-audss.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/dm816.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,npucc-kona.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos5250.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3188-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/oxsemi,ox820.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/s3c2410.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-ipq4019.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rockchip,rk808.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/clps711x-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,mmcc-msm8996.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,mmcc-msm8974.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,rpmh.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mdss-10nm-pll-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7778-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3368-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/tegra124-car-common.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-sdm845.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-kona.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mt2701-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/histb-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-msm8960.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/hix5hd2-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/imx27-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/axg-aoclkc.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/zx296702-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/imx7d-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/axis,artpec6-clkctrl.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun8i-tcon-top.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3399-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a73a4-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,dispcc-sdm845.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-msm8916.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mt7622-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7793-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/maxim,max77620.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/gxbb-clkc.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a77470-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun5i-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3066a-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mdss-28nm-pll-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun8i-de2.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/tegra186-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/berlin2.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-msm8996.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/jz4770-cgu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,mmcc-sdm660.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos5420.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/maxim,max77686.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/jz4740-cgu.h: No such file or directory.
+  CC      drivers/char/hw_random/cavium-rng.o
+  CC      drivers/char/diag/diagfwd_socket.o
+  CC      drivers/char/hw_random/cavium-rng-vf.o
+  CC      kernel/utsname_sysctl.o
+  AR      drivers/char/hw_random/built-in.a
+  CC      fs/quota/quota_v2.o
+  CC      kernel/taskstats.o
+  CC      drivers/char/diag/diagfwd_rpmsg.o
+  CC      drivers/clk/clk-devres.o
+  CC      fs/quota/quota_tree.o
+  CC      drivers/char/diag/diag_mux.o
+  CC      drivers/clk/clk-bulk.o
+  CC      drivers/char/diag/diag_memorydevice.o
+  CC      kernel/tsacct.o
+  CC      drivers/clk/clkdev.o
+  CC      kernel/tracepoint.o
+  CC      fs/quota/quota.o
+  CC      drivers/char/diag/diag_usb.o
+  CC      drivers/clk/clk.o
+  CC      drivers/char/diag/diagmem.o
+  CC      kernel/elfcore.o
+  CC      drivers/char/diag/diagfwd_cntl.o
+  CC      fs/quota/kqid.o
+mv: cannot stat 'kernel/.elfcore.o.tmp': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/elfcore.o] Error 1
+  CC      kernel/irq_work.o
+  CC      fs/quota/netlink.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/.tmp_irq_work.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/irq_work.o] Error 1
+make[2]: *** Deleting file 'kernel/irq_work.o'
+  CC      kernel/cpu_pm.o
+  CC      drivers/char/diag/diag_dci.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/.tmp_cpu_pm.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/cpu_pm.o] Error 1
+make[2]: *** Deleting file 'kernel/cpu_pm.o'
+  CC      kernel/iomem.o
+  AR      fs/quota/built-in.a
+  CC      fs/ramfs/inode.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/.tmp_iomem.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: kernel/iomem.o] Error 1
+make[2]: *** Deleting file 'kernel/iomem.o'
+  CC      kernel/rseq.o
+  CC      fs/ramfs/file-mmu.o
+  CC      drivers/char/diag/diag_masks.o
+  AR      fs/ramfs/built-in.a
+  CC      fs/sdcardfs/dentry.o
+  CC      drivers/clk/clk-divider.o
+  CC      kernel/configs.o
+  CC      fs/sdcardfs/file.o
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: kernel] Error 2
+  CC      fs/sdfat/sdfat.o
+  CC      drivers/clk/clk-fixed-factor.o
+  CC      fs/sdcardfs/inode.o
+  CC      drivers/char/diag/diag_debugfs.o
+  CC      drivers/char/diag/diagfwd_bridge.o
+  CC      drivers/clk/clk-fixed-rate.o
+  CC      fs/sdcardfs/main.o
+  CC      drivers/char/diag/diagfwd_mhi.o
+  CC      drivers/clk/clk-gate.o
+  CC      fs/sdfat/core.o
+  CC      fs/sdcardfs/super.o
+  CC      drivers/clk/clk-multiplier.o
+  AR      drivers/char/diag/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: drivers/char/diag/diagfwd_cntl.o: No such file or directory
+make[4]: *** [../scripts/Makefile.build:501: drivers/char/diag/built-in.a] Error 1
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/char/diag] Error 2
+  CC      drivers/char/adsprpc.o
+  CC      fs/sdcardfs/lookup.o
+  CC      drivers/clk/clk-mux.o
+  CC      fs/sdcardfs/mmap.o
+  CC      drivers/clk/clk-composite.o
+  CC      fs/sdfat/core_fat.o
+  CC      fs/sdcardfs/packagelist.o
+  CC      drivers/clk/clk-fractional-divider.o
+  CC      fs/sdfat/core_exfat.o
+  CC      drivers/clk/clk-gpio.o
+  CC      drivers/clk/clk-conf.o
+  CC      fs/sdfat/api.o
+  CC      drivers/clk/clk-xgene.o
+  CC      drivers/char/adsprpc_compat.o
+  CC      drivers/clk/qcom/common.o
+  CC      fs/sdfat/blkdev.o
+  CC      fs/sdcardfs/derived_perm.o
+  AR      fs/sdcardfs/built-in.a
+  CC      drivers/clk/qcom/clk-regmap.o
+  CC      drivers/char/fastcvpd.o
+  CC      fs/sdfat/fatent.o
+  CC      drivers/clk/qcom/clk-alpha-pll.o
+  CC      fs/sdfat/amap_smart.o
+  CC [M]  drivers/char/rdbg.o
+  CC      drivers/clocksource/timer-of.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/char] Error 2
+  CC      drivers/cpufreq/cpufreq.o
+  CC      fs/sdfat/cache.o
+  CC      drivers/clocksource/timer-probe.o
+  CC      drivers/clocksource/arm_arch_timer.o
+  CC      drivers/clk/qcom/clk-pll.o
+  CC      fs/sdfat/dfr.o
+  CC      drivers/clk/qcom/clk-rcg.o
+  CC      fs/sdfat/nls.o
+  CC      drivers/clocksource/dummy_timer.o
+  AR      drivers/clocksource/built-in.a
+  CC      drivers/clk/qcom/clk-rcg2.o
+  CC      drivers/cpufreq/freq_table.o
+  CC      fs/sdfat/misc.o
+  CC      drivers/cpufreq/cpufreq_times.o
+  CC      fs/sysfs/file.o
+  CC      fs/sdfat/mpage.o
+  CC      drivers/cpufreq/cpufreq_limit.o
+  CC      drivers/clk/qcom/clk-branch.o
+  CC      fs/sysfs/dir.o
+  CC      fs/sdfat/extent.o
+  CC      drivers/cpufreq/cpufreq_performance.o
+  CC      fs/sysfs/symlink.o
+  CC      drivers/clk/qcom/clk-regmap-divider.o
+  CC      drivers/cpufreq/cpufreq_powersave.o
+  CC      fs/sdfat/statistics.o
+  CC      drivers/cpufreq/cpufreq_userspace.o
+  CC      fs/sysfs/mount.o
+  CC      drivers/clk/qcom/clk-regmap-mux.o
+  CC      drivers/cpufreq/cpufreq_ondemand.o
+  CC      fs/sysfs/group.o
+mv: cannot stat 'fs/sdfat/.statistics.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: fs/sdfat/statistics.o] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/sdfat] Error 2
+  CC      fs/tracefs/inode.o
+  CC      drivers/clk/qcom/clk-regmap-mux-div.o
+  AR      fs/sysfs/built-in.a
+  AR      fs/tracefs/built-in.a
+  CC      drivers/cpufreq/cpufreq_conservative.o
+  CC      fs/verity/enable.o
+  CC      drivers/cpufreq/cpufreq_governor.o
+  CC      drivers/clk/qcom/reset.o
+  CC      drivers/clk/qcom/clk-voter.o
+fixdep: error opening file: fs/verity/.enable.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/verity/enable.o] Error 2
+  CC      fs/verity/hash_algs.o
+  CC      drivers/cpufreq/cpufreq_governor_attr_set.o
+  CC      drivers/clk/qcom/clk-dummy.o
+  CC      drivers/cpufreq/cpu-boost.o
+  CC      fs/verity/init.o
+  CC      drivers/clk/qcom/clk-debug.o
+  CC      fs/verity/measure.o
+  CC      drivers/cpufreq/qcom-cpufreq-hw.o
+  CC      fs/verity/open.o
+  CC      drivers/clk/qcom/gdsc-regulator.o
+  CC      drivers/cpufreq/qcom-cpufreq-hw-debug.o
+  CC      fs/verity/verify.o
+  AR      drivers/cpufreq/built-in.a
+  CC      drivers/clk/qcom/gdsc.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/verity/.tmp_verify.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/verity/verify.o] Error 1
+make[3]: *** Deleting file 'fs/verity/verify.o'
+  CC      fs/verity/signature.o
+  CC      drivers/clk/qcom/clk-aop-qmp.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/verity] Error 2
+  CC      fs/eventpoll.o
+  CC      drivers/clk/qcom/clk-rpmh.o
+  CC      drivers/clk/qcom/camcc-lagoon.o
+  CC      drivers/clk/qcom/debugcc-lagoon.o
+  CC      drivers/clk/qcom/dispcc-lagoon.o
+  CC      fs/anon_inodes.o
+  CC      drivers/clk/qcom/gcc-lagoon.o
+  CC      fs/signalfd.o
+  CC      drivers/clk/qcom/gpucc-lagoon.o
+  CC      fs/timerfd.o
+  CC      drivers/clk/qcom/npucc-lagoon.o
+  CC      drivers/clk/qcom/videocc-lagoon.o
+  CC      fs/eventfd.o
+  CC      drivers/clk/qcom/clk-spmi-pmic-div.o
+  AR      drivers/clk/qcom/built-in.a
+  AR      drivers/clk/built-in.a
+  CC      drivers/cpuidle/cpuidle.o
+  CC      fs/aio.o
+  CC      drivers/cpuidle/driver.o
+  CC      drivers/cpuidle/governor.o
+fixdep: error opening file: fs/.aio.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/aio.o] Error 2
+  CC      fs/locks.o
+  CC      drivers/cpuidle/sysfs.o
+  CC      drivers/cpuidle/governors/menu.o
+  AR      drivers/cpuidle/governors/built-in.a
+  CC      drivers/cpuidle/dt_idle_states.o
+  CC      drivers/cpuidle/cpuidle-arm.o
+  CC      drivers/cpuidle/lpm-levels.o
+nel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/jz4740-cgu.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/axg-clkc.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-apq8084.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun6i-a31-ccu.h: No such file or directory.
@@ -2860,3 +2996,201 @@ make[2]: *** [../scripts/Makefile.build:642: fs/proc] Error 2
   CC      fs/pstore/ram_core.o
   CC      drivers/char/diag/diagfwd_socket.o
   CC      kernel/seccomp.o
+  AR      fs/pstore/built-in.a
+  CC      fs/quota/dquot.o
+  CC      drivers/char/diag/diagfwd_rpmsg.o
+  CC      kernel/utsname_sysctl.o
+  CC      kernel/taskstats.o
+  CC      drivers/char/diag/diag_mux.o
+  CC      drivers/char/diag/diag_memorydevice.o
+  CC      fs/quota/quota_v2.o
+  CC      kernel/tsacct.o
+  CC      drivers/char/diag/diag_usb.o
+  CC      fs/quota/quota_tree.o
+  CC      kernel/tracepoint.o
+  CC      drivers/char/diag/diagmem.o
+  CC      kernel/elfcore.o
+  CC      fs/quota/quota.o
+  CC      drivers/char/diag/diagfwd_cntl.o
+  CC      kernel/irq_work.o
+  CC      kernel/cpu_pm.o
+fixdep: error opening file: drivers/char/diag/.diagfwd_cntl.o.d: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/char/diag/diagfwd_cntl.o] Error 2
+make[4]: *** Deleting file 'drivers/char/diag/diagfwd_cntl.o'
+  CC      drivers/char/diag/diag_dci.o
+  CC      fs/quota/kqid.o
+  CC      kernel/iomem.o
+  CC      fs/quota/netlink.o
+  CC      kernel/rseq.o
+  AR      fs/quota/built-in.a
+fixdep: error opening file: drivers/char/diag/.diag_dci.o.d: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/char/diag/diag_dci.o] Error 2
+make[4]: *** Deleting file 'drivers/char/diag/diag_dci.o'
+  CC      drivers/char/diag/diag_masks.o
+  CC      fs/ramfs/file-mmu.o
+  CC      kernel/configs.o
+  AR      fs/ramfs/built-in.a
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: kernel] Error 2
+  CC      fs/sdcardfs/dentry.o
+  CC      techpack/camera/drivers/cam_cdm/cam_cdm_soc.o
+  CC      fs/sdcardfs/file.o
+  CC      techpack/camera/drivers/cam_cdm/cam_cdm_util.o
+  CC      fs/sdcardfs/inode.o
+  CC      drivers/char/diag/diag_debugfs.o
+  CC      drivers/char/diag/diagfwd_bridge.o
+  CC      drivers/char/diag/diagfwd_mhi.o
+  CC      techpack/camera/drivers/cam_cdm/cam_cdm_intf.o
+  CC      fs/sdcardfs/main.o
+  CC      techpack/camera/drivers/cam_cdm/cam_cdm_core_common.o
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/char/diag] Error 2
+  CC      drivers/char/adsprpc.o
+  CC      fs/sdcardfs/super.o
+  CC      techpack/camera/drivers/cam_cdm/cam_cdm_virtual_core.o
+  CC      fs/sdcardfs/lookup.o
+  CC      fs/sdcardfs/mmap.o
+  CC      techpack/camera/drivers/cam_cdm/cam_cdm_hw_core.o
+  CC      fs/sdcardfs/packagelist.o
+  AR      techpack/camera/drivers/cam_cdm/built-in.a
+  CC      techpack/camera/drivers/cam_core/cam_context.o
+  CC      techpack/camera/drivers/cam_core/cam_context_utils.o
+  CC      techpack/camera/drivers/cam_core/cam_node.o
+fixdep: error opening file: drivers/char/.adsprpc.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/char/adsprpc.o] Error 2
+make[3]: *** Deleting file 'drivers/char/adsprpc.o'
+  CC      drivers/char/adsprpc_compat.o
+  CC      techpack/camera/drivers/cam_core/cam_subdev.o
+  CC      fs/sdcardfs/derived_perm.o
+  AR      techpack/camera/drivers/cam_core/built-in.a
+  CC      techpack/camera/drivers/cam_cpas/camss_top/cam_camsstop_hw.o
+  AR      fs/sdcardfs/built-in.a
+  CC      fs/sdfat/amap_smart.o
+  AR      techpack/camera/drivers/cam_cpas/camss_top/built-in.a
+  CC      techpack/camera/drivers/cam_cpas/cpas_top/cam_cpastop_hw.o
+fixdep: error opening file: drivers/char/.adsprpc_compat.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/char/adsprpc_compat.o] Error 2
+make[3]: *** Deleting file 'drivers/char/adsprpc_compat.o'
+  CC      drivers/char/fastcvpd.o
+mv: cannot stat 'fs/sdfat/.amap_smart.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/sdfat/amap_smart.o] Error 1
+  CC      fs/sdfat/cache.o
+  AR      techpack/camera/drivers/cam_cpas/cpas_top/built-in.a
+  CC      techpack/camera/drivers/cam_cpas/cam_cpas_soc.o
+  CC [M]  drivers/char/rdbg.o
+  CC      techpack/camera/drivers/cam_cpas/cam_cpas_intf.o
+  CC      fs/sdfat/dfr.o
+  CC      fs/sdfat/nls.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/char] Error 2
+  CC      drivers/clk/qcom/clk-rcg.o
+  CC      techpack/camera/drivers/cam_cpas/cam_cpas_hw.o
+  CC      fs/sdfat/misc.o
+  CC      drivers/clk/qcom/clk-rcg2.o
+  AR      techpack/camera/drivers/cam_cpas/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/sdfat/.tmp_misc.ver: No such file or directory
+  CC      techpack/camera/drivers/cam_cust/cam_custom_hw_mgr/cam_custom_csid/cam_custom_csid_dev.o
+make[3]: *** [../scripts/Makefile.build:338: fs/sdfat/misc.o] Error 1
+make[3]: *** Deleting file 'fs/sdfat/misc.o'
+  CC      fs/sdfat/mpage.o
+  AR      techpack/camera/drivers/cam_cust/cam_custom_hw_mgr/cam_custom_csid/built-in.a
+  CC      techpack/camera/drivers/cam_cust/cam_custom_hw_mgr/cam_custom_hw1/cam_custom_sub_mod_soc.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'fs/sdfat/.tmp_mpage.o': No such file
+mv: cannot stat 'fs/sdfat/.tmp_mpage.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/sdfat/mpage.o] Error 1
+make[3]: *** Deleting file 'fs/sdfat/mpage.o'
+  CC      fs/sdfat/extent.o
+  CC      drivers/clk/qcom/clk-branch.o
+  CC      techpack/camera/drivers/cam_cust/cam_custom_hw_mgr/cam_custom_hw1/cam_custom_sub_mod_dev.o
+  CC      fs/sdfat/statistics.o
+  CC      drivers/clk/qcom/clk-regmap-divider.o
+  CC      techpack/camera/drivers/cam_cust/cam_custom_hw_mgr/cam_custom_hw1/cam_custom_sub_mod_core.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/sdfat] Error 2
+  CC      fs/sysfs/group.o
+  AR      techpack/camera/drivers/cam_cust/cam_custom_hw_mgr/cam_custom_hw1/built-in.a
+  CC      techpack/camera/drivers/cam_cust/cam_custom_hw_mgr/cam_custom_hw_mgr.o
+  CC      drivers/clk/qcom/clk-regmap-mux.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/sysfs/.tmp_group.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: fs/sysfs/group.o] Error 1
+make[3]: *** Deleting file 'fs/sysfs/group.o'
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/sysfs] Error 2
+  CC      fs/verity/enable.o
+  CC      drivers/clk/qcom/clk-regmap-mux-div.o
+  AR      techpack/camera/drivers/cam_cust/cam_custom_hw_mgr/built-in.a
+  CC      techpack/camera/drivers/cam_cust/cam_custom_dev.o
+  CC      drivers/clk/qcom/reset.o
+  CC      drivers/clk/qcom/clk-voter.o
+  CC      fs/verity/hash_algs.o
+  CC      techpack/camera/drivers/cam_cust/cam_custom_context.o
+  CC      drivers/clk/qcom/clk-dummy.o
+  CC      fs/verity/init.o
+  CC      fs/verity/measure.o
+  CC      drivers/clk/qcom/clk-debug.o
+  AR      techpack/camera/drivers/cam_cust/built-in.a
+  CC      techpack/camera/drivers/cam_fd/fd_hw_mgr/fd_hw/cam_fd_hw_dev.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'fs/verity/.tmp_measure.o': No such file
+mv: cannot stat 'fs/verity/.tmp_measure.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/verity/measure.o] Error 1
+make[3]: *** Deleting file 'fs/verity/measure.o'
+  CC      fs/verity/open.o
+  CC      techpack/camera/drivers/cam_fd/fd_hw_mgr/fd_hw/cam_fd_hw_core.o
+  CC      fs/verity/verify.o
+  CC      drivers/clk/qcom/gdsc-regulator.o
+  CC      techpack/camera/drivers/cam_fd/fd_hw_mgr/fd_hw/cam_fd_hw_soc.o
+  CC      drivers/clk/qcom/gdsc.o
+  CC      fs/verity/signature.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/verity] Error 2
+  CC      fs/eventpoll.o
+  CC      drivers/clk/qcom/clk-aop-qmp.o
+  AR      techpack/camera/drivers/cam_fd/fd_hw_mgr/fd_hw/built-in.a
+  CC      techpack/camera/drivers/cam_fd/fd_hw_mgr/cam_fd_hw_mgr.o
+  CC      drivers/clk/qcom/clk-rpmh.o
+  CC      drivers/clk/qcom/camcc-lagoon.o
+  CC      drivers/clk/qcom/debugcc-lagoon.o
+fixdep: error opening file: fs/.eventpoll.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/eventpoll.o] Error 2
+  CC      fs/anon_inodes.o
+  AR      techpack/camera/drivers/cam_fd/fd_hw_mgr/built-in.a
+  CC      techpack/camera/drivers/cam_fd/cam_fd_dev.o
+  CC      drivers/clk/qcom/dispcc-lagoon.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_anon_inodes.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/anon_inodes.o] Error 1
+make[2]: *** Deleting file 'fs/anon_inodes.o'
+  CC      fs/signalfd.o
+  CC      techpack/camera/drivers/cam_fd/cam_fd_context.o
+  CC      drivers/clk/qcom/gcc-lagoon.o
+  AR      techpack/camera/drivers/cam_fd/built-in.a
+  CC      techpack/camera/drivers/cam_icp/icp_hw/a5_hw/a5_dev.o
+  CC      drivers/clk/qcom/gpucc-lagoon.o
+  CC      fs/timerfd.o
+  CC      drivers/clk/qcom/npucc-lagoon.o
+  CC      techpack/camera/drivers/cam_icp/icp_hw/a5_hw/a5_core.o
+  CC      fs/eventfd.o
+  CC      drivers/clk/qcom/videocc-lagoon.o
+  CC      techpack/camera/drivers/cam_icp/icp_hw/a5_hw/a5_soc.o
+  CC      drivers/clk/qcom/clk-spmi-pmic-div.o
+  AR      techpack/camera/drivers/cam_icp/icp_hw/a5_hw/built-in.a
+  CC      techpack/camera/drivers/cam_icp/icp_hw/bps_hw/bps_dev.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_eventfd.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/eventfd.o] Error 1
+make[2]: *** Deleting file 'fs/eventfd.o'
+  CC      fs/aio.o
+  AR      drivers/clk/qcom/built-in.a
+  AR      drivers/clk/built-in.a
+  CC      drivers/cpuidle/cpuidle.o
+  CC      techpack/camera/drivers/cam_icp/icp_hw/bps_hw/bps_core.o
+  CC      techpack/camera/drivers/cam_icp/icp_hw/bps_hw/bps_soc.o
+  CC      drivers/cpuidle/driver.o
+  AR      techpack/camera/drivers/cam_icp/icp_hw/bps_hw/built-in.a
+  CC      techpack/camera/drivers/cam_icp/icp_hw/icp_hw_mgr/cam_icp_hw_mgr.o
+  CC      fs/locks.o
+  CC      drivers/cpuidle/governor.o
+  CC      drivers/cpuidle/sysfs.o
+  CC      drivers/cpuidle/dt_idle_states.o
+  AR      techpack/camera/drivers/cam_icp/icp_hw/icp_hw_mgr/built-in.a
+  CC      techpack/camera/drivers/cam_icp/icp_hw/ipe_hw/ipe_dev.o
+  CC      drivers/cpuidle/cpuidle-arm.o
+  CC      drivers/cpuidle/lpm-levels.o
