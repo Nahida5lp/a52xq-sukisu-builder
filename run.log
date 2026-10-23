@@ -581,30 +581,287 @@ make[2]: *** [../scripts/Makefile.build:642: security/samsung/five] Error 2
   CC      security/samsung/proca/s_os/proca_lsm.o
   CC      kernel/irq/manage.o
   CC      fs/dlog_hook.o
-8: fs/block_dev.o] Error 2
-make[2]: *** Deleting file 'fs/block_dev.o'
-  CC      fs/direct-io.o
-  CC      security/samsung/proca/proca_identity.o
-  CC      kernel/events/hw_breakpoint.o
-  CC      security/samsung/proca/proca_fcntl.o
-  CC      mm/msync.o
-  CC      security/samsung/proca/proca_task_descr.o
-  CC      mm/page_vma_mapped.o
-  CC      security/samsung/proca/proca_certificate.asn1.o
-  CC      kernel/events/uprobes.o
-  CC      security/samsung/proca/proca_certificate.o
-  CC      mm/pagewalk.o
-  CC      security/samsung/proca/proca_table.o
-  CC      mm/pgtable-generic.o
-  CC      fs/mpage.o
-  CC      security/samsung/proca/proca_config.o
-  CC      mm/rmap.o
-  CC      security/samsung/proca/s_os/proca_storage_xattr.o
-  AR      kernel/events/built-in.a
-  CC      kernel/irq/handle.o
-/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_mpage.ver: No such file or directory
-make[2]: *** [../scripts/Makefile.build:338: fs/mpage.o] Error 1
-make[2]: *** Deleting file 'fs/mpage.o'
-  CC      fs/proc_namespace.o
-  CC      security/samsung/proca/s_os/proca_lsm.o
-  CC      fs/dlog_hook.o
+  AR      security/samsung/proca/built-in.a
+  CC      security/samsung/proca/gaf/gaf_v6.o
+  CC      fs/configfs/inode.o
+  AR      security/samsung/proca/gaf/built-in.a
+  CC      security/sdp/dek.o
+  CC      mm/vmalloc.o
+  CC      kernel/irq/spurious.o
+fixdep: error opening file: fs/configfs/.inode.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/configfs/inode.o] Error 2
+make[3]: *** Deleting file 'fs/configfs/inode.o'
+  CC      fs/configfs/file.o
+  CC      kernel/irq/resend.o
+  CC      fs/configfs/dir.o
+  CC      kernel/irq/chip.o
+  CC      security/sdp/dek_aes.o
+fixdep: error opening file: fs/configfs/.dir.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/configfs/dir.o] Error 2
+  CC      fs/configfs/symlink.o
+  CC      security/sdp/pub_crypto_emul.o
+fixdep: error opening file: mm/.vmalloc.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/vmalloc.o] Error 2
+  CC      mm/process_vm_access.o
+  CC      fs/configfs/mount.o
+  CC      kernel/irq/dummychip.o
+  CC      mm/showmem.o
+  CC      fs/configfs/item.o
+  CC      security/sdp/dek_sysfs.o
+  CC      mm/vmpressure.o
+  CC      security/sdp/cache_cleanup.o
+  CC      kernel/irq/devres.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/configfs] Error 2
+  CC      fs/crypto/crypto.o
+  CC      mm/showmem_extra.o
+  CC      security/sdp/kek_pack.o
+  CC      mm/init-mm.o
+  CC      kernel/irq/autoprobe.o
+  CC      security/sdp/fs_handler.o
+  CC      mm/sec_mm/sec_mm_init.o
+  CC      mm/sec_mm/lowfile_detect.o
+  CC      fs/crypto/fname.o
+  CC      kernel/irq/irqdomain.o
+  CC      mm/sec_mm/show_mem.o
+  AR      security/sdp/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: security/sdp/dek.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: security/sdp/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: security/sdp] Error 2
+  CC      security/selinux/avc.o
+fixdep: error opening file: kernel/irq/.irqdomain.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/irq/irqdomain.o] Error 2
+make[3]: *** Deleting file 'kernel/irq/irqdomain.o'
+  CC      kernel/irq/proc.o
+  AR      mm/sec_mm/built-in.a
+  CC      mm/nobootmem.o
+  CC      fs/crypto/hkdf.o
+  CC      kernel/irq/cpuhotplug.o
+  CC      fs/crypto/hooks.o
+  CC      mm/madvise.o
+  CC      kernel/irq/pm.o
+  CC      security/selinux/hooks.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/crypto/.tmp_hooks.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/crypto/hooks.o] Error 1
+make[3]: *** Deleting file 'fs/crypto/hooks.o'
+  CC      fs/crypto/keyring.o
+  CC      mm/memblock.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/irq/.tmp_pm.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/irq/pm.o] Error 1
+make[3]: *** Deleting file 'kernel/irq/pm.o'
+  CC      kernel/irq/msi.o
+  CC      kernel/irq/affinity.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/crypto/.tmp_keyring.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/crypto/keyring.o] Error 1
+make[3]: *** Deleting file 'fs/crypto/keyring.o'
+  CC      fs/crypto/keysetup.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: kernel/irq] Error 2
+  CC      kernel/locking/mutex.o
+  CC      mm/page_io.o
+  CC      kernel/locking/semaphore.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/crypto/.tmp_keysetup.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/crypto/keysetup.o] Error 1
+make[3]: *** Deleting file 'fs/crypto/keysetup.o'
+  CC      fs/crypto/keysetup_v1.o
+  CC      mm/swap_state.o
+  CC      security/selinux/selinuxfs.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/locking/.tmp_semaphore.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/locking/semaphore.o] Error 1
+make[3]: *** Deleting file 'kernel/locking/semaphore.o'
+  CC      kernel/locking/rwsem.o
+fixdep: error opening file: mm/.swap_state.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/swap_state.o] Error 2
+make[2]: *** Deleting file 'mm/swap_state.o'
+  CC      mm/swapfile.o
+  CC      fs/crypto/policy.o
+  CC      kernel/locking/percpu-rwsem.o
+  CC      kernel/locking/spinlock.o
+  CC      security/selinux/netlink.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'fs/crypto/.tmp_policy.o': No such file
+mv: cannot stat 'fs/crypto/.tmp_policy.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/crypto/policy.o] Error 1
+make[3]: *** Deleting file 'fs/crypto/policy.o'
+  CC      fs/crypto/bio.o
+  CC      kernel/locking/osq_lock.o
+  CC      security/selinux/nlmsgtab.o
+  CC      kernel/locking/qspinlock.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/crypto/.tmp_bio.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/crypto/bio.o] Error 1
+make[3]: *** Deleting file 'fs/crypto/bio.o'
+  CC      fs/crypto/inline_crypt.o
+  CC      kernel/locking/rtmutex.o
+  CC      security/selinux/netif.o
+fixdep: error opening file: mm/.swapfile.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: mm/swapfile.o] Error 2
+  CC      mm/swap_slots.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'fs/crypto/.tmp_inline_crypt.o': No such file
+mv: cannot stat 'fs/crypto/.tmp_inline_crypt.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/crypto/inline_crypt.o] Error 1
+make[3]: *** Deleting file 'fs/crypto/inline_crypt.o'
+  CC      fs/crypto/sdp/sdp_cache.o
+  CC      kernel/locking/rwsem-xadd.o
+  CC      mm/swap_ratio.o
+  CC      security/selinux/netnode.o
+  CC      mm/dmapool.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/locking/.tmp_rwsem-xadd.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/locking/rwsem-xadd.o] Error 1
+make[3]: *** Deleting file 'kernel/locking/rwsem-xadd.o'
+  CC      kernel/locking/qrwlock.o
+fixdep: error opening file: kernel/locking/.qrwlock.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: kernel/locking/qrwlock.o] Error 2
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: kernel/locking] Error 2
+  CC      kernel/power/qos.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/crypto/sdp/.tmp_sdp_cache.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: fs/crypto/sdp/sdp_cache.o] Error 1
+make[3]: *** Deleting file 'fs/crypto/sdp/sdp_cache.o'
+  CC      security/selinux/netport.o
+  CC      fs/crypto/sdp/sdp_dek.o
+  CC      mm/sparse.o
+  CC      security/selinux/exports.o
+  CC      kernel/power/main.o
+  CC      fs/crypto/sdp/sdp_ioctl.o
+  CC      mm/sparse-vmemmap.o
+  CC      security/selinux/ss/ebitmap.o
+  CC      mm/slub.o
+  CC      fs/crypto/sdp/sdp_name.o
+  CC      fs/crypto/sdp/sdp_xattr.o
+  CC      security/selinux/ss/hashtab.o
+  CC      kernel/power/process.o
+  CC      fs/crypto/sdp/sdp_crypto.o
+  CC      security/selinux/ss/symtab.o
+  CC      security/selinux/ss/sidtab.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/crypto] Error 2
+  CC      fs/devpts/inode.o
+  CC      kernel/power/suspend.o
+  AR      fs/devpts/built-in.a
+  CC      fs/ecryptfs/dentry.o
+  CC      security/selinux/ss/avtab.o
+  CC      fs/ecryptfs/file.o
+  CC      kernel/power/wakelock.o
+  CC      security/selinux/ss/policydb.o
+  CC      mm/migrate.o
+  CC      kernel/power/poweroff.o
+  CC      fs/ecryptfs/inode.o
+  CC      kernel/power/energy_model.o
+  CC      kernel/power/wakeup_reason.o
+  CC      fs/ecryptfs/main.o
+  CC      security/selinux/ss/services.o
+  AR      kernel/power/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: kernel/power/qos.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: kernel/power/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: kernel/power] Error 2
+  CC      kernel/printk/printk.o
+  CC      fs/ecryptfs/super.o
+  CC      mm/page_counter.o
+  CC      mm/memcontrol.o
+  CC      fs/ecryptfs/mmap.o
+  CC      fs/ecryptfs/read_write.o
+  CC      security/selinux/ss/conditional.o
+  CC      kernel/printk/printk_safe.o
+  CC      fs/ecryptfs/crypto.o
+  AR      kernel/printk/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: kernel/printk/printk.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: kernel/printk/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: kernel/printk] Error 2
+  CC      kernel/rcu/update.o
+  CC      security/selinux/ss/mls.o
+  CC      fs/ecryptfs/keystore.o
+  CC      security/selinux/ss/status.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/rcu/.tmp_update.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/rcu/update.o] Error 1
+make[3]: *** Deleting file 'kernel/rcu/update.o'
+  CC      kernel/rcu/sync.o
+  CC      kernel/rcu/srcutree.o
+  CC      security/selinux/netlabel.o
+  CC      mm/swap_cgroup.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/rcu/.tmp_srcutree.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/rcu/srcutree.o] Error 1
+make[3]: *** Deleting file 'kernel/rcu/srcutree.o'
+  CC      kernel/rcu/tree.o
+  CC      fs/ecryptfs/kthread.o
+  CC      fs/ecryptfs/debug.o
+  CC      mm/cleancache.o
+  AR      security/selinux/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: security/selinux/hooks.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: security/selinux/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: security/selinux] Error 2
+  CC      security/smack/smack_lsm.o
+  CC      fs/ecryptfs/messaging.o
+  CC      mm/rbinregion.o
+  CC      fs/ecryptfs/miscdev.o
+  CC      mm/rbincache.o
+  AR      fs/ecryptfs/built-in.a
+  CC      fs/erofs/super.o
+  CC      mm/page_isolation.o
+  CC      security/smack/smack_access.o
+  CC      mm/zsmalloc.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/rcu/.tmp_tree.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/rcu/tree.o] Error 1
+make[3]: *** Deleting file 'kernel/rcu/tree.o'
+  CC      kernel/rcu/rcu_segcblist.o
+  CC      fs/erofs/inode.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: kernel/rcu] Error 2
+  CC      kernel/sched/core.o
+  CC      security/smack/smackfs.o
+  CC      fs/erofs/data.o
+  CC      fs/erofs/namei.o
+  CC      mm/early_ioremap.o
+  CC      fs/erofs/dir.o
+  CC      mm/cma.o
+  AR      security/smack/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: security/smack/smack_access.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: security/smack/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: security/smack] Error 2
+  CC      security/commoncap.o
+  CC      fs/erofs/utils.o
+  CC      fs/erofs/xattr.o
+  CC      mm/usercopy.o
+  CC      security/min_addr.o
+  CC      security/security.o
+  CC      mm/memfd.o
+  CC      fs/erofs/decompressor.o
+  CC      fs/erofs/zmap.o
+  CC      mm/process_reclaim.o
+01: kernel/rcu/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: kernel/rcu] Error 2
+  CC      fs/erofs/data.o
+  CC      kernel/sched/core.o
+  CC      mm/zsmalloc.o
+mv: cannot stat 'security/smack/.smack_access.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: security/smack/smack_access.o] Error 1
+make[3]: *** Deleting file 'security/smack/smack_access.o'
+  CC      security/smack/smackfs.o
+  CC      fs/erofs/namei.o
+  CC      fs/erofs/dir.o
+  CC      fs/erofs/utils.o
+mv: cannot stat 'security/smack/.smackfs.o.tmp': No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: security/smack/smackfs.o] Error 1
+make[3]: *** Deleting file 'security/smack/smackfs.o'
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: security/smack] Error 2
+  CC      security/commoncap.o
+  CC      mm/early_ioremap.o
+  CC      mm/cma.o
+  CC      fs/erofs/xattr.o
+mv: cannot stat 'security/.commoncap.o.tmp': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: security/commoncap.o] Error 1
+make[2]: *** Deleting file 'security/commoncap.o'
+  CC      security/min_addr.o
+mv: cannot stat 'security/.min_addr.o.tmp': No such file or directory
+  CC      fs/erofs/decompressor.o
+make[2]: *** [../scripts/Makefile.build:338: security/min_addr.o] Error 1
+  CC      security/security.o
+  CC      mm/usercopy.o
+  CC      fs/erofs/zmap.o
+  CC      fs/erofs/zdata.o
+  CC      mm/memfd.o
