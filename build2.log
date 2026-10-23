@@ -221,3 +221,4 @@ Use '--' to separate paths from revisions, like this:
   AR      drivers/net/built-in.a
 make[2]: Target '__build' not remade because of errors.
 make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: drivers] Error 2
+  CC      techpack/audio/ipc/apr.o
