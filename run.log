@@ -2033,30 +2033,95 @@ make[4]: *** Deleting file 'drivers/gpu/drm/drm_irq.o'
   CC      net/core/scm.o
   CC      drivers/gpu/drm/drm_edid.o
   CC      net/core/gen_stats.o
-indings/clock/stm32h7-clks.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos4.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,camcc-lito.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/bcm-sr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/maxim,max77802.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/dm814.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-mdm9615.h: No such file or directory.
-  CC      drivers/base/devcon.o
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/bcm21664.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/bcm-cygnus.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/pxa-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,lcc-mdm9615.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/actions,s700-cmu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mt6797-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,mmcc-msm8960.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,mmcc-apq8084.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gpucc-lagoon.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3328-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mdss-7nm-pll-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mt8135-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7794-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun50i-h6-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/exynos7-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/hi3660-clock.h: No such file or directory.
+  CC      net/core/gen_estimator.o
+  CC      drivers/gpu/drm/drm_info.o
+  CC      drivers/gpu/drm/drm_encoder_slave.o
+  CC      net/core/net_namespace.o
+  CC      drivers/gpu/drm/drm_trace_points.o
+  CC      drivers/gpu/drm/drm_prime.o
+  CC      net/core/secure_seq.o
+  CC      drivers/gpu/drm/drm_rect.o
+  CC      net/core/flow_dissector.o
+  CC      drivers/gpu/drm/drm_vma_manager.o
+  CC      drivers/gpu/drm/drm_flip_work.o
+  CC      net/core/sysctl_net_core.o
+  CC      drivers/gpu/drm/drm_modeset_lock.o
+  CC      drivers/gpu/drm/drm_atomic.o
+  CC      net/core/dev.o
+  CC      drivers/gpu/drm/drm_bridge.o
+  CC      drivers/gpu/drm/drm_framebuffer.o
+  CC      drivers/gpu/drm/drm_connector.o
+  CC      drivers/gpu/drm/drm_blend.o
+  CC      net/core/ethtool.o
+  CC      drivers/gpu/drm/drm_encoder.o
+  CC      drivers/gpu/drm/drm_mode_object.o
+  CC      net/core/dev_addr_lists.o
+  CC      drivers/gpu/drm/drm_property.o
+  CC      drivers/gpu/drm/drm_plane.o
+  CC      net/core/dst.o
+  CC      drivers/gpu/drm/drm_color_mgmt.o
+  CC      net/core/netevent.o
+  CC      drivers/gpu/drm/drm_print.o
+  CC      net/core/neighbour.o
+  CC      drivers/gpu/drm/drm_dumb_buffers.o
+  CC      drivers/gpu/drm/drm_mode_config.o
+  CC      drivers/gpu/drm/drm_vblank.o
+  CC      net/core/rtnetlink.o
+  CC      drivers/gpu/drm/drm_syncobj.o
+  CC      drivers/gpu/drm/drm_lease.o
+  CC      net/core/utils.o
+  CC      drivers/gpu/drm/drm_writeback.o
+  CC      net/core/link_watch.o
+  CC      drivers/gpu/drm/drm_client.o
+  CC      drivers/gpu/drm/drm_ioc32.o
+  CC      net/core/filter.o
+  CC      drivers/gpu/drm/ati_pcigart.o
+  CC      drivers/gpu/drm/drm_panel.o
+  CC      drivers/gpu/drm/drm_of.o
+  CC      drivers/gpu/drm/drm_mipi_dsi.o
+  CC      net/core/sock_diag.o
+  CC      drivers/gpu/drm/drm_panel_orientation_quirks.o
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/gpu/drm] Error 2
+  CC      net/core/dev_ioctl.o
+  CC      drivers/gpu/msm/kgsl.o
+  CC      net/core/tso.o
+  CC      net/core/sock_reuseport.o
+  CC      drivers/gpu/msm/kgsl_trace.o
+  CC      net/core/fib_notifier.o
+  CC      net/core/xdp.o
+  CC      drivers/gpu/msm/kgsl_drawobj.o
+  CC      net/core/net_ipc_log.o
+  CC      net/core/net-sysfs.o
+  CC      drivers/gpu/msm/kgsl_ioctl.o
+  CC      drivers/gpu/msm/kgsl_sharedmem.o
+  CC      net/core/net-procfs.o
+  CC      net/core/fib_rules.o
+  CC      drivers/gpu/msm/kgsl_pwrctrl.o
+  CC      net/core/net-traces.o
+  CC      drivers/gpu/msm/kgsl_pwrscale.o
+  CC      drivers/gpu/msm/kgsl_mmu.o
+  CC      net/core/ptp_classifier.o
+  CC      drivers/gpu/msm/kgsl_snapshot.o
+  CC      net/core/sockev_nlmcast.o
+  CC      drivers/gpu/msm/kgsl_events.o
+  CC      net/core/dst_cache.o
+  CC      drivers/gpu/msm/kgsl_gmu_core.o
+  CC      net/core/gro_cells.o
+  CC      drivers/gpu/msm/kgsl_gmu.o
+  CC      net/core/analytics_logger.o
+  CC      drivers/gpu/msm/kgsl_rgmu.o
+  CC      net/core/bpf_sk_storage.o
+  CC      drivers/gpu/msm/kgsl_hfi.o
+  AR      net/core/built-in.a
+  CC      net/dns_resolver/dns_key.o
+  CC      net/dns_resolver/dns_query.o
+  CC      drivers/gpu/msm/kgsl_pool.o
+  AR      net/dns_resolver/built-in.a
+  CC      net/ethernet/eth.o
+  CC      drivers/gpu/msm/kgsl_reclaim.o
+  CC      drivers/gpu/msm/kgsl_iommu.o
+/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/hi3660-clock.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,camcc-kona.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/stih407-clks.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/omap4.h: No such file or directory.
@@ -3676,3 +3741,56 @@ make[4]: *** Deleting file 'drivers/gpu/drm/drm_auth.o'
   CC      drivers/gpu/drm/drm_fourcc.o
   CC      drivers/gpu/drm/drm_modes.o
   CC      drivers/gpu/drm/drm_edid.o
+  CC      drivers/gpu/drm/drm_info.o
+  CC      drivers/gpu/drm/drm_encoder_slave.o
+  CC      drivers/gpu/drm/drm_trace_points.o
+  CC      drivers/gpu/drm/drm_global.o
+  CC      drivers/gpu/drm/drm_prime.o
+  CC      drivers/gpu/drm/drm_rect.o
+  CC      drivers/gpu/drm/drm_vma_manager.o
+  CC      drivers/gpu/drm/drm_flip_work.o
+  CC      drivers/gpu/drm/drm_modeset_lock.o
+  CC      drivers/gpu/drm/drm_atomic.o
+  CC      drivers/gpu/drm/drm_bridge.o
+  CC      drivers/gpu/drm/drm_framebuffer.o
+  CC      drivers/gpu/drm/drm_connector.o
+  CC      drivers/gpu/drm/drm_blend.o
+  CC      drivers/gpu/drm/drm_encoder.o
+  CC      drivers/gpu/drm/drm_mode_object.o
+  CC      drivers/gpu/drm/drm_property.o
+  CC      drivers/gpu/drm/drm_plane.o
+  CC      drivers/gpu/drm/drm_color_mgmt.o
+  CC      drivers/gpu/drm/drm_print.o
+  CC      drivers/gpu/drm/drm_dumb_buffers.o
+  CC      drivers/gpu/drm/drm_mode_config.o
+  CC      drivers/gpu/drm/drm_vblank.o
+  CC      drivers/gpu/drm/drm_syncobj.o
+  CC      drivers/gpu/drm/drm_lease.o
+  CC      drivers/gpu/drm/drm_writeback.o
+  CC      drivers/gpu/drm/drm_client.o
+  CC      drivers/gpu/drm/drm_ioc32.o
+  CC      drivers/gpu/drm/ati_pcigart.o
+  CC      drivers/gpu/drm/drm_panel.o
+  CC      drivers/gpu/drm/drm_of.o
+  CC      drivers/gpu/drm/drm_mipi_dsi.o
+  CC      drivers/gpu/drm/drm_panel_orientation_quirks.o
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/gpu/drm] Error 2
+  CC      drivers/gpu/msm/kgsl.o
+  CC      drivers/gpu/msm/kgsl_trace.o
+  CC      drivers/gpu/msm/kgsl_drawobj.o
+  CC      drivers/gpu/msm/kgsl_ioctl.o
+  CC      drivers/gpu/msm/kgsl_sharedmem.o
+  CC      drivers/gpu/msm/kgsl_pwrctrl.o
+  CC      drivers/gpu/msm/kgsl_pwrscale.o
+  CC      drivers/gpu/msm/kgsl_mmu.o
+  CC      drivers/gpu/msm/kgsl_snapshot.o
+  CC      drivers/gpu/msm/kgsl_events.o
+  CC      drivers/gpu/msm/kgsl_gmu_core.o
+  CC      drivers/gpu/msm/kgsl_gmu.o
+  CC      drivers/gpu/msm/kgsl_rgmu.o
+  CC      drivers/gpu/msm/kgsl_hfi.o
+  CC      drivers/gpu/msm/kgsl_pool.o
+  CC      drivers/gpu/msm/kgsl_reclaim.o
+  CC      drivers/gpu/msm/kgsl_iommu.o
+  CC      drivers/gpu/msm/kgsl_sync.o
