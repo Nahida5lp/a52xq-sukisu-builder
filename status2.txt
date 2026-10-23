@@ -1,0 +1,109 @@
+== out dir ==
+total 48
+-rw-r--r-- 1 codespace codespace 46687 Oct 23 11:29 build.log
+== image ==
+ls: cannot access '/home/codespace/a52xq-build/kernel/out/arch/arm64/boot/Image': No such file or directory
+== config ==
+CONFIG_KALLSYMS=y
+CONFIG_KALLSYMS_ALL=y
+CONFIG_KALLSYMS_BASE_RELATIVE=y
+CONFIG_KPROBES=y
+CONFIG_KRETPROBES=y
+CONFIG_KSU=y
+CONFIG_KSU_MANUAL_SU=y
+== driver uapi ==
+static const __u32 KERNEL_SU_UAPI_VERSION = 5;
+== hooks ==
+fs/exec.c                  8
+fs/open.c                  2
+fs/read_write.c            4
+fs/stat.c                  3
+drivers/input/input.c      4
+drivers/tty/pty.c          2
+== log tail ==
+make[2]: *** [../scripts/Makefile.build:642: drivers/kernelsu] Error 2
+  CC      drivers/tty/pty.o
+  AR      drivers/tty/built-in.a
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+  CC      drivers/net/wireless/qualcomm/wcn39xx/qcacld-3.0/core/hdd/src/wlan_hdd_main.o
+  AR      drivers/net/wireless/qualcomm/wcn39xx/qcacld-3.0/built-in.a
+  AR      drivers/net/wireless/built-in.a
+  AR      drivers/net/built-in.a
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: drivers] Error 2
+  CC      techpack/audio/ipc/apr.o
+  CC      techpack/audio/ipc/apr_v2.o
+  CC      techpack/audio/ipc/apr_tal_rpmsg.o
+  AR      techpack/audio/ipc/built-in.a
+  AR      techpack/audio/built-in.a
+  AR      techpack/built-in.a
+make[1]: Target '_all' not remade because of errors.
+make[1]: Leaving directory '/home/codespace/a52xq-build/kernel/out'
+make: *** [Makefile:146: sub-make] Error 2
+make: Target '_all' not remade because of errors.
+make: Leaving directory '/home/codespace/a52xq-build/kernel'
+cp: cannot stat 'out/arch/arm64/boot/Image': No such file or directory
+== errors ==
+80:../drivers/kernelsu/core/init.c:259:18: error: a parameter list without types is only allowed in a function definition
+97:../drivers/kernelsu/feature/sucompat.c:8:10: fatal error: 'linux/pgtable.h' file not found
+113:../drivers/kernelsu/infra/file_wrapper.c:102:30: error: called object type '<dependent type>' is not a function or function pointer
+116:../drivers/kernelsu/infra/file_wrapper.c:314:23: error: use of undeclared identifier 'REMAP_FILE_DEDUP'
+119:../drivers/kernelsu/infra/file_wrapper.c:317:44: error: called object type '<dependent type>' is not a function or function pointer
+122:../drivers/kernelsu/infra/file_wrapper.c:321:44: error: called object type '<dependent type>' is not a function or function pointer
+125:../drivers/kernelsu/infra/file_wrapper.c:364:31: error: no member named 'iopoll' in 'struct file_operations'; did you mean 'poll'?
+132:../drivers/kernelsu/infra/file_wrapper.c:364:12: error: no member named 'iopoll' in 'struct file_operations'; did you mean 'poll'?
+139:../drivers/kernelsu/infra/file_wrapper.c:395:41: error: no member named 'remap_file_range' in 'struct file_operations'; did you mean 'dedupe_file_range'?
+146:../drivers/kernelsu/infra/file_wrapper.c:395:12: error: no member named 'remap_file_range' in 'struct file_operations'; did you mean 'dedupe_file_range'?
+154: error: no member named 'iopoll' in 'struct file_operations'
+157:../drivers/kernelsu/infra/file_wrapper.c:317:28: error: no member named 'remap_file_range' in 'struct file_operations'
+160:../drivers/kernelsu/infra/file_wrapper.c:321:28: error: no member named 'remap_file_range' in 'struct file_operations'
+172:../drivers/kernelsu/infra/su_mount_ns.c:16:10: fatal error: 'uapi/linux/mount.h' file not found
+180:../drivers/kernelsu/manager/pkg_observer.c:80:6: error: field designator 'handle_inode_event' does not refer to any field in type 'const struct fsnotify_ops'; did you mean 'handle_event'?
+191:../drivers/kernelsu/policy/allowlist.c:504:9: error: use of undeclared identifier 'fallthrough'
+198:../drivers/kernelsu/policy/app_profile.c:106:34: error: no member named 'filter_count' in 'struct seccomp'
+207:../drivers/kernelsu/policy/app_profile.c:106:34: error: no member named 'filter_count' in 'struct seccomp'
+216:../drivers/kernelsu/policy/app_profile.c:106:34: error: no member named 'filter_count' in 'struct seccomp'
+225:../drivers/kernelsu/policy/app_profile.c:106:34: error: no member named 'filter_count' in 'struct seccomp'
+241:../drivers/kernelsu/selinux/rules.c:54:31: error: no member named 'policy_mutex' in 'struct selinux_state'
+244:../drivers/kernelsu/selinux/rules.c:56:55: error: no member named 'policy' in 'struct selinux_state'
+253:../drivers/kernelsu/selinux/rules.c:56:13: error: assigning to 'struct selinux_policy *' from incompatible type 'void'
+256:../drivers/kernelsu/selinux/rules.c:62:24: error: incomplete definition of type 'struct selinux_policy'
+262:../drivers/kernelsu/selinux/rules.c:62:66: error: incomplete definition of type 'struct selinux_policy'
+268:../drivers/kernelsu/selinux/rules.c:63:29: error: incomplete definition of type 'struct selinux_policy'
+274:../drivers/kernelsu/selinux/rules.c:68:59: error: incomplete definition of type 'struct selinux_policy'
+280:../drivers/kernelsu/selinux/rules.c:68:86: error: incomplete definition of type 'struct selinux_policy'
+286:../drivers/kernelsu/selinux/rules.c:71:38: error: incomplete definition of type 'struct selinux_policy'
+292:../drivers/kernelsu/selinux/rules.c:75:89: error: incomplete definition of type 'struct selinux_policy'
+301:../drivers/kernelsu/selinux/rules.c:85:14: error: incomplete definition of type 'struct selinux_policy'
+307:../drivers/kernelsu/selinux/rules.c:159:38: error: no member named 'policy' in 'struct selinux_state'
+316:../drivers/kernelsu/selinux/rules.c:159:38: error: no member named 'policy' in 'struct selinux_state'
+325:../drivers/kernelsu/selinux/rules.c:159:38: error: no member named 'policy' in 'struct selinux_state'
+334:../drivers/kernelsu/selinux/rules.c:159:38: error: no member named 'policy' in 'struct selinux_state'
+343:../drivers/kernelsu/selinux/rules.c:159:38: error: no member named 'policy' in 'struct selinux_state'
+355:../drivers/kernelsu/selinux/rules.c:159:38: error: no member named 'policy' in 'struct selinux_state'
+367:../drivers/kernelsu/selinux/rules.c:159:38: error: no member named 'policy' in 'struct selinux_state'
+389:../drivers/kernelsu/selinux/rules.c:159:38: error: no member named 'policy' in 'struct selinux_state'
+411:fatal error: too many errors emitted, stopping now [-ferror-limit=]
