@@ -831,37 +831,128 @@ make[2]: *** [../scripts/Makefile.build:642: security/smack] Error 2
   CC      fs/erofs/decompressor.o
   CC      fs/erofs/zmap.o
   CC      mm/process_reclaim.o
-01: kernel/rcu/built-in.a] Error 1
-make[3]: Target '__build' not remade because of errors.
-make[2]: *** [../scripts/Makefile.build:642: kernel/rcu] Error 2
-  CC      fs/erofs/data.o
-  CC      kernel/sched/core.o
-  CC      mm/zsmalloc.o
-mv: cannot stat 'security/smack/.smack_access.o.tmp': No such file or directory
-make[3]: *** [../scripts/Makefile.build:338: security/smack/smack_access.o] Error 1
-make[3]: *** Deleting file 'security/smack/smack_access.o'
-  CC      security/smack/smackfs.o
-  CC      fs/erofs/namei.o
-  CC      fs/erofs/dir.o
-  CC      fs/erofs/utils.o
-mv: cannot stat 'security/smack/.smackfs.o.tmp': No such file or directory
-make[3]: *** [../scripts/Makefile.build:339: security/smack/smackfs.o] Error 1
-make[3]: *** Deleting file 'security/smack/smackfs.o'
-make[3]: Target '__build' not remade because of errors.
-make[2]: *** [../scripts/Makefile.build:642: security/smack] Error 2
-  CC      security/commoncap.o
-  CC      mm/early_ioremap.o
-  CC      mm/cma.o
-  CC      fs/erofs/xattr.o
-mv: cannot stat 'security/.commoncap.o.tmp': No such file or directory
-make[2]: *** [../scripts/Makefile.build:338: security/commoncap.o] Error 1
-make[2]: *** Deleting file 'security/commoncap.o'
-  CC      security/min_addr.o
-mv: cannot stat 'security/.min_addr.o.tmp': No such file or directory
-  CC      fs/erofs/decompressor.o
-make[2]: *** [../scripts/Makefile.build:338: security/min_addr.o] Error 1
-  CC      security/security.o
-  CC      mm/usercopy.o
-  CC      fs/erofs/zmap.o
   CC      fs/erofs/zdata.o
-  CC      mm/memfd.o
+  CC      mm/io_record.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file security/.tmp_security.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: security/security.o] Error 1
+make[2]: *** Deleting file 'security/security.o'
+  CC      security/lsm_audit.o
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: mm] Error 2
+  CC      fs/exportfs/expfs.o
+  AR      fs/erofs/built-in.a
+  CC      kernel/sched/loadavg.o
+  AR      fs/exportfs/built-in.a
+  CC      fs/ext4/balloc.o
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: security] Error 2
+  CC      kernel/time/time.o
+  CC      crypto/fips140_out.o
+  CC      crypto/fips140_integrity.o
+  CC      kernel/sched/clock.o
+  CC      kernel/time/timer.o
+  CC      fs/ext4/bitmap.o
+  CC      crypto/fips140_post.o
+  CC      crypto/fips140_test.o
+  CC      fs/ext4/dir.o
+  CC      kernel/sched/cputime.o
+  CC      crypto/fips140_test_tv.o
+  CC      crypto/api.o
+  CC      fs/ext4/ext4_jbd2.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file kernel/sched/.tmp_cputime.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/sched/cputime.o] Error 1
+make[3]: *** Deleting file 'kernel/sched/cputime.o'
+  CC      kernel/sched/idle.o
+  CC      kernel/time/hrtimer.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file crypto/.tmp_api.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: crypto/api.o] Error 1
+make[2]: *** Deleting file 'crypto/api.o'
+  CC      crypto/cipher.o
+  CC      fs/ext4/extents.o
+fixdep: error opening file: crypto/.cipher.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: crypto/cipher.o] Error 2
+  CC      crypto/compress.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'kernel/sched/.tmp_idle.o': No such file
+mv: cannot stat 'kernel/sched/.tmp_idle.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/sched/idle.o] Error 1
+make[3]: *** Deleting file 'kernel/sched/idle.o'
+  CC      kernel/sched/fair.o
+  CC      crypto/memneq.o
+  CC      kernel/time/timekeeping.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file crypto/.tmp_memneq.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: crypto/memneq.o] Error 1
+make[2]: *** Deleting file 'crypto/memneq.o'
+  CC      crypto/crypto_wq.o
+fixdep: error opening file: crypto/.crypto_wq.o.d: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: crypto/crypto_wq.o] Error 2
+  CC      crypto/algapi.o
+  CC      kernel/time/ntp.o
+  CC      kernel/time/clocksource.o
+  CC      fs/ext4/extents_status.o
+  CC      kernel/time/jiffies.o
+  CC      crypto/scatterwalk.o
+  CC      kernel/time/timer_list.o
+  CC      fs/ext4/file.o
+  CC      crypto/proc.o
+  CC      kernel/time/timeconv.o
+  CC      fs/ext4/fsmap.o
+  CC      kernel/time/timecounter.o
+  CC      kernel/time/alarmtimer.o
+  CC      crypto/aead.o
+fixdep: error opening file: kernel/sched/.fair.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: kernel/sched/fair.o] Error 2
+  CC      kernel/sched/rt.o
+  CC      fs/ext4/fsync.o
+  CC      kernel/time/posix-timers.o
+  CC      crypto/ablkcipher.o
+  CC      fs/ext4/hash.o
+  CC      kernel/time/posix-cpu-timers.o
+  CC      crypto/blkcipher.o
+  CC      kernel/sched/deadline.o
+  CC      fs/ext4/ialloc.o
+  CC      kernel/time/posix-clock.o
+  CC      crypto/skcipher.o
+  CC      kernel/time/itimer.o
+  CC      kernel/sched/wait.o
+  CC      kernel/time/clockevents.o
+  CC      fs/ext4/indirect.o
+  CC      kernel/time/tick-common.o
+  CC      crypto/seqiv.o
+  CC      kernel/sched/wait_bit.o
+  CC      crypto/echainiv.o
+  CC      fs/ext4/inline.o
+  CC      crypto/ahash.o
+  CC      kernel/time/tick-broadcast.o
+  CC      kernel/sched/swait.o
+  CC      kernel/time/tick-broadcast-hrtimer.o
+  CC      crypto/shash.o
+  CC      kernel/time/sched_clock.o
+  CC      fs/ext4/inode.o
+  CC      kernel/sched/completion.o
+  CC      kernel/time/tick-oneshot.o
+  CC      kernel/time/tick-sched.o
+  CC      crypto/akcipher.o
+  CC      kernel/sched/cpupri.o
+  CC      crypto/kpp.o
+  CC      kernel/time/vsyscall.o
+  AR      kernel/time/built-in.a
+  CC      kernel/sched/cpudeadline.o
+  CC      fs/ext4/ioctl.o
+  CC      crypto/rsapubkey.asn1.o
+  CC      crypto/rsaprivkey.asn1.o
+  CC      crypto/rsa.o
+  CC      fs/ext4/mballoc.o
+  CC      crypto/rsa_helper.o
+  CC      kernel/sched/topology.o
+  CC      c  CC      kernel/sche  CC      block/  CC       CC      crypto/acompress.o
+  CC      kernel/sched/stop_task.o
+  CC      crypto/scompress.o
+  CC      kernel/sched/pelt.o
+  CC      fs/ext4/migrate.o
+  CC      crypto/algboss.o
+toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file crypto/.tmp_acompress.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: crypto/acompress.o] Error 1
+make[2]: *** Deleting file 'crypto/acompress.o'
+  CC      crypto/scompress.o
+  CC      kernel/sched/stop_task.o
+  CC      block/blk-stat.o
