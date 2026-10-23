@@ -1,0 +1,67 @@
+=== [1/8] 写入内嵌文件（官方 4.19 钩子补丁 + 两个适配脚本） ===
+ 8430 scripts/fix_sources_for_419.py
+ 4080 scripts/strip_legacy_ksu_hooks.py
+ 4740 patches/ksu_hooks_sukisu_4.19.patch
+17250 total
+=== [2/8] 依赖 ===
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+Selecting previously unselected package flex.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 46438 files and directories currently installed.)
+Preparing to unpack .../flex_2.6.4-8.2build1_amd64.deb ...
+Unpacking flex (2.6.4-8.2build1) ...
+Preparing to unpack .../libssl-dev_3.0.13-0ubuntu3.16_amd64.deb ...
+Unpacking libssl-dev:amd64 (3.0.13-0ubuntu3.16) over (3.0.13-0ubuntu3.15) ...
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.16_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.16) over (3.0.13-0ubuntu3.15) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.16) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 46509 files and directories currently installed.)
+Preparing to unpack .../00-openssl_3.0.13-0ubuntu3.16_amd64.deb ...
+Unpacking openssl (3.0.13-0ubuntu3.16) over (3.0.13-0ubuntu3.15) ...
+Selecting previously unselected package bc.
+Preparing to unpack .../01-bc_1.07.1-3ubuntu4_amd64.deb ...
+Unpacking bc (1.07.1-3ubuntu4) ...
+Preparing to unpack .../02-bison_2%3a3.8.2+dfsg-1ubuntu0.24.04.1_amd64.deb ...
+Unpacking bison (2:3.8.2+dfsg-1ubuntu0.24.04.1) over (2:3.8.2+dfsg-1build2) ...
+Preparing to unpack .../03-libcurl4-openssl-dev_8.5.0-2ubuntu10.16_amd64.deb ...
+Unpacking libcurl4-openssl-dev:amd64 (8.5.0-2ubuntu10.16) over (8.5.0-2ubuntu10.13) ...
+Preparing to unpack .../04-curl_8.5.0-2ubuntu10.16_amd64.deb ...
+Unpacking curl (8.5.0-2ubuntu10.16) over (8.5.0-2ubuntu10.13) ...
+Preparing to unpack .../05-libcurl4t64_8.5.0-2ubuntu10.16_amd64.deb ...
+Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.16) over (8.5.0-2ubuntu10.13) ...
+Preparing to unpack .../06-libcurl3t64-gnutls_8.5.0-2ubuntu10.16_amd64.deb ...
+Unpacking libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.16) over (8.5.0-2ubuntu10.13) ...
+Preparing to unpack .../07-git-man_1%3a2.43.0-1ubuntu7.4_all.deb ...
+Unpacking git-man (1:2.43.0-1ubuntu7.4) over (1:2.43.0-1ubuntu7.3) ...
+Preparing to unpack .../08-git_1%3a2.43.0-1ubuntu7.4_amd64.deb ...
+Unpacking git (1:2.43.0-1ubuntu7.4) over (1:2.43.0-1ubuntu7.3) ...
+Selecting previously unselected package libelf-dev:amd64.
+Preparing to unpack .../09-libelf-dev_0.190-1.1ubuntu0.1_amd64.deb ...
+Unpacking libelf-dev:amd64 (0.190-1.1ubuntu0.1) ...
+Selecting previously unselected package libfl2:amd64.
+Preparing to unpack .../10-libfl2_2.6.4-8.2build1_amd64.deb ...
+Unpacking libfl2:amd64 (2.6.4-8.2build1) ...
+Selecting previously unselected package libfl-dev:amd64.
+Preparing to unpack .../11-libfl-dev_2.6.4-8.2build1_amd64.deb ...
+Unpacking libfl-dev:amd64 (2.6.4-8.2build1) ...
+Setting up flex (2.6.4-8.2build1) ...
+Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.16) ...
+Setting up libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.16) ...
+Setting up bc (1.07.1-3ubuntu4) ...
+Setting up libcurl4-openssl-dev:amd64 (8.5.0-2ubuntu10.16) ...
+Setting up libssl-dev:amd64 (3.0.13-0ubuntu3.16) ...
+Setting up libelf-dev:amd64 (0.190-1.1ubuntu0.1) ...
+Setting up libfl2:amd64 (2.6.4-8.2build1) ...
+Setting up bison (2:3.8.2+dfsg-1ubuntu0.24.04.1) ...
+Setting up git-man (1:2.43.0-1ubuntu7.4) ...
+Setting up curl (8.5.0-2ubuntu10.16) ...
+Setting up openssl (3.0.13-0ubuntu3.16) ...
+Setting up libfl-dev:amd64 (2.6.4-8.2build1) ...
+Setting up git (1:2.43.0-1ubuntu7.4) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.8) ...
+=== [3/8] 内核源码（自带 clang-r383902 + GCC 10.3 工具链） ===
+Cloning into 'kernel'...
+Updating files:  14% (11245/79234)Updating files:  15% (11886/79234)Updating files:  16% (12678/79234)Updating files:  17% (13470/79234)Updating files:  18% (14263/79234)Updating files:  19% (15055/79234)Updating files:  20% (15847/79234)Updating files:  21% (16640/79234)Updating files:  22% (17432/79234)Updating files:  23% (18224/79234)Updating files:  24% (19017/79234)Updating files:  25% (19809/79234)Updating files:  26% (20601/79234)Updating files:  27% (21394/79234)Updating files:  27% (22034/79234)Updating files:  28% (22186/79234)Updating files:  29% (22978/79234)Updating files:  30% (23771/79234)Updating files:  31% (24563/79234)Updating files:  32% (25355/79234)Updating files:  33% (26148/79234)Updating files:  34% (26940/79234)Updating files:  35% (27732/79234)Updating files:  35% (28456/79234)Updating files:  36% (28525/79234)Updating files:  37% (29317/79234)Updating files:  38% (30109/79234)Updating files:  39% (30902/79234)Updating files:  40% (31694/79234)Updating files:  41% (32486/79234)Updating files:  42% (33279/79234)Updating files:  43% (34071/79234)Updating files:  44% (34863/79234)Updating files:  45% (35656/79234)Updating files:  45% (36211/79234)Updating files:  46% (36448/79234)Updating files:  47% (37240/79234)Updating files:  48% (38033/79234)Updating files:  49% (38825/79234)Updating files:  50% (39617/79234)Updating files:  51% (40410/79234)Updating files:  52% (41202/79234)Updating files:  53% (41995/79234)Updating files:  54% (42787/79234)Updating files:  54% (43246/79234)Updating files:  55% (43579/79234)Updating files:  56% (44372/79234)Updating files:  57% (45164/79234)Updating files:  58% (45956/79234)Updating files:  59% (46749/79234)Updating files:  60% (47541/79234)Updating files:  61% (48333/79234)Updating files:  62% (49126/79234)Updating files:  63% (49918/79234)Updating files:  64% (50710/79234)Updating files:  64% (51242/79234)Updating files:  65% (51503/79234)Updating files:  66% (52295/79234)Updating files:  67% (53087/79234)Updating files:  68% (53880/79234)Updating files:  69% (54672/79234)Updating files:  70% (55464/79234)Updating files:  71% (56257/79234)Updating files:  72% (57049/79234)Updating files:  73% (57841/79234)Updating files:  74% (58634/79234)Updating files:  75% (59426/79234)Updating files:  76% (60218/79234)Updating files:  77% (61011/79234)Updating files:  78% (61803/79234)Updating files:  79% (62595/79234)Updating files:  80% (63388/79234)Updating files:  80% (63497/79234)Updating files:  81% (64180/79234)Updating files:  81% (64206/79234)Updating files:  82% (64972/79234)Updating files:  83% (65765/79234)Updating files:  84% (66557/79234)Updating files:  84% (67023/79234)Updating files:  84% (67032/79234)Updating files:  84% (67144/79234)Updating files:  85% (67349/79234)Updating files:  86% (68142/79234)Updating files:  86% (68349/79234)Updating files:  87% (68934/79234)Updating files:  88% (69726/79234)Updating files:  89% (70519/79234)Updating files:  90% (71311/79234)Updating files:  90% (71765/79234)Updating files:  91% (72103/79234)Updating files:  92% (72896/79234)Updating files:  93% (73688/79234)Updating files:  94% (74480/79234)Updating files:  94% (75236/79234)Updating files:  95% (75273/79234)Updating files:  96% (76065/79234)Updating files:  97% (76857/79234)Updating files:  97% (77635/79234)Updating files:  98% (77650/79234)Updating files:  99% (78442/79234)Updating files: 100% (79234/79234)Updating files: 100% (79234/79234), done.
+=== [4/8] 拉官方 builtin 线驱动（UAPI=6，配官方管理器 v4.2.1-r1 = 41049） ===
