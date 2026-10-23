@@ -305,3 +305,4 @@ acld-3.0/core/hdd/src/wlan_hdd_main.o
 make[2]: Target '__build' not remade because of errors.
 make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: drivers] Error 2
   CC      techpack/audio/ipc/apr.o
+  CC      techpack/audio/ipc/apr_v2.o
