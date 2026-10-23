@@ -1,0 +1,341 @@
+make: Entering directory '/home/codespace/a52xq-build/kernel'
+make[1]: Entering directory '/home/codespace/a52xq-build/kernel/out'
+  GEN     ./Makefile
+drivers/sensors/Kconfig:187: warning: 'SENSORS_A96T365IF' defined with blank help text
+drivers/samsung/debug/Kconfig:4:warning: ignoring type redefinition of 'SEC_DEBUG' from 'tristate' to 'bool'
+drivers/samsung/debug/Kconfig:30:warning: defaults for choice values not supported
+drivers/samsung/debug/Kconfig:36:warning: defaults for choice values not supported
+arch/arm64/configs/a52xq_defconfig:6659:warning: override: reassigning to symbol KSU_SUSFS
+arch/arm64/configs/a52xq_defconfig:6660:warning: override: reassigning to symbol KSU_FEATURE_ADBROOT
+arch/arm64/configs/a52xq_defconfig:6661:warning: override: reassigning to symbol KPM
+arch/arm64/configs/a52xq_defconfig:6665:warning: override: reassigning to symbol KSU_SUSFS
+arch/arm64/configs/a52xq_defconfig:6666:warning: override: reassigning to symbol KSU_FEATURE_ADBROOT
+arch/arm64/configs/a52xq_defconfig:6671:warning: override: reassigning to symbol KPM
+KCONFIG_VARIANT((null))
+KCONFIG_DEBUG((null))
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/codespace/a52xq-build/kernel/out'
+make: Leaving directory '/home/codespace/a52xq-build/kernel'
+make: Entering directory '/home/codespace/a52xq-build/kernel'
+make[1]: Entering directory '/home/codespace/a52xq-build/kernel/out'
+make[1]: secgetspf: No such file or directory
+  GEN     ./Makefile
+scripts/kconfig/conf  --syncconfig Kconfig
+drivers/sensors/Kconfig:187: warning: 'SENSORS_A96T365IF' defined with blank help text
+drivers/samsung/debug/Kconfig:4:warning: ignoring type redefinition of 'SEC_DEBUG' from 'tristate' to 'bool'
+drivers/samsung/debug/Kconfig:30:warning: defaults for choice values not supported
+drivers/samsung/debug/Kconfig:36:warning: defaults for choice values not supported
+make[1]: secgetspf: No such file or directory
+  GEN     ./Makefile
+../security/samsung/defex_lsm/Makefile:29: [DEFEX] INTEGRITY_ENABLE
+../security/samsung/defex_lsm/Makefile:155: [DEFEX] DEBUG_ENABLE
+../drivers/kernelsu/Makefile:53: -- KernelSU: ./usr/include not found, preinit disabled
+cp: cannot stat '../../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../../system/logging/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+kperfmon_DUMMY=""
+  Using .. as source for kernel
+-- SukiSU-Ultra version: 41054 [v4.2.1-r1-6bf351bd@OneUI8-dev]
+-- KERNEL_VERSION: 4.19
+-- KERNEL_TYPE: Non-GKI
+-- SukiSU-Ultra: using Unknown
+-- KPM is disabled
+-- SukiSU-Ultra/compat: modern static_key_interface found
+-- You have not integrated susfs in your kernel yet.
+-- Read: https://gitlab.com/simonpunk/susfs4ksu
+  CALL    ../scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+make[5]: secgetspf: No such file or directory
+  CC      kernel/locking/mutex.o
+  AR      kernel/locking/built-in.a
+  CC      kernel/sched/psi.o
+  CHK     kernel/kheaders_data.tar.xz
+  GEN     kernel/kheaders_data.tar.xz
+../kernel/gen_kheaders.sh: line 61: cpio: command not found
+make[2]: *** [../kernel/Makefile:145: kernel/kheaders_data.tar.xz] Error 127
+../security/samsung/defex_lsm/Makefile:29: [DEFEX] INTEGRITY_ENABLE
+../security/samsung/defex_lsm/Makefile:155: [DEFEX] DEBUG_ENABLE
+  AR      kernel/sched/built-in.a
+  GZIP    kernel/config_data.gz
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: kernel] Error 2
+  CC      drivers/cpufreq/cpufreq.o
+  AR      drivers/cpufreq/built-in.a
+../drivers/kernelsu/Makefile:53: -- KernelSU: ./usr/include not found, preinit disabled
+cp: cannot stat '../../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../../system/logging/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+kperfmon_DUMMY=""
+  CC      drivers/kperfmon/kperfmon.o
+-- SukiSU-Ultra version: 41054 [v4.2.1-r1-6bf351bd@OneUI8-dev]
+-- KERNEL_VERSION: 4.19
+-- KERNEL_TYPE: Non-GKI
+-- SukiSU-Ultra: using Unknown
+-- KPM is disabled
+-- SukiSU-Ultra/compat: modern static_key_interface found
+-- You have not integrated susfs in your kernel yet.
+-- Read: https://gitlab.com/simonpunk/susfs4ksu
+  CC      drivers/kernelsu/ksu_main.o
+In file included from ../drivers/kernelsu/ksu_main.c:18:
+../drivers/kernelsu/kernel_compat.h:101:46: error: too many arguments provided to function-like macro invocation
+    if (unlikely(!ksu_access_ok(unsafe_addr, count)))
+                                             ^
+../drivers/kernelsu/kernel_includes.h:182:9: note: macro 'access_ok' defined here
+#define access_ok(addr, size) access_ok(VERIFY_READ, (addr), (size))
+        ^
+In file included from ../drivers/kernelsu/ksu_main.c:18:
+../drivers/kernelsu/kernel_compat.h:101:19: error: use of undeclared identifier 'access_ok'
+    if (unlikely(!ksu_access_ok(unsafe_addr, count)))
+                  ^
+../drivers/kernelsu/kernel_compat.h:50:35: note: expanded from macro 'ksu_access_ok'
+#define ksu_access_ok(addr, size) access_ok(VERIFY_READ, addr, size)
+                                  ^
+In file included from ../drivers/kernelsu/ksu_main.c:43:
+../drivers/kernelsu/runtime/ksud.h:44:13: error: too many arguments provided to function-like macro invocation
+        if (get_user(compat, argv.ptr.compat + nr))
+            ^
+../arch/arm64/include/asm/uaccess.h:338:18: note: expanded from macro 'get_user'
+#define get_user        __get_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:334:2: note: expanded from macro '__get_user'
+        __get_user_check((x), (ptr), __gu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:317:34: note: expanded from macro '__get_user_check'
+        if (access_ok(VERIFY_READ, __p, sizeof(*__p))) {                \
+                                        ^
+../drivers/kernelsu/kernel_includes.h:182:9: note: macro 'access_ok' defined here
+#define access_ok(addr, size) access_ok(VERIFY_READ, (addr), (size))
+        ^
+In file included from ../drivers/kernelsu/ksu_main.c:43:
+../drivers/kernelsu/runtime/ksud.h:44:13: error: use of undeclared identifier 'access_ok'
+        if (get_user(compat, argv.ptr.compat + nr))
+            ^
+../arch/arm64/include/asm/uaccess.h:338:18: note: expanded from macro 'get_user'
+#define get_user        __get_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:334:2: note: expanded from macro '__get_user'
+        __get_user_check((x), (ptr), __gu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:317:6: note: expanded from macro '__get_user_check'
+        if (access_ok(VERIFY_READ, __p, sizeof(*__p))) {                \
+            ^
+In file included from ../drivers/kernelsu/ksu_main.c:43:
+../drivers/kernelsu/runtime/ksud.h:51:9: error: too many arguments provided to function-like macro invocation
+    if (get_user(native, argv.ptr.native + nr))
+        ^
+../arch/arm64/include/asm/uaccess.h:338:18: note: expanded from macro 'get_user'
+#define get_user        __get_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:334:2: note: expanded from macro '__get_user'
+        __get_user_check((x), (ptr), __gu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:317:34: note: expanded from macro '__get_user_check'
+        if (access_ok(VERIFY_READ, __p, sizeof(*__p))) {                \
+                                        ^
+../drivers/kernelsu/kernel_includes.h:182:9: note: macro 'access_ok' defined here
+#define access_ok(addr, size) access_ok(VERIFY_READ, (addr), (size))
+        ^
+In file included from ../drivers/kernelsu/ksu_main.c:43:
+../drivers/kernelsu/runtime/ksud.h:51:9: error: use of undeclared identifier 'access_ok'
+    if (get_user(native, argv.ptr.native + nr))
+        ^
+../arch/arm64/include/asm/uaccess.h:338:18: note: expanded from macro 'get_user'
+#define get_user        __get_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:334:2: note: expanded from macro '__get_user'
+        __get_user_check((x), (ptr), __gu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:317:6: note: expanded from macro '__get_user_check'
+        if (access_ok(VERIFY_READ, __p, sizeof(*__p))) {                \
+            ^
+In file included from ../drivers/kernelsu/ksu_main.c:79:
+../drivers/kernelsu/extension/cpu_spoof.c:173:41: error: no member named 'vdso_clock_mode' in 'struct clocksource'
+                        (*curr_cs_ptr)->vdso_clock_mode =
+                        ~~~~~~~~~~~~~~  ^
+  AR      drivers/kperfmon/built-in.a
+In file included from ../drivers/kernelsu/ksu_main.c:94:
+../drivers/kernelsu/policy/allowlist.c:455:9: error: use of undeclared identifier 'fallthrough'
+        fallthrough;
+        ^
+In file included from ../drivers/kernelsu/ksu_main.c:96:
+../drivers/kernelsu/policy/feature.c:10:6: error: use of undeclared identifier 'KSU_FEATURE_SELINUX_HIDE'; did you mean 'KSU_FEATURE_MOUNT_HIDE'?
+    [KSU_FEATURE_SELINUX_HIDE] = "selinux_hide",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+     KSU_FEATURE_MOUNT_HIDE
+../drivers/kernelsu/include/uapi/feature.h:19:5: note: 'KSU_FEATURE_MOUNT_HIDE' declared here
+    KSU_FEATURE_MOUNT_HIDE = 16,
+    ^
+In file included from ../drivers/kernelsu/ksu_main.c:102:
+../drivers/kernelsu/supercall/dispatch.c:629:13: error: too many arguments provided to function-like macro invocation
+        if (get_user(uname, unames + i)) {
+            ^
+../arch/arm64/include/asm/uaccess.h:338:18: note: expanded from macro 'get_user'
+#define get_user        __get_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:334:2: note: expanded from macro '__get_user'
+        __get_user_check((x), (ptr), __gu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:317:34: note: expanded from macro '__get_user_check'
+        if (access_ok(VERIFY_READ, __p, sizeof(*__p))) {                \
+                                        ^
+../drivers/kernelsu/kernel_includes.h:182:9: note: macro 'access_ok' defined here
+#define access_ok(addr, size) access_ok(VERIFY_READ, (addr), (size))
+        ^
+In file included from ../drivers/kernelsu/ksu_main.c:102:
+../drivers/kernelsu/supercall/dispatch.c:629:13: error: use of undeclared identifier 'access_ok'
+        if (get_user(uname, unames + i)) {
+            ^
+../arch/arm64/include/asm/uaccess.h:338:18: note: expanded from macro 'get_user'
+#define get_user        __get_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:334:2: note: expanded from macro '__get_user'
+        __get_user_check((x), (ptr), __gu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:317:6: note: expanded from macro '__get_user_check'
+        if (access_ok(VERIFY_READ, __p, sizeof(*__p))) {                \
+            ^
+In file included from ../drivers/kernelsu/ksu_main.c:102:
+../drivers/kernelsu/supercall/dispatch.c:653:13: error: too many arguments provided to function-like macro invocation
+        if (put_user((u64)addrs[i], uaddrs + i)) {
+            ^
+../arch/arm64/include/asm/uaccess.h:407:18: note: expanded from macro 'put_user'
+#define put_user        __put_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:403:2: note: expanded from macro '__put_user'
+        __put_user_check((x), (ptr), __pu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:386:35: note: expanded from macro '__put_user_check'
+        if (access_ok(VERIFY_WRITE, __p, sizeof(*__p))) {               \
+                                         ^
+../drivers/kernelsu/kernel_includes.h:182:9: note: macro 'access_ok' defined here
+#define access_ok(addr, size) access_ok(VERIFY_READ, (addr), (size))
+        ^
+In file included from ../drivers/kernelsu/ksu_main.c:102:
+../drivers/kernelsu/supercall/dispatch.c:653:13: error: use of undeclared identifier 'access_ok'
+        if (put_user((u64)addrs[i], uaddrs + i)) {
+            ^
+../arch/arm64/include/asm/uaccess.h:407:18: note: expanded from macro 'put_user'
+#define put_user        __put_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:403:2: note: expanded from macro '__put_user'
+        __put_user_check((x), (ptr), __pu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:386:6: note: expanded from macro '__put_user_check'
+        if (access_ok(VERIFY_WRITE, __p, sizeof(*__p))) {               \
+            ^
+In file included from ../drivers/kernelsu/ksu_main.c:122:
+../drivers/kernelsu/sulog/event.c:29:13: error: too many arguments provided to function-like macro invocation
+        if (get_user(compat, argv.ptr.compat + nr))
+            ^
+../arch/arm64/include/asm/uaccess.h:338:18: note: expanded from macro 'get_user'
+#define get_user        __get_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:334:2: note: expanded from macro '__get_user'
+        __get_user_check((x), (ptr), __gu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:317:34: note: expanded from macro '__get_user_check'
+        if (access_ok(VERIFY_READ, __p, sizeof(*__p))) {                \
+                                        ^
+../drivers/kernelsu/kernel_includes.h:182:9: note: macro 'access_ok' defined here
+#define access_ok(addr, size) access_ok(VERIFY_READ, (addr), (size))
+        ^
+In file included from ../drivers/kernelsu/ksu_main.c:122:
+../drivers/kernelsu/sulog/event.c:29:13: error: use of undeclared identifier 'access_ok'
+        if (get_user(compat, argv.ptr.compat + nr))
+            ^
+../arch/arm64/include/asm/uaccess.h:338:18: note: expanded from macro 'get_user'
+#define get_user        __get_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:334:2: note: expanded from macro '__get_user'
+        __get_user_check((x), (ptr), __gu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:317:6: note: expanded from macro '__get_user_check'
+        if (access_ok(VERIFY_READ, __p, sizeof(*__p))) {                \
+            ^
+In file included from ../drivers/kernelsu/ksu_main.c:122:
+../drivers/kernelsu/sulog/event.c:36:9: error: too many arguments provided to function-like macro invocation
+    if (get_user(native, argv.ptr.native + nr))
+        ^
+../arch/arm64/include/asm/uaccess.h:338:18: note: expanded from macro 'get_user'
+#define get_user        __get_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:334:2: note: expanded from macro '__get_user'
+        __get_user_check((x), (ptr), __gu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:317:34: note: expanded from macro '__get_user_check'
+        if (access_ok(VERIFY_READ, __p, sizeof(*__p))) {                \
+                                        ^
+../drivers/kernelsu/kernel_includes.h:182:9: note: macro 'access_ok' defined here
+#define access_ok(addr, size) access_ok(VERIFY_READ, (addr), (size))
+        ^
+In file included from ../drivers/kernelsu/ksu_main.c:122:
+../drivers/kernelsu/sulog/event.c:36:9: error: use of undeclared identifier 'access_ok'
+    if (get_user(native, argv.ptr.native + nr))
+        ^
+../arch/arm64/include/asm/uaccess.h:338:18: note: expanded from macro 'get_user'
+#define get_user        __get_user
+                        ^
+../arch/arm64/include/asm/uaccess.h:334:2: note: expanded from macro '__get_user'
+        __get_user_check((x), (ptr), __gu_err);                         \
+        ^
+../arch/arm64/include/asm/uaccess.h:317:6: note: expanded from macro '__get_user_check'
+        if (access_ok(VERIFY_READ, __p, sizeof(*__p))) {                \
+            ^
+In file included from ../drivers/kernelsu/ksu_main.c:122:
+../drivers/kernelsu/sulog/event.c:377:73: error: passing 'struct user_arg_ptr *' to parameter of incompatible type 'struct user_arg_ptr'; dereference with *
+    pending = ksu_sulog_capture(KSU_SULOG_EVENT_IOCTL_GRANT_ROOT, NULL, USER_ARG_NULL, gfp);
+                                                                        ^~~~~~~~~~~~~
+                                                                        *
+../drivers/kernelsu/sulog/event.c:375:27: note: expanded from macro 'USER_ARG_NULL'
+    #define USER_ARG_NULL user_arg_null_ptr()
+                          ^~~~~~~~~~~~~~~~~~~
+../drivers/kernelsu/sulog/event.c:288:84: note: passing argument to parameter 'argv' here
+                                                         const struct user_arg_ptr argv, gfp_t gfp)
+                                                                                   ^
+18 errors generated.
+make[3]: *** [../scripts/Makefile.build:339: drivers/kernelsu/ksu_main.o] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/kernelsu] Error 2
+  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/../../../vendor/qcom/lagoon.dtb
+  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/a52xq_eur_open_w00_r00.dtbo
+  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/a52xq_eur_open_w00_r01.dtbo
+make[5]: secgetspf: No such file or directory
+  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/a52xq_eur_open_w00_r02.dtbo
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+  CC      drivers/net/wireless/qualcomm/wcn39xx/qcacld-3.0/core/hdd/src/wlan_hdd_main.o
+  AR      drivers/net/wireless/qualcomm/wcn39xx/qcacld-3.0/built-in.a
+  AR      drivers/net/wireless/built-in.a
+  AR      drivers/net/built-in.a
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: drivers] Error 2
