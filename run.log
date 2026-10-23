@@ -147,3 +147,69 @@ make[5]: secgetspf: No such file or directory
   CC      fs/stat.o
   AR      kernel/sched/built-in.a
   CC      fs/exec.o
+  CHK     kernel/kheaders_data.tar.xz
+  CC      drivers/cpufreq/cpufreq.o
+  GEN     kernel/kheaders_data.tar.xz
+../kernel/gen_kheaders.sh: line 61: cpio: command not found
+make[2]: *** [../kernel/Makefile:145: kernel/kheaders_data.tar.xz] Error 127
+  GZIP    kernel/config_data.gz
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: kernel] Error 2
+  AR      drivers/cpufreq/built-in.a
+  AR      fs/built-in.a
+  CC      drivers/input/input.o
+  AR      drivers/input/built-in.a
+../drivers/kernelsu/Makefile:53: -- KernelSU: ./usr/include not found, preinit disabled
+cp: cannot stat '../../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../../system/logging/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+kperfmon_DUMMY=""
+  CC      drivers/kperfmon/kperfmon.o
+-- SukiSU-Ultra version: 41054 [v4.2.1-r1-6bf351bd@OneUI8-dev]
+-- KERNEL_VERSION: 4.19
+-- KERNEL_TYPE: Non-GKI
+-- SukiSU-Ultra: using Unknown
+-- KPM is disabled
+-- SukiSU-Ultra/compat: modern static_key_interface found
+-- You have not integrated susfs in your kernel yet.
+-- Read: https://gitlab.com/simonpunk/susfs4ksu
+  CC      drivers/kernelsu/ksu_main.o
+  AR      drivers/kperfmon/built-in.a
+  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/../../../vendor/qcom/lagoon.dtb
+  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/a52xq_eur_open_w00_r00.dtbo
+  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/a52xq_eur_open_w00_r01.dtbo
+  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/a52xq_eur_open_w00_r02.dtbo
+  AR      drivers/kernelsu/built-in.a
+make[5]: secgetspf: No such file or directory
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+  CC      drivers/net/wireless/qualcomm/wcn39xx/qcacld-3.0/core/hdd/src/wlan_hdd_main.o
+  AR      drivers/net/wireless/qualcomm/wcn39xx/qcacld-3.0/built-in.a
+  AR      drivers/net/wireless/built-in.a
+  AR      drivers/net/built-in.a
+  AR      drivers/built-in.a
