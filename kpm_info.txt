@@ -1,0 +1,27 @@
+== KPM/extension 相关行 ==
+== 驱动里的 Makefile/Kbuild/Kconfig ==
+./kernel/Kconfig
+./kernel/preinit/common/runner/Makefile
+./kernel/Makefile
+== 驱动 Kconfig 里的 KPM 符号 ==
+23-	  Enable KernelSU debug mode.
+24-
+25:config KPM
+26:    bool "Enable SukiSU KPM"
+27-    depends on KSU && 64BIT
+28-    default n
+29-    help
+30:      Enabling this option will activate the KPM feature of SukiSU.
+31:      This option is suitable for scenarios where you need to force KPM to be enabled.
+32-      but it may affect system stability.
+33-    select KALLSYMS
+34-    select KALLSYMS_ALL
+35-
+36-menu "KernelSU - SUSFS"
+37-config KSU_SUSFS
+== 内核 .config 里的 KSU/KPM ==
+CONFIG_KSU=y
+CONFIG_KSU_FEATURE_ADBROOT=y
+# CONFIG_KPM is not set
+== 编译命令里是否带 -include ksu_419_compat.h ==
+== 版本号 ==
