@@ -8,6 +8,8 @@
 === [4/8] 拉官方 builtin 线驱动（UAPI=6，配官方管理器 v4.2.1-r1 = 41049） ===
 [i] static_call include 处理结果：
 76:/* KSU-A52: 4.19 无 linux/static_call.h（5.10+），驱动仅在 >=5.10 分支使用 */
+[i] hex.h -> kernel.h : kernel/KernelSU/kernel/kernel_includes.h
+[i] uapi/linux/mount.h -> linux/fs.h : kernel/KernelSU/kernel/kernel_includes.h
 --- 驱动 UAPI 常量（builtin 线在 kernel/include/uapi/，main 线在根 uapi/） ---
 kernel/KernelSU/kernel/include/uapi/supercall.h:21:DECLARE(__u32, KERNEL_SU_UAPI_VERSION, 6);
 [OK] builtin 线驱动就位（UAPI=6）
@@ -29,18 +31,18 @@ drwxr-xr-x 3 codespace codespace  4096 Oct 21 14:37 extension
 [i] total blocks removed: 12
 [OK] no legacy KSU hook references left in patched files
 patching file fs/exec.c
-Hunk #1 succeeded at 1920 with fuzz 3 (offset 8 lines).
-Hunk #2 succeeded at 1968 (offset 9 lines).
+Hunk #1 succeeded at 1921 with fuzz 3 (offset 9 lines).
+Hunk #2 succeeded at 1969 (offset 10 lines).
 patching file fs/open.c
-Hunk #1 succeeded at 456 with fuzz 2 (offset 6 lines).
+Hunk #1 succeeded at 457 with fuzz 2 (offset 7 lines).
 patching file fs/read_write.c
-Hunk #1 succeeded at 619 with fuzz 2 (offset 33 lines).
+Hunk #1 succeeded at 620 with fuzz 2 (offset 34 lines).
 patching file fs/stat.c
-Hunk #1 succeeded at 356 with fuzz 2 (offset -15 lines).
-Hunk #2 succeeded at 367 (offset -15 lines).
-Hunk #3 succeeded at 659 (offset 124 lines).
+Hunk #1 succeeded at 357 with fuzz 2 (offset -14 lines).
+Hunk #2 succeeded at 368 (offset -14 lines).
+Hunk #3 succeeded at 660 (offset 125 lines).
 patching file drivers/input/input.c
-Hunk #1 succeeded at 435 with fuzz 3 (offset -9 lines).
+Hunk #1 succeeded at 436 with fuzz 3 (offset -8 lines).
 patching file drivers/tty/pty.c
 Reversed (or previously applied) patch detected!  Skipping patch.
 1 out of 1 hunk ignored -- saving rejects to file drivers/tty/pty.c.rej
@@ -79,9 +81,12 @@ drivers/sensors/Kconfig:187: warning: 'SENSORS_A96T365IF' defined with blank hel
 drivers/samsung/debug/Kconfig:4:warning: ignoring type redefinition of 'SEC_DEBUG' from 'tristate' to 'bool'
 drivers/samsung/debug/Kconfig:30:warning: defaults for choice values not supported
 drivers/samsung/debug/Kconfig:36:warning: defaults for choice values not supported
-arch/arm64/configs/a52xq_defconfig:6660:warning: override: reassigning to symbol KSU_SUSFS
-arch/arm64/configs/a52xq_defconfig:6661:warning: override: reassigning to symbol KSU_FEATURE_ADBROOT
-arch/arm64/configs/a52xq_defconfig:6666:warning: override: reassigning to symbol KPM
+arch/arm64/configs/a52xq_defconfig:6659:warning: override: reassigning to symbol KSU_SUSFS
+arch/arm64/configs/a52xq_defconfig:6660:warning: override: reassigning to symbol KSU_FEATURE_ADBROOT
+arch/arm64/configs/a52xq_defconfig:6661:warning: override: reassigning to symbol KPM
+arch/arm64/configs/a52xq_defconfig:6665:warning: override: reassigning to symbol KSU_SUSFS
+arch/arm64/configs/a52xq_defconfig:6666:warning: override: reassigning to symbol KSU_FEATURE_ADBROOT
+arch/arm64/configs/a52xq_defconfig:6671:warning: override: reassigning to symbol KPM
 KCONFIG_VARIANT((null))
 KCONFIG_DEBUG((null))
 #
@@ -119,32 +124,40 @@ kperfmon_DUMMY=""
 -- SukiSU-Ultra/compat: modern static_key_interface found
 -- You have not integrated susfs in your kernel yet.
 -- Read: https://gitlab.com/simonpunk/susfs4ksu
-make[5]: secgetspf: No such file or directory
   CALL    ../scripts/checksyscalls.sh
   CHK     include/generated/compile.h
+make[5]: secgetspf: No such file or directory
+  CC      kernel/locking/mutex.o
+  CC      fs/open.o
 ../security/samsung/defex_lsm/Makefile:29: [DEFEX] INTEGRITY_ENABLE
 ../security/samsung/defex_lsm/Makefile:155: [DEFEX] DEBUG_ENABLE
-  CC      fs/open.o
-  CC      kernel/locking/mutex.o
-  CC      fs/read_write.o
   AR      kernel/locking/built-in.a
-  CC      fs/stat.o
+  CC      fs/read_write.o
   CC      kernel/sched/psi.o
-  CC      fs/exec.o
   CHK     kernel/kheaders_data.tar.xz
   GEN     kernel/kheaders_data.tar.xz
 ../kernel/gen_kheaders.sh: line 61: cpio: command not found
 make[2]: *** [../kernel/Makefile:145: kernel/kheaders_data.tar.xz] Error 127
-  CC      drivers/cpufreq/cpufreq.o
   AR      kernel/sched/built-in.a
   GZIP    kernel/config_data.gz
-  AR      drivers/cpufreq/built-in.a
 make[2]: Target '__build' not remade because of errors.
 make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: kernel] Error 2
+  CC      fs/stat.o
+  CC      fs/exec.o
+  CC      drivers/cpufreq/cpufreq.o
+  AR      drivers/cpufreq/built-in.a
   AR      fs/built-in.a
   CC      drivers/input/input.o
   AR      drivers/input/built-in.a
 ../drivers/kernelsu/Makefile:53: -- KernelSU: ./usr/include not found, preinit disabled
+cp: cannot stat '../../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../../system/logging/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+kperfmon_DUMMY=""
+  CC      drivers/kperfmon/kperfmon.o
 -- SukiSU-Ultra version: 41054 [v4.2.1-r1-6bf351bd@OneUI8-dev]
 -- KERNEL_VERSION: 4.19
 -- KERNEL_TYPE: Non-GKI
@@ -154,14 +167,6 @@ make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: kernel] Error 2
 -- You have not integrated susfs in your kernel yet.
 -- Read: https://gitlab.com/simonpunk/susfs4ksu
   CC      drivers/kernelsu/ksu_main.o
-cp: cannot stat '../../../system/core/liblog/include/log/perflog.h': No such file or directory
-kperfmon_DUMMY=""
-cp: cannot stat '../../../system/logging/liblog/include/log/perflog.h': No such file or directory
-kperfmon_DUMMY=""
-cp: cannot stat '../../system/core/liblog/include/log/perflog.h': No such file or directory
-kperfmon_DUMMY=""
-kperfmon_DUMMY=""
-  CC      drivers/kperfmon/kperfmon.o
 In file included from ../drivers/kernelsu/ksu_main.c:79:
 ../drivers/kernelsu/extension/cpu_spoof.c:173:41: error: no member named 'vdso_clock_mode' in 'struct clocksource'
                         (*curr_cs_ptr)->vdso_clock_mode =
@@ -253,19 +258,50 @@ In file included from ../drivers/kernelsu/ksu_main.c:83:
 ../arch/arm64/include/asm/uaccess.h:109:9: note: macro 'access_ok' defined here
 #define access_ok(type, addr, size)     __range_ok(addr, size)
         ^
+  AR      drivers/kperfmon/built-in.a
 In file included from ../drivers/kernelsu/ksu_main.c:83:
 ../drivers/kernelsu/extension/kpm/kpm.c:273:10: error: use of undeclared identifier 'access_ok'
     if (!access_ok(cmd.control_code, sizeof(int))) {
          ^
 fatal error: too many errors emitted, stopping now [-ferror-limit=]
-  AR      drivers/kperfmon/built-in.a
+  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/../../../vendor/qcom/lagoon.dtb
 20 errors generated.
 make[3]: *** [../scripts/Makefile.build:339: drivers/kernelsu/ksu_main.o] Error 1
 make[3]: Target '__build' not remade because of errors.
 make[2]: *** [../scripts/Makefile.build:642: drivers/kernelsu] Error 2
-  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/../../lagoon-sec-system-update-overlay.dtbo
-  DTC     arch/arm64/boot/dts/samsung/a52/a52xq/../../../vendor/qcom/lagoon.dtb
   DTC     arch/arm64/boot/dts/samsung/a52/a52xq/a52xq_eur_open_w00_r00.dtbo
   DTC     arch/arm64/boot/dts/samsung/a52/a52xq/a52xq_eur_open_w00_r01.dtbo
   DTC     arch/arm64/boot/dts/samsung/a52/a52xq/a52xq_eur_open_w00_r02.dtbo
 make[5]: secgetspf: No such file or directory
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+fatal: ambiguous argument '6bf351bdf~..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+  CC      drivers/net/wireless/qualcommTerminated
+acld-3.0/core/hdd/src/wlan_hdd_main.o
+  AR      drivers/net/wireless/qualcomm/wcn39xx/qcacld-3.0/built-in.a
+  AR      drivers/net/wireless/built-in.a
+  AR      drivers/net/built-in.a
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: drivers] Error 2
+RC=143
