@@ -1,0 +1,25 @@
+== run.log ==
+=== [1/8] 写入内嵌文件（官方 4.19 钩子补丁 + 两个适配脚本） ===
+ 8430 scripts/fix_sources_for_419.py
+ 4080 scripts/strip_legacy_ksu_hooks.py
+ 4740 patches/ksu_hooks_sukisu_4.19.patch
+17250 total
+=== [2/8] 依赖 ===
+=== [3/8] 内核源码（自带 clang-r383902 + GCC 10.3 工具链） ===
+=== [4/8] 拉官方 builtin 驱动（UAPI=5） ===
+RC=1
+== driver infra dir ==
+event_queue.c
+event_queue.h
+file_wrapper.c
+file_wrapper.h
+kernel_compat.c
+kernel_compat.h
+su_mount_ns.c
+su_mount_ns.h
+== driver root ==
+LICENSE
+kernel
+uapi
+== sukisu.tar.gz ==
+-rw-r--r-- 1 codespace codespace 108650 Oct 23 11:38 /home/codespace/a52xq-build/sukisu.tar.gz
