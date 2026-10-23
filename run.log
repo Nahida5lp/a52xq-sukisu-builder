@@ -215,3 +215,14 @@ Use '--' to separate paths from revisions, like this:
   AR      drivers/built-in.a
   CC      techpack/audio/ipc/apr.o
   CC      techpack/audio/ipc/apr_v2.o
+  CC      techpack/audio/ipc/apr_tal_rpmsg.o
+  AR      techpack/audio/ipc/built-in.a
+  AR      techpack/audio/built-in.a
+  AR      techpack/built-in.a
+make[1]: Target '_all' not remade because of errors.
+make[1]: Leaving directory '/home/codespace/a52xq-build/kernel/out'
+make: *** [Makefile:146: sub-make] Error 2
+make: Target '_all' not remade because of errors.
+make: Leaving directory '/home/codespace/a52xq-build/kernel'
+cp: cannot stat 'out/arch/arm64/boot/Image': No such file or directory
+RC=1
