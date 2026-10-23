@@ -213,3 +213,5 @@ Use '--' to separate paths from revisions, like this:
   AR      drivers/net/wireless/built-in.a
   AR      drivers/net/built-in.a
   AR      drivers/built-in.a
+  CC      techpack/audio/ipc/apr.o
+  CC      techpack/audio/ipc/apr_v2.o
