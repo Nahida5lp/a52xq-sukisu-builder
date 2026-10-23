@@ -1187,21 +1187,28 @@ make[3]: *** Deleting file 'fs/fuse/inode.o'
   AR      drivers/base/firmware_loader/built-in.a
   CC      drivers/base/power/generic_ops.o
   CC      fs/f2fs/xattr.o
-eaders_data.tar.xz
-  CC      drivers/base/container.o
-  GEN     kernel/kheaders_data.tar.xz
-  CC      drivers/base/property.o
-  CC      fs/f2fs/recovery.o
-  CC      fs/fuse/dir.o
-  CC      fs/f2fs/shrinker.o
-  CC      drivers/base/cacheinfo.o
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/pinctrl/dra.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/pinctrl/mt7623-pinfunc.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/pinctrl/mt6397-pinfunc.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/pinctrl/omap.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a77980-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clk/ti-dra7-atl.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/nuvoton,npcm7xx-clock.h: No such file or directory.
+  CC      kernel/cpu.o
+  CC      drivers/base/power/common.o
+  CC      fs/fuse/xattr.o
+  CC      drivers/base/power/qos.o
+  CC      fs/fuse/acl.o
+  CC      fs/f2fs/acl.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/fuse] Error 2
+  CC      kernel/exit.o
+  CC      fs/f2fs/verity.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/base/power/.tmp_qos.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/base/power/qos.o] Error 1
+make[4]: *** Deleting file 'drivers/base/power/qos.o'
+  CC      drivers/base/power/runtime.o
+  CC      sound/sound_core.o
+  CC      fs/f2fs/compress.o
+  CC      sound/core/sound.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/base/power/.tmp_runtime.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/base/power/runtime.o] Error 1
+make[4]: *** Deleting file 'drivers/base/power/runtime.o'
+  CC      drivers/base/power/wakeirq.o
+pace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/nuvoton,npcm7xx-clock.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/maxim,max9485.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mt2712-clk.h: No such file or directory.
 Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun50i-h6-r-ccu.h: No such file or directory.
@@ -2168,3 +2175,23 @@ Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tm
   CC      kernel/exec_domain.o
   CC      fs/f2fs/acl.o
   CC      fs/fuse/xattr.o
+  CC      drivers/base/power/common.o
+  CC      kernel/panic.o
+  CC      fs/fuse/acl.o
+  CC      drivers/base/power/qos.o
+  CC      fs/f2fs/verity.o
+  AR      fs/fuse/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: fs/fuse/file.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: fs/fuse/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: fs/fuse] Error 2
+  CC      fs/incfs/data_mgmt.o
+  CC      kernel/cpu.o
+  CC      fs/f2fs/compress.o
+  CC      drivers/base/power/runtime.o
+  CC      fs/incfs/format.o
+  CC      fs/incfs/integrity.o
+  CC      drivers/base/power/wakeirq.o
+  CC      fs/incfs/main.o
+  AR      fs/f2fs/built-in.a
+  CC      fs/incfs/vfs.o
