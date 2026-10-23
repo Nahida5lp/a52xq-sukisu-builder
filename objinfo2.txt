@@ -1,0 +1,35 @@
+== shim 检查（末尾 8 行） ==
+#endif // __KSU_H_KERNEL_INCLUDES
+
+/* KSU-A52 access_ok compat: 4.19 = access_ok(type,addr,size) */
+#include <linux/version.h>
+#if LINUX_VERSION_CODE < KERNEL_VERSION(5, 0, 0)
+#undef access_ok
+#define access_ok(addr, size) access_ok(VERIFY_READ, (addr), (size))
+#endif
+== ksu_main.c 75-90 行 ==
+#endif
+
+// unity build
+#include "extension/extension.c"
+#include "extension/cpu_spoof.c"
+#include "extension/umount_paths.c"
+#include "extension/dynamic_manager.c"
+#include "extension/kpm.c"
+#include "extension/kpm/kpm.c"
+#include "extension/kpm/compact.c"
+#include "extension/kpm/super_access.c"
+#include "extension/susfs_extension.c"
+#include "extension/dynamic_sig_fallback.c"
+
+#if !defined(KSU_NO_PREINIT) && !defined(CONFIG_KSU_SUSFS)
+#include "preinit/common/runner/runner_xxd.h"
+== kpm.c 里 access_ok 用法 ==
+169:        if (!access_ok(arg1, 255))
+174:            if (!access_ok(arg2, 255))
+186:        if (!access_ok(arg1, sizeof(s->kernel_name_buffer)))
+200:        if (!access_ok(arg1, sizeof(s->kernel_name_buffer)))
+207:        if (!access_ok(arg2, size))
+216:        if (!access_ok(arg2, len))
+226:        if (!access_ok(arg1, sizeof(s->kpm_name)))
+228:        if (!access_ok(arg2, sizeof(s->kpm_args)))
