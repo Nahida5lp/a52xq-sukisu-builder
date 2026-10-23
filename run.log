@@ -1788,34 +1788,81 @@ make[2]: *** [../scripts/Makefile.build:338: fs/aio.o] Error 2
   CC      drivers/cpuidle/dt_idle_states.o
   CC      drivers/cpuidle/cpuidle-arm.o
   CC      drivers/cpuidle/lpm-levels.o
-nel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/jz4740-cgu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/axg-clkc.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-apq8084.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/sun6i-a31-ccu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/axg-audio-clkc.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/imx1-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/stih416-clks.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/marvell,pxa1928.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,npucc-lagoon.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,videocc-lagoon.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/px30-cru.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/rk3399-ddr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-lito.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/berlin2q.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/lpc32xx-clock.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,dispcc-scuba.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gpucc-scuba.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/r8a7796-cpg-mssr.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/mdss-14nm-pll-clk.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/lpc18xx-cgu.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-scuba.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/qcom,gcc-ipq8074.h: No such file or directory.
-Can't open /home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/dt-bindings/clock/aspeed-clock.h: No such file or directory.
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/net/ip’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/net/ematch’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/net/ipgre’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/net/udp’: No such file or directory
-find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/net/sch’: No such file or directory
+  CC      fs/compat.o
+  CC      fs/compat_ioctl.o
+  CC      drivers/cpuidle/lpm-levels-of.o
+  AR      drivers/cpuidle/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: drivers/cpuidle/lpm-levels.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: drivers/cpuidle/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/cpuidle] Error 2
+  CC      drivers/crypto/msm/qce50.o
+  CC      fs/binfmt_script.o
+  CC      fs/binfmt_elf.o
+  CC      fs/compat_binfmt_elf.o
+  CC      fs/mbcache.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/crypto/msm/.tmp_qce50.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/crypto/msm/qce50.o] Error 1
+make[4]: *** Deleting file 'drivers/crypto/msm/qce50.o'
+  CC      drivers/crypto/msm/qcedev.o
+  CC      fs/posix_acl.o
+  CC      fs/coredump.o
+  CC      fs/drop_caches.o
+  CC      fs/iomap.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/crypto/msm/.tmp_qcedev.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:338: drivers/crypto/msm/qcedev.o] Error 1
+make[4]: *** Deleting file 'drivers/crypto/msm/qcedev.o'
+  CC      drivers/crypto/msm/qcedev_smmu.o
+  CC      drivers/crypto/msm/qcrypto.o
+  CC      fs/dcookies.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_dcookies.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:339: fs/dcookies.o] Error 1
+make[2]: *** Deleting file 'fs/dcookies.o'
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: fs] Error 2
+  CC      net/socket.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/crypto/msm/.tmp_qcrypto.ver: No such file or directory
+make[4]: *** [../scripts/Makefile.build:339: drivers/crypto/msm/qcrypto.o] Error 1
+make[4]: *** Deleting file 'drivers/crypto/msm/qcrypto.o'
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/crypto/msm] Error 2
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/crypto] Error 2
+  CC      drivers/devfreq/devfreq.o
+  CC      drivers/devfreq/governor_simpleondemand.o
+  CC      drivers/devfreq/governor_performance.o
+  CC      drivers/devfreq/governor_powersave.o
+  CC      drivers/devfreq/governor_userspace.o
+  CC      net/802/p8022.o
+  CC      drivers/devfreq/governor_passive.o
+  CC      drivers/devfreq/bimc-bwmon.o
+  CC      net/802/psnap.o
+  CC      drivers/devfreq/arm-memlat-mon.o
+  CC      net/802/stp.o
+  CC      drivers/devfreq/governor_bw_hwmon.o
+  AR      net/802/built-in.a
+  CC      drivers/devfreq/governor_memlat.o
+  CC      net/bluetooth/af_bluetooth.o
+fixdep: error opening file: drivers/devfreq/.governor_memlat.o.d: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/devfreq/governor_memlat.o] Error 2
+make[3]: *** Deleting file 'drivers/devfreq/governor_memlat.o'
+  CC      drivers/devfreq/governor_msm_adreno_tz.o
+  CC      drivers/devfreq/governor_bw_vbif.o
+  CC      net/bluetooth/hci_core.o
+  CC      drivers/devfreq/governor_gpubw_mon.o
+  CC      drivers/devfreq/governor_cdsp_l3.o
+  CC      drivers/devfreq/devfreq_qcom_fw.o
+  CC      drivers/devfreq/devfreq_devbw.o
+  CC      drivers/devfreq/devfreq_simple_dev.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/devfreq] Error 2
+  CC      drivers/dma/dmaengine.o
+  CC      net/bluetooth/hci_conn.o
+  CC      drivers/dma/virt-dma.o
+  CC      drivers/dma/of-dma.o
+  CC      net/bluetooth/hci_event.o
+  CC      drivers/dma/qcom/gpi.o
+rectory
 find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/net/ptp’: No such file or directory
 find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/rwsem’: No such file or directory
 find: ‘/home/codespace/a52xq-build/kernel/out/kernel/kheaders_data.tar.xz.tmp/include/config/kernel’: No such file or directory
@@ -3194,3 +3241,125 @@ make[2]: *** Deleting file 'fs/eventfd.o'
   CC      techpack/camera/drivers/cam_icp/icp_hw/ipe_hw/ipe_dev.o
   CC      drivers/cpuidle/cpuidle-arm.o
   CC      drivers/cpuidle/lpm-levels.o
+  CC      techpack/camera/drivers/cam_icp/icp_hw/ipe_hw/ipe_core.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_locks.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/locks.o] Error 1
+make[2]: *** Deleting file 'fs/locks.o'
+  CC      fs/compat.o
+  CC      techpack/camera/drivers/cam_icp/icp_hw/ipe_hw/ipe_soc.o
+  CC      fs/compat_ioctl.o
+  AR      techpack/camera/drivers/cam_icp/icp_hw/ipe_hw/built-in.a
+  AR      techpack/camera/drivers/cam_icp/icp_hw/built-in.a
+  CC      techpack/camera/drivers/cam_icp/cam_icp_subdev.o
+  CC      techpack/camera/drivers/cam_icp/cam_icp_context.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/cpuidle/.tmp_lpm-levels.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/cpuidle/lpm-levels.o] Error 1
+make[3]: *** Deleting file 'drivers/cpuidle/lpm-levels.o'
+  CC      drivers/cpuidle/lpm-levels-of.o
+  CC      techpack/camera/drivers/cam_icp/hfi.o
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/cpuidle] Error 2
+  CC      drivers/crypto/msm/qce50.o
+  AR      techpack/camera/drivers/cam_icp/built-in.a
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/hw_utils/cam_tasklet_util.o
+  CC      fs/binfmt_script.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/hw_utils/cam_isp_packet_parser.o
+  CC      fs/binfmt_elf.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/hw_utils/irq_controller/cam_irq_controller.o
+  AR      techpack/camera/drivers/cam_isp/isp_hw_mgr/hw_utils/irq_controller/built-in.a
+  AR      techpack/camera/drivers/cam_isp/isp_hw_mgr/hw_utils/built-in.a
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/ife_csid_hw/cam_ife_csid_dev.o
+  CC      fs/compat_binfmt_elf.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/ife_csid_hw/cam_ife_csid_soc.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/ife_csid_hw/cam_ife_csid_core.o
+  CC      drivers/crypto/msm/qcedev.o
+  CC      fs/mbcache.o
+  CC      fs/posix_acl.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/ife_csid_hw/cam_ife_csid17x.o
+  CC      fs/coredump.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/ife_csid_hw/cam_ife_csid_lite17x.o
+  AR      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/ife_csid_hw/built-in.a
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/cam_vfe_soc.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/cam_vfe_dev.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file fs/.tmp_coredump.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/coredump.o] Error 1
+make[2]: *** Deleting file 'fs/coredump.o'
+  CC      fs/drop_caches.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/cam_vfe_core.o
+  CC      fs/iomap.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe17x/cam_vfe.o
+  CC      drivers/crypto/msm/qcedev_smmu.o
+  AR      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe17x/built-in.a
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_bus/cam_vfe_bus.o
+  CC      drivers/crypto/msm/qcrypto.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_bus/cam_vfe_bus_ver2.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'fs/.tmp_iomap.o': No such file
+mv: cannot stat 'fs/.tmp_iomap.o': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: fs/iomap.o] Error 1
+make[2]: *** Deleting file 'fs/iomap.o'
+  CC      fs/dcookies.o
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: fs] Error 2
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_bus/cam_vfe_bus_rd_ver1.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_bus/cam_vfe_bus_ver3.o
+  AR      drivers/crypto/msm/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: drivers/crypto/msm/qce50.o: No such file or directory
+make[4]: *** [../scripts/Makefile.build:501: drivers/crypto/msm/built-in.a] Error 1
+make[4]: Target '__build' not remade because of errors.
+make[3]: *** [../scripts/Makefile.build:642: drivers/crypto/msm] Error 2
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/crypto] Error 2
+  CC      drivers/devfreq/devfreq.o
+  AR      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_bus/built-in.a
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/cam_vfe_camif_lite_ver2.o
+  CC      drivers/devfreq/governor_simpleondemand.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/cam_vfe_top.o
+  CC      drivers/devfreq/governor_performance.o
+  CC      drivers/devfreq/governor_powersave.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/cam_vfe_top_common.o
+  CC      drivers/devfreq/governor_userspace.o
+  CC      drivers/devfreq/governor_passive.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/cam_vfe_top_ver3.o
+  CC      drivers/devfreq/bimc-bwmon.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/cam_vfe_top_ver2.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/cam_vfe_camif_ver2.o
+  CC      drivers/devfreq/arm-memlat-mon.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/cam_vfe_camif_ver3.o
+  CC      drivers/devfreq/governor_bw_hwmon.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/cam_vfe_rdi.o
+  CC      drivers/devfreq/governor_memlat.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/cam_vfe_fe_ver1.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/cam_vfe_camif_lite_ver3.o
+  CC      drivers/devfreq/governor_msm_adreno_tz.o
+  CC      drivers/devfreq/governor_bw_vbif.o
+  AR      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe_top/built-in.a
+  AR      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/vfe_hw/built-in.a
+  AR      techpack/camera/drivers/cam_isp/isp_hw_mgr/isp_hw/built-in.a
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/cam_isp_hw_mgr.o
+  CC      drivers/devfreq/governor_gpubw_mon.o
+  CC      techpack/camera/drivers/cam_isp/isp_hw_mgr/cam_ife_hw_mgr.o
+  CC      drivers/devfreq/governor_cdsp_l3.o
+  CC      drivers/devfreq/devfreq_qcom_fw.o
+  CC      drivers/devfreq/devfreq_devbw.o
+  CC      drivers/devfreq/devfreq_simple_dev.o
+  AR      drivers/devfreq/built-in.a
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ar: drivers/devfreq/governor_memlat.o: No such file or directory
+make[3]: *** [../scripts/Makefile.build:501: drivers/devfreq/built-in.a] Error 1
+make[3]: Target '__build' not remade because of errors.
+make[2]: *** [../scripts/Makefile.build:642: drivers/devfreq] Error 2
+  CC      drivers/dma/dmaengine.o
+  AR      techpack/camera/drivers/cam_isp/isp_hw_mgr/built-in.a
+  CC      techpack/camera/drivers/cam_isp/cam_isp_dev.o
+  CC      techpack/camera/drivers/cam_isp/cam_isp_context.o
+  CC      drivers/dma/virt-dma.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file drivers/dma/.tmp_virt-dma.ver: No such file or directory
+make[3]: *** [../scripts/Makefile.build:338: drivers/dma/virt-dma.o] Error 1
+make[3]: *** Deleting file 'drivers/dma/virt-dma.o'
+  CC      drivers/dma/of-dma.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'drivers/dma/.tmp_of-dma.o': No such file
+mv: cannot stat 'drivers/dma/.tmp_of-dma.o': No such file or directory
+make[3]: *** [../scripts/Makefile.build:339: drivers/dma/of-dma.o] Error 1
+make[3]: *** Deleting file 'drivers/dma/of-dma.o'
+  CC      drivers/dma/qcom/gpi.o
+  AR      techpack/camera/drivers/cam_isp/built-in.a
+  CC      techpack/camera/drivers/cam_jpeg/jpeg_hw/jpeg_dma_hw/jpeg_dma_dev.o
