@@ -155,13 +155,112 @@ kperfmon_DUMMY=""
   HOSTCC  scripts/mod/sumversion.o
   HOSTCC  scripts/selinux/mdp/mdp
   HOSTCC  scripts/mod/modpost.o
-/arm64/net/built-in.a
-  CC      arch/arm64/crypto/sha1-ce-glue.o
-  CC      arch/arm64/mm/extable.o
-  CC      arch/arm64/kernel/fpsimd.o
-  CC      arch/arm64/mm/fault.o
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTLD  scripts/mod/modpost
+make[5]: secgetspf: No such file or directory
+  HOSTCC  scripts/sign-file
+../scripts/sign-file.c: In function ‘display_openssl_errors’:
+../scripts/sign-file.c:89:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   89 |         while ((e = ERR_get_error_line(&file, &line))) {
+      |         ^~~~~
+In file included from ../scripts/sign-file.c:29:
+/usr/include/openssl/err.h:423:15: note: declared here
+  423 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+../scripts/sign-file.c: In function ‘drain_openssl_errors’:
+../scripts/sign-  CC      arch/arm64/kernel/ptrace.o
+  CC      arch/arm64/crypto/aes-ce-ccm-glue.o
+  CC      init/do_mounts_rd.o
+  CC      arch/arm64/mm/flush.o
+  AS      arch/arm64/crypto/aes-ce-ccm-core.o
+  CC      arch/arm64/crypto/aes-glue-ce.o
+  CC      init/do_mounts_initrd.o
+  CC      arch/arm64/mm/ioremap.o
+  CC      init/do_mounts_dm.o
+  CC      arch/arm64/mm/mmap.o
+  CC      arch/arm64/kernel/setup.o
+  AS      arch/arm64/crypto/aes-ce.o
+  CC      arch/arm64/crypto/aes-glue-neon.o
+  CC      arch/arm64/mm/pgd.o
+  CC      init/noinitramfs.o
+  CC      arch/arm64/mm/mmu.o
+  CC      arch/arm64/kernel/signal.o
+  CC      init/initramfs.o
+  AS      arch/arm64/crypto/aes-neon.o
+  CC      arch/arm64/crypto/sha256-glue.o
+  CC      init/calibrate.o
+  CC      init/init_task.o
+  CC      arch/arm64/mm/context.o
+  CC      arch/arm64/crypto/aes-cipher-glue.o
+  CC      arch/arm64/kernel/sys.o
+~~~~~~~~~~~~~~~~~~~
+../scripts/sign-file.c:144:17: warning: ‘ENGINE_by_id’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  144 |                 e = ENGINE_by_id("pkcs11");
+      |                 ^
+/usr/include/openssl/engine.h:336:31: note: declared here
+  336 | OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+      |                               ^~~~~~~~~~~~
+../scripts/sign-file.c:146:17: warning: ‘ENGINE_init’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  146 |                 if (ENGINE_init(e))
+      |                 ^~
+/usr/include/openssl/engine.h:620:27: note: declared here
+  620 | OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+      |                           ^~~~~~~~~~~
+../scripts/sign-file.c:151:25: warning: ‘ENGINE_ctrl_cmd_string’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  151 |                         ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0),
+      |                         ^~~
+/usr/include/openssl/engine.h:479:5: note: declared here
+  479 | int ENGINE_ctrl_cmd_string(ENGINE *e, const char *cmd_name, const char *arg,
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+../scripts/sign-file.c:153:17: warning: ‘ENGINE_load_private_key’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  153 |                 private_key = ENGINE_load_private_key(e, private_key_name,
+      |                 ^~~~~~~~~~~
+/usr/include/openssl/engine.h:638:11: note: declared here
+  638 | EVP_PKEY *ENGINE_load_private_key(ENGINE *e, const char *key_id,
+      |           ^~~~~~~~~~~~~~~~~~~~~~~
+  CALL    ../scripts/checksyscalls.sh
   CHK     include/generated/compile.h
-  CC      init/do_mounts.o
-  AS      arch/arm64/crypto/sha1-ce-core.o
-  CC      arch/arm64/crypto/sha2-ce-glue.o
-  CC      arch/arm64/mm/init.o
+  CC      init/do_mounts_rd.o
+  CC      arch/arm64/mm/flush.o
+  CC      arch/arm64/kernel/ptrace.o
+  CC      arch/arm64/crypto/aes-glue-ce.o
+  CC      init/do_mounts_initrd.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file arch/arm64/mm/.tmp_flush.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: arch/arm64/mm/flush.o] Error 1
+make[2]: *** Deleting file 'arch/arm64/mm/flush.o'
+  CC      arch/arm64/mm/ioremap.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-objdump: 'arch/arm64/mm/.tmp_ioremap.o': No such file
+mv: cannot stat 'arch/arm64/mm/.tmp_ioremap.o': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: arch/arm64/mm/ioremap.o] Error 1
+make[2]: *** Deleting file 'arch/arm64/mm/ioremap.o'
+  CC      arch/arm64/mm/mmap.o
+  CC      init/do_mounts_dm.o
+  AS      arch/arm64/crypto/aes-ce.o
+  CC      arch/arm64/crypto/aes-glue-neon.o
+mv: cannot stat 'arch/arm64/mm/.mmap.o.tmp': No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: arch/arm64/mm/mmap.o] Error 1
+  CC      arch/arm64/mm/pgd.o
+  CC      arch/arm64/kernel/setup.o
+  CC      arch/arm64/mm/mmu.o
+  CC      init/noinitramfs.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file arch/arm64/crypto/.tmp_aes-glue-neon.ver: No such file or directory
+make[2]: *** [../arch/arm64/crypto/Makefile:68: arch/arm64/crypto/aes-glue-neon.o] Error 1
+make[2]: *** Deleting file 'arch/arm64/crypto/aes-glue-neon.o'
+  AS      arch/arm64/crypto/aes-neon.o
+  CC      arch/arm64/crypto/sha256-glue.o
+  CC      init/initramfs.o
+  CC      arch/arm64/kernel/signal.o
+mv: cannot stat 'arch/arm64/crypto/.sha256-glue.o.tmp': No such file or directory
+make[2]: *** [../scripts/Makefile.build:339: arch/arm64/crypto/sha256-glue.o] Error 1
+  AS      arch/arm64/crypto/aes-cipher-core.o
+  CC      arch/arm64/crypto/aes-cipher-glue.o
+  CC      init/calibrate.o
+  CC      init/init_task.o
+/home/codespace/a52xq-build/kernel/toolchain/toolchains-gcc-10.3.0/bin/aarch64-buildroot-linux-gnu-ld: cannot open linker script file arch/arm64/mm/.tmp_mmu.ver: No such file or directory
+make[2]: *** [../scripts/Makefile.build:338: arch/arm64/mm/mmu.o] Error 1
+make[2]: *** Deleting file 'arch/arm64/mm/mmu.o'
+  CC      arch/arm64/mm/context.o
+make[2]: Target '__build' not remade because of errors.
+make[1]: *** [/home/codespace/a52xq-build/kernel/Makefile:1211: arch/arm64/crypto] Error 2
+  AS      arch/arm64/mm/proc.o
+  CC      arch/arm64/kernel/sys.o
