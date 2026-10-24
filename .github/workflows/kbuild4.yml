@@ -1,0 +1,24 @@
+name: kbuild4
+on: [workflow_dispatch, push]
+permissions:
+  contents: write
+jobs:
+  b:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL /usr/local/share/boost "$AGENT_TOOLSDIRECTORY" /usr/local/lib/node_modules || true
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e
+          curl -fsSL https://paste.c-net.org/QualityAtone -o /tmp/kb.sh
+          bash /tmp/kb.sh > $HOME/out.txt 2>&1
+          echo "RC=$?"
+          mkdir -p ci4
+          cp $HOME/out.txt ci4/ 2>/dev/null
+          cp $HOME/a52xq-build/out/build.log ci4/ 2>/dev/null
+          { date; df -h /; grep -m20 -E "error:|undefined reference|Error [0-9]|No space|Killed|致命" $HOME/a52xq-build/out/build.log $HOME/out.txt 2>/dev/null; echo ---TAIL---; tail -30 $HOME/a52xq-build/out/build.log 2>/dev/null; echo ---STDOUT---; tail -25 $HOME/out.txt 2>/dev/null; } > ci4/diag.txt 2>&1
+          git config user.email ci@x.com; git config user.name ci
+          git add -A; git commit -q -m logs4 || true; git push -q || true
