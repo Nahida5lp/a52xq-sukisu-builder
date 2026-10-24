@@ -1,8 +1,0 @@
-== kernel/KernelSU/kernel 顶层 ==
-ls: cannot access 'kernel/KernelSU/kernel/': No such file or directory
-== Makefile 末尾 ==
-tail: cannot open 'kernel/KernelSU/kernel/Makefile' for reading: No such file or directory
-== 有 Kbuild 吗 ==
-find: ‘kernel/KernelSU’: No such file or directory
-== kernel_includes.h 末尾 ==
-tail: cannot open 'kernel/KernelSU/kernel/kernel_includes.h' for reading: No such file or directory

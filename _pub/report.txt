@@ -1,0 +1,46 @@
+=== publish 自查报告 Sat Oct 24 05:47:51 UTC 2026 ===
+--- README/LICENSE 大小 ---
+ 8860 README.md
+18093 LICENSE
+26953 total
+--- scripts / patches ---
+patches:
+total 8
+-rw-r--r-- 1 runner runner 4740 Oct 24 05:47 ksu_hooks_sukisu_4.19.patch
+
+scripts:
+total 76
+-rwxr-xr-x 1 runner runner 45345 Oct 24 05:47 build_builtin.sh
+-rw-r--r-- 1 runner runner  9827 Oct 24 05:47 fix_driver_419.py
+-rw-r--r-- 1 runner runner  8430 Oct 24 05:47 fix_sources_for_419.py
+-rw-r--r-- 1 runner runner  4080 Oct 24 05:47 strip_legacy_ksu_hooks.py
+--- 工作流 ---
+build.yml
+kbuild.yml
+kbuild2.yml
+kbuild3.yml
+kbuild4.yml
+kbuild5.yml
+publish.yml
+publish2.yml
+publish3.yml
+--- 仓库文件 ---
+./.github/workflows/build.yml
+./.github/workflows/kbuild.yml
+./.github/workflows/kbuild2.yml
+./.github/workflows/kbuild3.yml
+./.github/workflows/kbuild4.yml
+./.github/workflows/kbuild5.yml
+./.github/workflows/publish.yml
+./.github/workflows/publish2.yml
+./.github/workflows/publish3.yml
+./LICENSE
+./README.md
+./_pub/report.txt
+./patches/ksu_hooks_sukisu_4.19.patch
+./scripts/build_builtin.sh
+./scripts/fix_driver_419.py
+./scripts/fix_sources_for_419.py
+./scripts/strip_legacy_ksu_hooks.py
+--- Release ---
+a52xq SukiSU Ultra v4.2.1-r1 builtin UAPI6 (kbuild-1024-043604)	Latest	kbuild-1024-043604	2026-10-24T04:36:07Z
