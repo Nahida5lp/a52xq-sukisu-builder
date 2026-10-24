@@ -1,0 +1,48 @@
+=== 工作目录: /home/runner/work/a52xq-sukisu-builder/a52xq-sukisu-builder ===
+=== [0/6] 取入 scripts/build_builtin.sh ===
+  scripts/build_builtin.sh: 45345 字节
+=== [1/6] 写入 README.md ===
+  README.md: 8860 字节
+=== [2/6] 生成 LICENSE (GPL-2.0) ===
+  LICENSE: 18093 字节
+=== [3/6] 从 build_builtin.sh 拆出 scripts/ 与 patches/ ===
+  [+] patches/ksu_hooks_sukisu_4.19.patch  4740 字节
+  [+] scripts/strip_legacy_ksu_hooks.py  4080 字节
+  [+] scripts/fix_sources_for_419.py  8430 字节
+  [+] scripts/fix_driver_419.py  9827 字节
+  共拆出 4 个文件
+=== [4/6] 清理历史垃圾（不动 .github/workflows/） ===
+  删除目录 ci
+  删除目录 ci4
+  删除文件 ./status3.txt
+  删除文件 ./kpm_info.txt
+  删除文件 ./status2.txt
+  删除文件 ./run.log
+  删除文件 ./build3.log
+  删除文件 ./driver_headers.txt
+  删除文件 ./build2.log
+  删除文件 ./objinfo2.txt
+  删除文件 ./objinfo.txt
+  删除文件 ./fix3.txt
+  删除文件 ./errors.txt
+  删除文件 ./build4.log
+=== [4b/6] 跳过 .github/workflows/（GITHUB_TOKEN 无 workflows 权限） ===
+  说明：工作流文件必须由人工/网页增删，否则整次 push 会被 GitHub 拒绝。
+  当前工作流文件：
+    build.yml
+    kbuild.yml
+    kbuild2.yml
+    kbuild3.yml
+    kbuild4.yml
+    kbuild5.yml
+    publish.yml
+    publish2.yml
+    publish3.yml
+=== [5/6] 清理 Release ===
+  删除过期 Release kbuild-1024-054736
+  删除过期 Release kbuild-1024-054431
+  保留 kbuild-1024-043604（已验证可用的成品）
+=== [6/6] 提交 ===
+  报告: _pub/report.txt (1295 字节)
+  已推送 ✓
+PUBLISH_DONE
